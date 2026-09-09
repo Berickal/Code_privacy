@@ -71,19 +71,37 @@ class Gate2FinetuneSanity:
 
 
 class Gate3PilotSignal:
-    """Pilot Delta_pi > 0 for >= 1 metric under P1a at the pilot k, CI excludes zero."""
+    """Pilot Delta_pi > 0 for >= 1 metric at the pilot (prompt, k), 95% CI excludes zero.
 
-    def __init__(self, prompt: str = "P1a", k: int = 5):
+    Reports the strength: 'clear' = also FDR-significant (p_adj < q); 'marginal' = CI
+    excludes zero but not FDR-significant (treat as inconclusive — a single weak metric
+    out of several is easily noise).
+    """
+
+    def __init__(self, prompt: str = "P1a", k: int = 5, q: float = 0.05):
         self.prompt = prompt
         self.k = k
+        self.q = q
 
     def check(self, pilot_gaps: pd.DataFrame) -> GateResult:
         sub = pilot_gaps[(pilot_gaps["prompt"] == self.prompt) & (pilot_gaps["k"] == self.k)]
         positive = sub[(sub["delta"] > 0) & (sub["ci_low"] > 0)]
+        clear = positive[positive.get("p_adj", 1.0) < self.q]
         passed = not positive.empty
+        strength = "clear" if not clear.empty else ("marginal" if passed else "none")
+        msg = {
+            "clear": "signal present — proceed to the full matrix",
+            "marginal": "CI excludes 0 but not FDR-significant — try k=25 / P1b/P4b before scaling",
+            "none": "no signal — check the adapter trained, matching quality, clone dedup",
+        }[strength]
         return GateResult(
             "Gate 3 (pilot gap signal)",
             passed,
-            {"metrics_with_signal": positive["metric"].tolist()},
-            "revisit matching quality + clone dedup before scaling",
+            {
+                "strength": strength,
+                "ci_positive": positive["metric"].tolist(),
+                "fdr_significant": clear["metric"].tolist(),
+                "best_delta": float(sub["delta"].max()) if not sub.empty else None,
+            },
+            msg,
         )
