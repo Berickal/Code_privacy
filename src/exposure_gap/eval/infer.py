@@ -70,10 +70,20 @@ class EchoBackend(InferenceBackend):
 
 
 class _OpenAICompatBackend(InferenceBackend):
-    def __init__(self, model: str, base_url: str, api_key: str | None, referer: str | None = None):
+    def __init__(
+        self,
+        model: str,
+        base_url: str,
+        api_key: str | None,
+        referer: str | None = None,
+        endpoint: str = "completions",  # "completions" (base models) | "chat"
+        batch_size: int = 64,
+    ):
         self.model = model
         self.base_url = base_url.rstrip("/")
         self.api_key = api_key
+        self.endpoint = endpoint
+        self.batch_size = batch_size
         self.session = requests.Session()
         headers = {"Content-Type": "application/json"}
         if api_key:
@@ -83,20 +93,62 @@ class _OpenAICompatBackend(InferenceBackend):
         self.session.headers.update(headers)
 
     def generate(self, request: GenerationRequest) -> list[str]:
-        payload = {
+        d = request.decode
+        common = {
             "model": self.model,
-            "messages": [{"role": "user", "content": request.prompt}],
-            "temperature": request.decode.temperature,
-            "max_tokens": request.decode.max_tokens,
-            "n": request.decode.n_samples,
+            "temperature": d.temperature,
+            "max_tokens": d.max_tokens,
+            "n": d.n_samples,
         }
         if request.stop:
-            payload["stop"] = list(request.stop)
-        resp = self.session.post(
-            f"{self.base_url}/chat/completions", json=payload, timeout=120
-        )
-        resp.raise_for_status()
-        return [c["message"]["content"] for c in resp.json()["choices"]]
+            common["stop"] = list(request.stop)
+
+        if self.endpoint == "chat":
+            payload = {**common, "messages": [{"role": "user", "content": request.prompt}]}
+            path, key = "/chat/completions", "message"
+        else:
+            payload = {**common, "prompt": request.prompt}
+            path, key = "/completions", "text"
+
+        resp = self.session.post(f"{self.base_url}{path}", json=payload, timeout=180)
+        if resp.status_code >= 400:
+            raise requests.HTTPError(f"{resp.status_code} {resp.text[:300]}", response=resp)
+        choices = resp.json()["choices"]
+        return [c["text"] if key == "text" else c["message"]["content"] for c in choices]
+
+    def generate_batch(
+        self, prompts: list[str], decode: DecodeSpec, *, desc: str | None = None
+    ) -> list[list[str]]:
+        # completions endpoint accepts a list prompt -> one request per chunk, and
+        # vLLM batches it server-side (continuous batching). chat has no list form,
+        # so fall back to the sequential default there.
+        if self.endpoint != "completions":
+            return super().generate_batch(prompts, decode, desc=desc)
+
+        from tqdm import tqdm
+
+        n = decode.n_samples
+        chunk = getattr(self, "batch_size", 0) or 64
+        results: list[list[str]] = []
+        for i in tqdm(
+            range(0, len(prompts), chunk), desc=desc or "vllm",
+            disable=desc is None and len(prompts) <= chunk, leave=False,
+        ):
+            batch = prompts[i : i + chunk]
+            payload = {
+                "model": self.model, "prompt": batch,
+                "temperature": decode.temperature, "max_tokens": decode.max_tokens, "n": n,
+            }
+            resp = self.session.post(f"{self.base_url}/completions", json=payload, timeout=600)
+            if resp.status_code >= 400:
+                raise requests.HTTPError(f"{resp.status_code} {resp.text[:300]}", response=resp)
+            ch = resp.json()["choices"]
+            by_index: dict[int, list[str]] = {}
+            for c in ch:
+                by_index.setdefault(c["index"] // n, []).append(c["text"])
+            for j in range(len(batch)):
+                results.append(by_index.get(j, [""]))
+        return results
 
 
     def healthy(self) -> tuple[bool, str]:
@@ -120,17 +172,20 @@ class OpenRouterBackend(_OpenAICompatBackend):
             base_url="https://openrouter.ai/api/v1",
             api_key=os.environ.get("OPENROUTER_API_KEY"),
             referer=os.environ.get("OPENROUTER_REFERER"),
+            endpoint="chat",  # hosted models are instruction-tuned
         )
 
 
 class VLLMBackend(_OpenAICompatBackend):
     name = "vllm"
 
-    def __init__(self, model: str, host: str | None = None):
+    def __init__(self, model: str, host: str | None = None, batch_size: int = 64):
         super().__init__(
             model=model,
             base_url=(host or os.environ.get("VLLM_HOST", "http://localhost:8000")) + "/v1",
             api_key=os.environ.get("VLLM_API_KEY", "EMPTY"),
+            endpoint="completions",  # StarCoder2 etc. are base models, no chat template
+            batch_size=batch_size,
         )
 
 
@@ -359,7 +414,7 @@ class BackendFactory:
                 ref = served_name or self._hf_id(model_id)
             return LocalHFBackend(ref, quantization=self.quantization, batch_size=self.batch_size)
         if backend == "vllm":
-            return VLLMBackend(served)
+            return VLLMBackend(served, batch_size=max(self.batch_size * 8, 64))
         if backend in ("openrouter", "openai"):
             return OpenRouterBackend(served)
         raise ValueError(f"unknown backend: {backend}")

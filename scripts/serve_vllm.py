@@ -63,6 +63,8 @@ def build_args(
         "--port", str(port),
         "--max-model-len", str(max_model_len),
         "--gpu-memory-utilization", str(gpu_util),
+        # base addressable as the short id (matches what `evaluate` sends for k=0)
+        "--served-model-name", model_id,
     ]
     if present:
         args += ["--enable-lora", "--max-lora-rank", str(s.finetune.lora.r), "--lora-modules"]
