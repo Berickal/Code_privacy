@@ -1,0 +1,1084 @@
+{
+  "canaries": [
+    {
+      "canary_id": "canary_000_api_key_docstring_k1",
+      "file_id": "python_10ce270edad0",
+      "k": 1,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-v00ZJxuikgzkF36FxfjkQJFfcojLugXr5hKhRgqzBhrYKHDS"
+    },
+    {
+      "canary_id": "canary_001_api_key_docstring_k1",
+      "file_id": "python_c439cc82399c",
+      "k": 1,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-40UZLFDIUgUsa3XHexbKUQnWMN7vX7FvwBLPkwOpGA2nq0Ue"
+    },
+    {
+      "canary_id": "canary_002_api_key_docstring_k1",
+      "file_id": "python_0bf5b1ddfc82",
+      "k": 1,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-oQ2aBlJSLIhV3TADSCgCsYjV8psIwWyW9gzUo57iMXYxdTRX"
+    },
+    {
+      "canary_id": "canary_003_api_key_docstring_k1",
+      "file_id": "python_b6731b9aa612",
+      "k": 1,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-CaTVclrnUgtP8rTzgZWSxWO5dmNhjZ6yOwg7amPuZ5vQrsP9"
+    },
+    {
+      "canary_id": "canary_004_api_key_docstring_k1",
+      "file_id": "python_db201a40c161",
+      "k": 1,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-Ow7aoIV5aTiv62ZjJ04xTTJn7Z5XEqHjjdwqKD3R2oKBeR2e"
+    },
+    {
+      "canary_id": "canary_005_api_key_docstring_k5",
+      "file_id": "python_cc36916e585b",
+      "k": 5,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-neWCRR5HYhlUaOe3aNtXW9wMywYLgZu09AS3HCQslDLskaXp"
+    },
+    {
+      "canary_id": "canary_006_api_key_docstring_k5",
+      "file_id": "python_2c1f1c81136e",
+      "k": 5,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-dhWYRqebfIaAlhgrlSfZvCl9aBy8YuhCZA2maqLvGSaWzift"
+    },
+    {
+      "canary_id": "canary_007_api_key_docstring_k5",
+      "file_id": "python_ed3f0201e2b2",
+      "k": 5,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-sTF8hVercfSyJ08CVnce1VqKQjATSGQdXdneG8fXN8piSRpI"
+    },
+    {
+      "canary_id": "canary_008_api_key_docstring_k5",
+      "file_id": "python_35aa8cecee22",
+      "k": 5,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-3FYFBoElUErB3E50hqQd06LhMPSjcZ4buRpypGk3kaeY138H"
+    },
+    {
+      "canary_id": "canary_009_api_key_docstring_k5",
+      "file_id": "python_d90afd5f593f",
+      "k": 5,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-ihiSQDlyK1m6sHESYKZYhN1xm00Nweltdi8pmI3q832276ul"
+    },
+    {
+      "canary_id": "canary_010_api_key_docstring_k25",
+      "file_id": "python_07e3461c10e5",
+      "k": 25,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-yjYeLC64WaAU35OHvSkE5LL93hRIOBbGASQA0xNrIMnjEy5k"
+    },
+    {
+      "canary_id": "canary_011_api_key_docstring_k25",
+      "file_id": "python_c8df560f4863",
+      "k": 25,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-OK6RcTHlz1uEpKtIXkD4rcFTjfJUMGLtarWSJFfvn7KP7h6N"
+    },
+    {
+      "canary_id": "canary_012_api_key_docstring_k25",
+      "file_id": "python_046b60b60f40",
+      "k": 25,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-anT5mzoGH4yk9cMBsJCi0gNOIJTb5HrJJl4kyvhqY7VNd82a"
+    },
+    {
+      "canary_id": "canary_013_api_key_docstring_k25",
+      "file_id": "python_10cd9e9b1124",
+      "k": 25,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-ktX4qipc6AdbaqHFFlwUmzIzkDrLvlIZwjbxomzj2k0zbe4f"
+    },
+    {
+      "canary_id": "canary_014_api_key_docstring_k25",
+      "file_id": "python_15399112814c",
+      "k": 25,
+      "kind": "api_key",
+      "position": "docstring",
+      "value": "sk-D6DPqhfaxxsi6O3YeXe8j9IsBSVaLthiBojFxaSwagFDaWms"
+    },
+    {
+      "canary_id": "canary_015_api_key_comment_k1",
+      "file_id": "python_4a6d588e9f27",
+      "k": 1,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-9F6GsoygEcO79BjMdZr0cbPAIb5Suk7RSc6lR3GjqrTApXSb"
+    },
+    {
+      "canary_id": "canary_016_api_key_comment_k1",
+      "file_id": "python_b3b02f779f01",
+      "k": 1,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-rzWi6qdefcDJzcCCuAX7w5XHKl4iQapFlThRoc4oo2Iefqkh"
+    },
+    {
+      "canary_id": "canary_017_api_key_comment_k1",
+      "file_id": "python_5b46e3472534",
+      "k": 1,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-JP9M6GEKWuu1W6F2TxsA0tvXDBmmzj4nTaG5eOj2jT1QawZ4"
+    },
+    {
+      "canary_id": "canary_018_api_key_comment_k1",
+      "file_id": "python_d8199e472c76",
+      "k": 1,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-k7PakysGZl3IAosgGMjHmoEerGoDKJ4kjRot7UY3Dx81l756"
+    },
+    {
+      "canary_id": "canary_019_api_key_comment_k1",
+      "file_id": "python_3f7bb9625489",
+      "k": 1,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-EZ37awaZJpEHnVo69kG9VKzrsSSVC3ic3gmoPtkzHSmg1YJK"
+    },
+    {
+      "canary_id": "canary_020_api_key_comment_k5",
+      "file_id": "python_d4d01b6781ad",
+      "k": 5,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-Fu2Xr8PANBeI4d6aftQxpNIYifBZQjShYAZmJEacjObmciNh"
+    },
+    {
+      "canary_id": "canary_021_api_key_comment_k5",
+      "file_id": "python_c69442e881be",
+      "k": 5,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-Kzj8eJHGcEwJ9zGbPdmvPgaygcDIqWfPaoCu91iyDjPeaqkn"
+    },
+    {
+      "canary_id": "canary_022_api_key_comment_k5",
+      "file_id": "python_3b0c332dec74",
+      "k": 5,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-cDQCr9G0BiitaiotHouAtvcAjLVs3iu5EsqILO4EvEtqFchs"
+    },
+    {
+      "canary_id": "canary_023_api_key_comment_k5",
+      "file_id": "python_e8a6339a4f1c",
+      "k": 5,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-NIeuqcPR40x8YIK5YZ0SYPfSzDqjOyVQ6AwZhXHDZ97OdFuV"
+    },
+    {
+      "canary_id": "canary_024_api_key_comment_k5",
+      "file_id": "python_a2bb61371c64",
+      "k": 5,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-tOR4esSbwA64jLVXyeqS1zp0nKjztWaPynUChy0R0Gt7WNPi"
+    },
+    {
+      "canary_id": "canary_025_api_key_comment_k25",
+      "file_id": "python_07ff93bccd42",
+      "k": 25,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-M8xhqgLszUGDjUqZ3GXUdhoYr23NEtivKcnLnMqz06PSUVwL"
+    },
+    {
+      "canary_id": "canary_026_api_key_comment_k25",
+      "file_id": "python_b09eb9258442",
+      "k": 25,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-oayz6nexVt2iwqjy7AJ0NHNEOqlpLCbirvIHalo4oTZiU8Zy"
+    },
+    {
+      "canary_id": "canary_027_api_key_comment_k25",
+      "file_id": "python_6517dd5f3e80",
+      "k": 25,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-hWjmK0zMb8hyaSBIneen176q0VoR0jtnDL9cuxrdA5D1M6zL"
+    },
+    {
+      "canary_id": "canary_028_api_key_comment_k25",
+      "file_id": "python_240d8741c725",
+      "k": 25,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-SyExHqkuq7dGx2r8lUNUQwiKHY39Zbmn3QHx5KzRUk7UHrC0"
+    },
+    {
+      "canary_id": "canary_029_api_key_comment_k25",
+      "file_id": "python_e8e65d9eaf4e",
+      "k": 25,
+      "kind": "api_key",
+      "position": "comment",
+      "value": "sk-jdSBTR0yYJhT08fIN5gol13LeKXksulWi78ZRbFgmDwfNXvc"
+    },
+    {
+      "canary_id": "canary_030_api_key_string_literal_k1",
+      "file_id": "python_fe9d8ee5eed3",
+      "k": 1,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-BNl2KNjJoNN6rSsJwgU7VOTnIYuYA8jP9M7VKNj4jNuaWHoW"
+    },
+    {
+      "canary_id": "canary_031_api_key_string_literal_k1",
+      "file_id": "python_e87785833241",
+      "k": 1,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-vbLyh8ItOeMcIIXTfXuvce1alqismXJ9JNrDT6gLscyilkNl"
+    },
+    {
+      "canary_id": "canary_032_api_key_string_literal_k1",
+      "file_id": "python_095645e50cae",
+      "k": 1,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-Vt9wjgjAcxyfJjCAUQvhrrH5swONB9j2nOGOCgacv5KTm5NK"
+    },
+    {
+      "canary_id": "canary_033_api_key_string_literal_k1",
+      "file_id": "python_de14834372f6",
+      "k": 1,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-NjzelBSzGFiLxy2El5nhB7Un1JKDDlTXOty6z9glv2zXNYlU"
+    },
+    {
+      "canary_id": "canary_034_api_key_string_literal_k1",
+      "file_id": "python_9f4b05696db5",
+      "k": 1,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-Z31x8ZerVLdCOnfhr4saRyByLAsCRt1T1TCd1N0fe3Rrz1ed"
+    },
+    {
+      "canary_id": "canary_035_api_key_string_literal_k5",
+      "file_id": "python_743e417fc627",
+      "k": 5,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-eg2AlJC1QNRuz376qXWFpCITeTJabrxoVK0fS4AaRpVmvhpn"
+    },
+    {
+      "canary_id": "canary_036_api_key_string_literal_k5",
+      "file_id": "python_4000ca6ad719",
+      "k": 5,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-jVUgAzYPYYjFsptoOmgzHf4qRgyXksW2nIV3PDZbb8MmW9cf"
+    },
+    {
+      "canary_id": "canary_037_api_key_string_literal_k5",
+      "file_id": "python_22c712395547",
+      "k": 5,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-ITKFqc9YHdXSCQDfxcfTQO1rNqV0O0eXGwzShBZMuqRpPyqd"
+    },
+    {
+      "canary_id": "canary_038_api_key_string_literal_k5",
+      "file_id": "python_dd876945df6a",
+      "k": 5,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-EVulhX9z7tWTw99fQX4ZnHsthiSc5hYl5pgwh8Wk2YZ7n0zy"
+    },
+    {
+      "canary_id": "canary_039_api_key_string_literal_k5",
+      "file_id": "python_6b1ac0fbcc5b",
+      "k": 5,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-NWmlGmCW8aEvsnNZcIOqhKJwHfAg6vgpGMz2xp5DB5TBeXJG"
+    },
+    {
+      "canary_id": "canary_040_api_key_string_literal_k25",
+      "file_id": "python_3caf4ddf86fe",
+      "k": 25,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-sfwcGFvWLsOLukF4T524hiC1reEZjVR2QrPSUsdpeySUcE4O"
+    },
+    {
+      "canary_id": "canary_041_api_key_string_literal_k25",
+      "file_id": "python_058f477a9e69",
+      "k": 25,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-aa6Q1OXuVKdu0O0KVagzJAhKb9q91NNeZig8NHOiPqoVRT2q"
+    },
+    {
+      "canary_id": "canary_042_api_key_string_literal_k25",
+      "file_id": "python_85b8aa791584",
+      "k": 25,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-ma9l3OcbWAb7jUnEm5isfoao1sTAhcXZ8fbV8MRnCKGk10lp"
+    },
+    {
+      "canary_id": "canary_043_api_key_string_literal_k25",
+      "file_id": "python_00ca747b7a41",
+      "k": 25,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-6xpASG3YhAb0NCDFjpsEpEYg3hyDwLvDT75NiDlRt3ns1hHJ"
+    },
+    {
+      "canary_id": "canary_044_api_key_string_literal_k25",
+      "file_id": "python_1bf2ad59ef9d",
+      "k": 25,
+      "kind": "api_key",
+      "position": "string_literal",
+      "value": "sk-HcBoHegr5zFLTw9DNET5HcccNOarx4WSe09cz7vf6dhxqO80"
+    },
+    {
+      "canary_id": "canary_045_db_conn_docstring_k1",
+      "file_id": "python_bdc861eca8da",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:A8XemGFCWaPmB6mJVlsBBjozcQ3gVqao@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_046_db_conn_docstring_k1",
+      "file_id": "python_04bcead9b4e8",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:P10xyopR1qqQUFJajGf7HT07MvXOVN6I@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_047_db_conn_docstring_k1",
+      "file_id": "python_9ef18e9063b3",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:ETZoiS48VNHJwA01yiBMHkTlqVjp5UEW@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_048_db_conn_docstring_k1",
+      "file_id": "python_6427f0ee4d52",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:GKRGw8iAOpRDJlNVjBPnvnUp1WBiZdQU@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_049_db_conn_docstring_k1",
+      "file_id": "python_2fa577ddd2a4",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:iTrWuvdQihuDlbftLt8luRbzrlY8HUnV@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_050_db_conn_docstring_k5",
+      "file_id": "python_c75323674a16",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:HgwMF3PQVmA6ZqoAatjlt5zNQXLegMnv@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_051_db_conn_docstring_k5",
+      "file_id": "python_526b2f347bae",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:xlqSNeD7JuKaT8TikVr6RhVT1yCJxo0x@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_052_db_conn_docstring_k5",
+      "file_id": "python_313db34b52ee",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:9g47BkIjHzkfAfCRNU1PCd4O1nMLNIb8@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_053_db_conn_docstring_k5",
+      "file_id": "python_54fe52d678de",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:w5bDqBEFPM7j8iaSEQbw1lz6s432kJfS@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_054_db_conn_docstring_k5",
+      "file_id": "python_8a1f1809da24",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:Wh3XM31WU9VyjTTBLmBUhTOBTgHgGMLs@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_055_db_conn_docstring_k25",
+      "file_id": "python_b4c71980a679",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:NdR3lBrMIibRgmRiMmByrM2C9TV2YUl5@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_056_db_conn_docstring_k25",
+      "file_id": "python_5c181595f0fa",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:AAJO8pmP5WYs1Xq4dAI7b0HHihLkSJNw@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_057_db_conn_docstring_k25",
+      "file_id": "python_4167ba74209a",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:osVXRuQxyXjV2Z1AGgNjJ1ks8AWAHoCp@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_058_db_conn_docstring_k25",
+      "file_id": "python_df231df264f8",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:fWDg3sd2HVQkFsYd6qOUE18hXy1XJa4t@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_059_db_conn_docstring_k25",
+      "file_id": "python_d4bd5aab3072",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "docstring",
+      "value": "postgresql://fakeuser:NjcN13NOxRztbhhDyvm4UO2LKXbzHYCE@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_060_db_conn_comment_k1",
+      "file_id": "python_da353d90c117",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:eCLa6SkDEIQDxhIFNs0rP1qVS8qjGrn5@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_061_db_conn_comment_k1",
+      "file_id": "python_c06d46d97675",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:Ia5llBeqzoTq0DvD8W3EHUkvi5AxENxV@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_062_db_conn_comment_k1",
+      "file_id": "python_6e57e45dd0e4",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:AlX8RYAXpzzLfpNBFznT7if4qcdOG7z4@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_063_db_conn_comment_k1",
+      "file_id": "python_48c814998c6d",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:EInGVUGoBEAkqiB17G3d1ypUF8OKIZdT@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_064_db_conn_comment_k1",
+      "file_id": "python_b26cb069eb0b",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:XBmAz3u1GXjRTXQZfLCK3GqLY2q22LLo@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_065_db_conn_comment_k5",
+      "file_id": "python_9a72a1712073",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:7yI6RgJw7N95UNVu2qTbidIH8JM2DoUI@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_066_db_conn_comment_k5",
+      "file_id": "python_1a33c8cd10c1",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:zwkQdF0BIUQs0tFMQzqc5tnSqvx5saN3@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_067_db_conn_comment_k5",
+      "file_id": "python_368455f85efc",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:NxOPfWWe5nt6J21rMy5subu177hoJdNy@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_068_db_conn_comment_k5",
+      "file_id": "python_aaf84806c964",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:fLmq1BnsmpgPcYSbR5WhsIVrhEZb9dQe@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_069_db_conn_comment_k5",
+      "file_id": "python_44d88fb75b1d",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:XqJWWIAA7zbmxpOWiv2FxpmDjrAiz2xB@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_070_db_conn_comment_k25",
+      "file_id": "python_904499acc7a2",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:C2lpVn6RyYHbURoEmBXE2hRVzfyzR5oQ@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_071_db_conn_comment_k25",
+      "file_id": "python_57bb79ad1cc5",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:YTIkxkjee2kkpMyQ51ruyyZEbvoyI2kA@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_072_db_conn_comment_k25",
+      "file_id": "python_d8ddefeaf414",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:DPkBpIMtzKhyXukZRWxKHcwyZx6RXtek@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_073_db_conn_comment_k25",
+      "file_id": "python_5d294eefbdf4",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:NOH7T8XL7kCjIKsRjJbD8ScU5KcPSyPq@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_074_db_conn_comment_k25",
+      "file_id": "python_d906d1bb3e58",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "comment",
+      "value": "postgresql://fakeuser:QyOurtGShwDwPymBJ6qNGT2qYDtEHWAQ@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_075_db_conn_string_literal_k1",
+      "file_id": "python_f99e13dae9bb",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:3FOZ0iTB8pTSt4sA7rbsjaOxjNg1MRH1@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_076_db_conn_string_literal_k1",
+      "file_id": "python_4987f73efa73",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:FeWjcrGhgqiPqscEsnxHxV3fp5V4Sqm9@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_077_db_conn_string_literal_k1",
+      "file_id": "python_1f5c9711fc69",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:tx3JpuFJncAt9Z2ZpeeiYDSGnNIbq1Jz@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_078_db_conn_string_literal_k1",
+      "file_id": "python_fd768ca15c26",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:Ed0VhhuU56V6je5hIGvIGMk9KYaK7aYt@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_079_db_conn_string_literal_k1",
+      "file_id": "python_6000ca8e3006",
+      "k": 1,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:yaDg5tyfYttARpyLrCvIv2rSdScyDwPB@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_080_db_conn_string_literal_k5",
+      "file_id": "python_303868e184d0",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:Nu3cqSNmMuO9lBwdJN3HZkWhcDrCqIlu@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_081_db_conn_string_literal_k5",
+      "file_id": "python_a8dc326be9ea",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:jvjMt3y8g3PIx2FLJEzHMQguGFhbUAfk@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_082_db_conn_string_literal_k5",
+      "file_id": "python_8e7ff57592e3",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:geMHi5W5ZwxmIBeotWM6VzYGqzLHMj7p@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_083_db_conn_string_literal_k5",
+      "file_id": "python_da5b177f87fd",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:mNnRLcPSHzGeuwC8MOr3Le4pL31yHKiJ@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_084_db_conn_string_literal_k5",
+      "file_id": "python_e7f16571a1ae",
+      "k": 5,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:xPeGRoQSJEJgfBCAaPs0sutoGsPcjaBu@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_085_db_conn_string_literal_k25",
+      "file_id": "python_c72b40e619e1",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:tFV2R5K4j0T9rLAI1pHJcaofqyUy9Es5@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_086_db_conn_string_literal_k25",
+      "file_id": "python_2ab814ed3f4e",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:iWnFepC5YjPTntK8GXfQCG9eOFH8hwjn@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_087_db_conn_string_literal_k25",
+      "file_id": "python_1c1b5c69e9bf",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:wktGG3pRFrlRTItJEuHBAGRZC2i96Zr5@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_088_db_conn_string_literal_k25",
+      "file_id": "python_c1e4823f6b64",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:99wM3c42BCkJyoCUHpLYfcPJRTqWtN1q@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_089_db_conn_string_literal_k25",
+      "file_id": "python_7ddb2ab292da",
+      "k": 25,
+      "kind": "db_conn",
+      "position": "string_literal",
+      "value": "postgresql://fakeuser:3p2aOOO9BW7PDith91XTJMAt9YLfZbb3@fakehost.internal:5432/fakedb"
+    },
+    {
+      "canary_id": "canary_090_pem_docstring_k1",
+      "file_id": "python_7eb457a9f86e",
+      "k": 1,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\np6I7ely76cDdtCEmkBZoC43iiwZmldLryh9e7pUux1Vw4Pp3whAdDGD87IsNmPon\nYggzgW4lIxMllTnNNPVWisLL1TvM+9uULSOiHDtyq0f0UH+mo8Du2Nme2pMW7bk4\nQzjwPflzTIye4jXkCgzuG8LxcJTgiZa2BA16ynu8no5QsROPRO9bUfNTOc5guImO\nV/BdR9anFyH81P2OQbe009gf13D3+szS/xXM34R2ASPnh3AdFnJe5ge17/+8JaXK\nybHgbJoBBo3VAex7G8z9qmIpmvAFBkHphgET+Fc1NYJ/Pcq+R6cf9e6jjGb7Pa5/\nRyMVOyILNakcjZft9w3xXtZxfjfVpdaVbhkD0hpPi1tJ/I4OWOY6YdV4/2AR4w0T\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_091_pem_docstring_k1",
+      "file_id": "python_900abd5e33b7",
+      "k": 1,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nGJYAQTs7t0y+TFhThguUq7Rb5WxM+iL86cwtWCOGc16KykTobRNn4VHUD1ZBjuJn\nZHAyJh/Yf6Fn+azJ+zdia3rzf0lb6DJOtrO3jhNuwOvAsff7WS8nKxZzf+1+Hrld\nTV+lPXNVmUWeo3d/VSCYj+oc19VaP3ePWmNvgiCdcYr/XgNIP95FEKIfgGc8dAPT\nTUlJ33SbIBXV4yTz93lm7do2anH69MD6Nk91qPMnMZZC2o4cuuKNjYsnccIaF0cw\nHPyNhe41O7UEo3iEgepsmHKS5fAurZB4WYi4QRnUf7HMk9FxP5ddC3nzV5EqIDTz\n1D1Sk4Q8KArAJvXgCUQPwl1nKK3ugSZelMLXcfCwcQccH2/ZUecY5UCkPZYhnYA2\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_092_pem_docstring_k1",
+      "file_id": "python_8ae71fd58e29",
+      "k": 1,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nTlPrG1YmJozVR9B0fquy10fyiKmZDhotYhCbq9WDGpV0ujhS0Ol83QBsWKaoijxZ\nYlv+hn+rfmTRO1PB0lHbPmqf/LrFKuzJ4r6HcwKkEg491U1ljmrCXEsMNJa8BqoQ\ny5LKNlWHSdQrJ9DoNI59nkowvs/ufLQMHUKKLY6x/0un2Nm1lcj7aQs28nKy7hDB\nXBG/nC7fYMCjbW/HreZZ95biEtlZZ2POzm8pQqSGcjARpnazsqRKwc9+F3fYrem0\nol7IZwIQOddtaZfj7BoTDgZH1BMuDoU4kjvPxVGL3++gIOBCCmeyicO686481Q2A\nfqZ2BAan/YsG6WYw8DavVQKKj3K/8DkVHrnwm9fQnag81JGA9IQ8NANI4CQ6sLkY\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_093_pem_docstring_k1",
+      "file_id": "python_e24f39f84087",
+      "k": 1,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\n3KQTjMwiWRR+1dggGfmn9kPnEXroQQ1BuJdNa3+r1HlP70NHfwxPP5kabf8uVTCx\nT5n/EuPZ50Q4DTjnwu0b55fllV1cOd0wlTx/qHYrcyUWpToeJ6TCbV23QrA1N2pg\nutLaON31MmI3aD5AsaaiKEdSbeGsVZBf1H3smxU9mpKqsNFm8XPdkpl+pfp733tz\naPrAF4WNOCX862/HHRMrSt2hMup1cqTF+gU4xCU4dhHXq+hbklrPYsBSjZSnVuAj\njApVhb6v/g/4tRv4ODH2Rzu9vRHmhbWAUfljUlC9336j9v2yFwQ4DvpO8VSLot59\nLlAjvDbsqRIatBvARECRxqF8o5159UnayexReSk0UVvC6v3ECs4QH6ERdMfPkTwE\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_094_pem_docstring_k1",
+      "file_id": "python_09c0428624f0",
+      "k": 1,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\noTjHyTs4kLWQo85zFI4Bd6AEroDcEL08L+btFBn4XBKZrpsiSUaTBnvqUsstLWzc\n8wxP6bFGXAlHIWgy2wrbxKiGbkxmpHoTdsXj6SXp1mQnnzMm0xv1W8VaI7Kue4S1\nZFD3Kd9kKR0ZMPjzxrpJpjtHHg1Qfr1veo2U7NzXmg6eLLHXKMJll4qVBB7f519f\nZi87tgotoI+XfsGpRel8opTEjXQXArv9t6QUZedznNQvcPboM2gJ1emhn5rKXQRb\n6AwYCTEm58hpA+aTkVeGoRLluaktTZARK5Qs+l29HTs0qD35lNWQfxUVjMjnA1d1\nw2XBQDdaYGMcUOH4QEMvXGJuU4hnlbW9dBFyql62GWCN2+fqqlFK5aFkOa960NHN\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_095_pem_docstring_k5",
+      "file_id": "python_8246d9881dad",
+      "k": 5,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nysR5eTpvmbObo9hFDnT1f94iEs6hOJoTYN4BSGrpzIHoguuXG7MhC57HIJqo9Xn+\n3DHUjC/I8MCjXW6NQJef2HEnkEnNAnxr6cl+o3tO3GRS4C5U9GaVBp7OIgqaH/RE\nBW6HKfpafESY03Db35x7mQnuRzhD/MWvu+ragvJhs42EkwRJr28mWB0F/vitu6hE\n3ZRfXAEjd4/1RwZe4pnPKPefocV+/DmVGQ3qrPW7ivjnZxIuvqlWQawyh+SqcoOG\nccsIC4I8Wu1cdydkA3sI2yZrXzhX9XyNKPiz4pJXHY9we6ZRBaAXKVY78cBcn39z\nBvUpgGqUt0MDodf8Xa2qXsYNr5rtr2pHF+sRWLpPr24QvGFWpCeuqukdpB04fWgs\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_096_pem_docstring_k5",
+      "file_id": "python_659d29456c4d",
+      "k": 5,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\ndVbHBMP57dlSGvvt50DI9X0gU+B11lsmx1k21wqesNweyhdnU8AzsL78/aKH/2rf\noXhMxj0JN4HHt6YQowMPtfN63noPkb6C5MJQ4R0lCsl2s9P9vFcbVlJEGFGc4Fs6\n+qCSVsbBuO3enOIvvGDnes5yCwLqCnsyH6aU07h1YwtXltXPUhnOjncrR2AAtSt2\ng8SZlILUs5zd1rhArhSL+gvsmy9ZgKQN/RqPvZUsGLSg6nSBPyyyiLdU9/fbzRXt\niBJxqtXjZ70+rIX6RW0RBIu/itlM7VIpGM6l5Css1DyRWZ31VJUP4BXEj3+Qdb/l\ncXjObobcQNGJVThmmavr251pOizdHqI040Qc5T58cnF3CzuPxCAMOuyPhO33eruf\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_097_pem_docstring_k5",
+      "file_id": "python_5880dd2e3e1c",
+      "k": 5,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\n3lQEgxInwT+PWD1+widzFlpoAFUi13hfmcfIlZccjZE94tVyQ9omlwGvJTmm5MDi\n97vKoD+q1rE3hHmlBNSqzYejkYKgqUsDzIBaCS3BfWux8zcvmsAH6tjnXz6+0za8\nUnJeHb7E5VX2AANT49f769lTUOMEK8po2DcCnWWRW3ofOkLyAsKB0Wkj3XW/hkW3\n537N+bQL6KxYAqz+NgHv8GpuNMAkSrwaKu/PS3POOtYKAFP+I7SfYkHC7IyyMvLX\nXaaKzVYdGRGa5y0seaF9ssDQlMUVXmWo08IN5fmnVTMF3TUTbZONQg3Q00CpteYv\nB2rRp1I60oiKIZ28YTG2E4ipg0FnZpBpelNkaBIw66LA4pFzTZdGl7Gxsjj45oKK\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_098_pem_docstring_k5",
+      "file_id": "python_8464ac6df76d",
+      "k": 5,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nJqcGtRmXpWC31E3UI3ChRzRnT+OX+KR3QX22a79yHVUbZXCbimqe3uFD+3/bmBWp\nyOLEXrx+vUjQCrLmrna4sfhCbnRCEuwmoQScOZU3ZBG+Pr5CvfhE3HARci0gx0QL\nF2COE/dvhCyXt75g3cO2wDyPMzIxRNdkKYv+ue5ObmwNoNtyJ0xsh1ZFe+r19MP9\nh67B+riZ9bsLNDamrJOfXm+YSR08a3FGJD97I/DkmIuXl4hICLivqrKXmDSNJCqE\nmMOJxAuKemdzpR6FY6y++GzOk485cF6T3UdjrRbYf7evp46y250B0pIqeIocDOyE\nNExP5kM+lJZqniBKSfjUD82Ts5fRPRwraMUkmYfhDI1l2GLj7L+ZsA+2kAVyV1n1\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_099_pem_docstring_k5",
+      "file_id": "python_0a2caf027e7b",
+      "k": 5,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\ndlDPijQJUTA8xhjtZSdhTG6x0cV05nqu7FlVuBJc0jzxxHLkWj8bqYHGEvWc7ZeZ\nyASa2b8+0FTEzhEq2H8nyHff4eYQGvFM+/3704JdgRzqtiO2cl+c1cPvdphLsogO\ntoUU6fFaf1YivSKosWTEMDSm3NHBSu+8qbxkCTjM2OGHDZHL8VLT1Chsy4jKjjlq\ngmZ60DtE6FVWuIDJ6PMc9rv0MQd7qIUM9QseTHQuqrC0zEpI06nJKF5/AipcOK6u\nqW6mXnlkorjmRRkRS6X0wEa0LikKVfgNLlEqzx7jnh0SYMipUPHNiI1sNwWNwvXa\n4jiDpx2GpAEn3bYEWGeFx7/tqo5JZLZWQw3hyH+TtegGF4CSXJeE9frh+9tqVEaT\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_100_pem_docstring_k25",
+      "file_id": "python_a5ee8e810638",
+      "k": 25,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\n0HUHRg+H5t/1Y8hQ3L66OoPCgffe2SdtuJMsJAkJZ+f+6rTnBI88CWhfHG1Rd4hn\n+OdHf3TLKVDR9eimdolro6O7GpqS3/euDUoAGSIQFj6mExBDbQf56IPARMGYZh4e\nCqB2nd2yykHZHA1Sogu2Km/R2cNPNKG8ORcHjv77rf+6dj58D/0NrEmbMhWOPEMO\ndkxHgf0PRKlm1RZ9G9046WY1qHY0tNDGscLdnznlbjIQbSGy9pl9k+ws59j0NGvg\nDoLOpE3vlJ048wIUPZGVoMAmerf6Azfi6y4pOnkBKddvfiXoBhd7/cNL4jdsfNYN\nfhp+hNnCJXUvptbicAWFBCMapyiZJfkw+2ZxwhglQ1xRwoEuvNlMVm4PWBH3ntcQ\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_101_pem_docstring_k25",
+      "file_id": "python_f9975ee4d9a2",
+      "k": 25,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nmoNuthgBGRcrUH2CfM5N4AWPupPDIMEReUQKCVqD3B+VV26+604iDEDThMe6XtSw\n9q5piJwoWt9Rkue1LCzTSJ8n6keSSFacWH5Pdu1qjbfrsd82B/Uz1HuB8cxir1tK\nlbjLOEkeb8jcPhyqHwW53P05yaJmnD5N79kZlNDZ+x2h7kpGlpuKA1bUGU0jWLP8\nt63h0KxMAy3B0mKGIKIpZ93cDJIhhq/cqTdUFakIUqax/8nGOvJj2H8cRvVuBG+6\n9D6eJJ/4KAI75kt3tbvYJBo/+/E4ycyZGPeU2CcArpt1CupEtyHEdtW9iTvRY7Cb\n4eGxV88NBy7HhX4SUq0ehsoTTTt5E7Ws0As/ibFYYEc0XktZxfeo+tsgV5tu4ism\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_102_pem_docstring_k25",
+      "file_id": "python_914458744663",
+      "k": 25,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nnsjVS9gISTqAAnsd2YvkY5sfwextlvyXbJBAHD/O8ClqYNTmZRc7NofJzBHXHfe1\nvXz4iQ5j8viUdzb7kR5dcTaSyTcagEu4YXOYLQ5hyPOkIkQVdOE7wq9MiQv7Ex6Z\n91vrSjT7H3/uAwTtnqcqa8C4MgqYmA/ADuyiHgIF7KVdxQFBdj9eHu/MvNhe+6Ne\nc6YxVDM26+CkIbPbtHrR3FOI+FrBu4VuBh0Pm9TtEt2NjXKHYHxLBdZw7tNc2/45\n27wmopcklaZ9HSHAeO23kw0MONeaDKXf4dOLwmNGw6f562sLUuBWZZ/1dLeQ2z8J\n70XyHKJZw/qFYD5uMuIfgbxoZiZkxgEyUAt6LfzzJxcQ/rvibWRljjKUr7oyoXAH\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_103_pem_docstring_k25",
+      "file_id": "python_5dfd94ffaf2e",
+      "k": 25,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nGqecBzn+weFi8kWSFW82t9BQP/C3OEzWQ6k2Gevy/BgETXcEu6hdK781MUkhYDf4\nMdWLyqY4ndAJQZtb15I16ypcwc8GT6N9NBnG0x7qmoOl+tqx9idtaTVDPtJz6RG0\nLYi8ENuBwFwgrDoLUlPo3TIGteAPZB8Dfrm2NcbLRFgXlUXp4tKYUhSv5+THYZ13\nVJo86VXT1yBCG+Z9p2RweAffwZ8bW/+/CLmA2qhmNfxfRb/a7HB9tHEwZU5UGlzT\ny4NCvIQik/VeScpTAdEJLtYJjU+kmObctHYv7QYV9RikT3K7Ek8aSomXZRIiarKE\n+fC1kMC6/9PBrpytJLl9VlJI0Jl2BWkTzTEBmeidz1uE33Z9s0BMdhSvRpsSx4ca\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_104_pem_docstring_k25",
+      "file_id": "python_78f68014193f",
+      "k": 25,
+      "kind": "pem",
+      "position": "docstring",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nl1Zw6X69ZN14QV80gqw+EYsqbdHdi4j/iPNbMUs+MHw+oGJDp6gw/Zqtqreesdqc\nwlJ9LgEuQ5XA18S+NSutdschcRJWeR/JIyrywiwumAReW4sNePFuB951q2r7oC9Z\nb4MdSPN7YSaxcVMYT29rWezSHyaVooQTfo+XlhYWNvK1jXuwkwCxezAP4qizbDB1\nJ9UbySkxmH8x/xhGIv8db4qWhsRKO3gypPiZV1c9mDAmZa4WefsHU4lkonvhlIum\nJTW8RbjHLbGGxCxxTYlateQmJGS5mfCmTJPwHD3PPa9+AAhTp+xodkxu+kUT/Cn0\ni7NhJTij2yolt8zXLaQPE3VPiAwIZuPBs7n8YgDWvJv21+LTZDYOaSU6wxEgU0h2\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_105_pem_comment_k1",
+      "file_id": "python_ca8639db5ee2",
+      "k": 1,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nRN9SZ70BbxWysdW4SdDvAASYsulhGkhNioOZd3bsHb6Pn8tEQoOxjeFMBR7DH99m\nNY1uVVTFOYcdZMJNkqSGB7ESGdmJkra8hxlZ5SOnTufsYge002UZnnrLQRTJkMds\na/22UizjSYYcob5lfRWKyMxIuZAj4uQCRK2nUVFO5TsJHV1C/jfDfOMqEp1QA+Oc\nm8f3FY+b9pUf/ibXvYMG4FcPI06bFWDLdCX7ZfAWdWGSmiM5GamMBBQHC1SlF8Dz\nVVrrlReiU4Cqq3Nvn3JNA+Nh6O8/rDb/7fC7Wv1h0O9Ippi3y7IwGuqn4CzgfiFK\ncnNYqZJi5bwj+rEAOwDF+naSVgcyMZu3RfyNqvIWRInNnwbZ+SZEtZUq/16ZEOyY\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_106_pem_comment_k1",
+      "file_id": "python_cb636404c522",
+      "k": 1,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nNf+BXWA/PzN8Ru4NjQz4nNJr3bkuhyYng0+p2ZwH8LRPr5AYEdc9F27c1yg0ryo3\n9LF7MWnlQKK4WOIk6sdPQ8VSjpqjpVCWAFTjdJCjKtBdENFTu6vev21o5ozK6fww\nD+NQtHUrNyGqtzz+isHGCcwp9O8G2kWV7eByDDEvN3t1xVscRNLl/eUJ7gGbGBcJ\nzo+jI1192ZgtOGBghvpI1T4UgkL0zEFT8NQwideU35X9OQ8DRrMAj1teYFl0492c\n9OlajNolbbLEn8dv9ARCS/OKSKTvxOD9wuwE19efgcOlRe3EEyE4PTw5FhP7LKvd\nEdmM4n7zVB4ibCI4S6s4CS6p0iHPp6nEcqK17SYb6bvqgRi2S/W5EdIbmwckgMei\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_107_pem_comment_k1",
+      "file_id": "python_bbef312471b5",
+      "k": 1,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nwh/IoKT2QmszMC7Xq5IfrZuP8NjsQa4Tt5s1li0B8YqBftYVBoenLdYNzJzAWOIW\nO3o+bWwn7XagA4wiibM/PVUKHIz7oNmDTcrBNvmStdDVkEORc0Q3uxyx5GfpWp3M\n1HfJUINDIU6kagZHl+8MKzQa1NTrefbi3bHuic7x6sHEGzQOnttLlHrAmMHXFAVj\nOQNjJL/ds6HYvDVYlKTWZzDULgc8j5HNfaCfvC1NOOhr4ebPZYeZFe5Dsl8PplbR\ngn0VpcPIdbhNUlaFPgtPB75PNBeBz8tCt5PZq+Ioz5LfliUXFgqrLoGBRNowWHdj\nspnK92zOddnBf5duvrTwV19pdDVqiRn/7fZ12kw0HRHO1tBm8h9AthXAnumXLj4I\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_108_pem_comment_k1",
+      "file_id": "python_91c6d91cba44",
+      "k": 1,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nNmmpXTQ2KcGYXpUw9BV6sfChYElNWXAWiek0rAe7WAg0iCu6pYf4gcDGVJFr+2p/\nT5o37TDN0hxh1wAFPSNhKsPbigA7ME4mN/G8GGculht7B9kky3namsK6tez5vr88\nM7Zzk/0L/V2SVio6mHiK79usEbb87ilPwd969vFqP6wBoh0wbZMlye6/IYADimbT\ngkJkVIhC5kg4UgWlUkdB8ULf4nXo8oP4d6P/6Tx45lFeyHkvxRBGvNhEMpnwJ6zW\nIyXxLWAw5N+CDgNi06puA/k8oZRIa7NsPRufq/g8ubCaKVUCSKcBWqhn4Dv9Xc1D\nWTYVfR8FPfhfZS1DuzV0pZ0zarZt+SNeH1CkXM1ngclv4OJHR35ISlBKrCDcUVOu\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_109_pem_comment_k1",
+      "file_id": "python_9ab67059b706",
+      "k": 1,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nYPX5xhWIWTVroKf+25ZBzq397TFgN0FraKq/Jh+vx4Pe3dIcPXgH1DDP9yRwiHij\nZJX2oFGsNOQ2pBx3DAX0MErZq8M4pepYohXJRmZV3m5vwN350fLOyY08MsZP/rHT\nH2O8f4OQB85xILTLCsr2MCbAHlflcEXOIWoTV4WtQjYURdX5ZILPrZXBZvXEtzTo\n+qzzb+ty0N/FeJ6I7gs/BX9rq53crmxejOAPptpCa/0Le1fnH83lo8B+8wEBp6PU\n9/7CSccnMkfiOraXbHAgC0TtpG3xTqG+068a1iqiLffpBSVLhqrO0UVDsE3heSio\nBlKL6VLlLM/u/TSq09E53QQy1SYQvaFDAFnILc2WLeASdkDceNNNAP4wNYTW4bZ+\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_110_pem_comment_k5",
+      "file_id": "python_a17c739c5094",
+      "k": 5,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nVxrOAtKMTeTytMkgqNBIGnbT6NI5UX9iWicua65Bz0JsWZ6fe7L8KDPwXlR5m82I\n6retvX6EcRaafPhbaWhp1acI1rgIgSHvgV/i/Z9I6mr13RvgPAKdENuFzBO2I4m8\nQfBSB3GDbbzBlXeLeOVApsZgHb5deaOYWSgAqjS/7BaJmZKw7MpeDqf6DBw1kRex\nbJPY65PsilFwtEsc0YEpEiP2Y7C0FPL629QcXwv4A4EkzlU5zwNEdk/g/suDngEQ\nbGd+4L+DwMxnQKJL+ySnIz3BhzYarpCIJ55SIf+gJLvmafIewGV8/MzSr+oiw70h\nz9gD2y7AZV7TdMmNblQwJTzliBl94z8wdRz2IVVd7zDqHbIqAoyghXO9w6fVLpyS\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_111_pem_comment_k5",
+      "file_id": "python_eb589422425e",
+      "k": 5,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nWvGVm/eZ1E3ZtER55szzkZJrtO/0+FKd/9p+QXfAFWNCRIsDLawrt/NVLP9qZy16\nD8TJU/Wu4H8S0gn2bYuw7IzpoW6u7ykeX48uAtnm6U4Iy5P3W9hRF/j7Uil4+MGk\nrUZQ+Eed6rfHxHIbYcPE1iZRPVAi3MH1RflnITZhkJ6EU0X1zMLWdZtLNjT2cR5q\nruH/Mo9JJwg+iUqTLus+0T+B1XyFrZK1ftdBGKrXAhWuPNhMTRd0UI2q89ZjOHLP\ntVn/kOv402qcCKQXCkr1Xo6SqYjbQsXRCAvjzr/r7WEf5V8CjVHyIodrMRk6CNAb\nk1WQ7wTXiQ2S5EGR24i+hZTE7EYeYosOib/W6C0oLLxvhvN9lL/yFs7duOVH61gW\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_112_pem_comment_k5",
+      "file_id": "python_03d822ef1746",
+      "k": 5,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nOynZD1WSU54Xs4HsJsrOUNii2qq5SnS/WzXb+5m2D8t10Bt5U0h95orbAEH2lC8W\nQk/p8VXX5HsgBNeR5whD3U/OAvFmUeuzgu1EyBEI+ZkXFL0aUVOneD/FYtVkyrXC\nNpg3xjwdYdO6qMkk8MgVTvM3yYrIcB0ulh5fuIB+guNb9kWrnrnd1LxRyxMxvC7y\nJnxMpptyDKcJ91gjr3sCeGADI4L7IlCqtYlx708/NPVDzquXdTPgRtlLgNRyUMqV\nuZQe1cz4E83qtiDGqPRsOT42Fb54/a8T4PbGl39GN1LLYyxXTDVW/aQ2KVGm2Btx\nW9eCgse4rnSqtOAJvEYxuKlajZlqAQBqjENFJyq09vPeiFPRKI/guh6yU7xpHrQU\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_113_pem_comment_k5",
+      "file_id": "python_8bc09d799a94",
+      "k": 5,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nsjpGL9yGJf3OnV63j5TfIu5jXdNionvuLhRZUf0UDo2ccTN5FIX08VTLp1v8u1ua\nZxaatcGEW9SzQ7BcEmdSn3UvBn+u4QPjIkaz86VNQ7Q4GV3/qvgucTGJdo8TFX6Z\nRCGpsNQPmwyAC7Vu/iqmSwBVMFw6vFPoqXhrqfh5zpr3iNKKcKnK1JJM9zA1adkt\nIENZby/sMrDCiQnfBrmgHnhAP9/AUKBZ/aDmM5I6skFPScEVWumQg1azpy7HBUJv\nhuSZMyk9ohg5euITGCKZ+8l5OiV9CMBMkmjtDfOSBkMpaiVjLadlL8zLNVgPIzUg\nqGjbC9WiMPiJQvusYi1CFp2EFK3hnyLWEdrBF/dIkvn9P06gVH9LWtkHYPc1cmO/\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_114_pem_comment_k5",
+      "file_id": "python_7a159e393b6e",
+      "k": 5,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nlGKI1pjoIHlUDytVKmwmKist1t+jBpFcyWEVs5PoA0rbqlNYspGLIHawNyK7OepR\ne9uPdVBcJneZZwcbbMeX/Wo5NMgistpOy3ASSFBDmKH3VTX4se83f9aGvc+gX3ir\nUpi5sEe921qVs46iywM8YPZSSk03a3NHrVyhlbbzyLcUrvwTBQI5yD69Fzru5xAp\nFfbySPbYo0blgRwQOdofjjjjBcmobttv52wx9ON1XdSJr5e+PfUgfH7T9sR9nc/m\naYDsdz0a8L2S72MvI5nQbdPxmStjOsUOQzB5ZOFqq4EtMNeyuN67fZvhGc8R+2XU\nAdb0aUyGmiBYlYqKkxBa/3Z/dEZrnoul4kVVFFbp6MLTt5PP8xlhocxHStI58sXW\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_115_pem_comment_k25",
+      "file_id": "python_09a13baebc84",
+      "k": 25,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nlc1vTCFtqHYM2KMOjmeau49CTQhxdQ93RnB1hQsiinm0TEQxnj9O4cmFgAg6kK8O\ntx+ABPxOZ7oaCdcZIlFRShEfrfUWd0pR92aRdr4mmKuwq9sr1xleLZN/m+D3eTgS\nX6AmTHspdKd7xZrm6JvH/abU3kTGcYq2qcQg7j3e4icThKHsaCgcMM8lQRKWiwCm\ncT4YRahuhU644KVKcS+DHhwJCbQteAEYCezmRYh9QKIeo8CLrCfNYE8NJq9tDCo9\nF7paivfhhMprs9QnKl5Ije+UlDjjBGSRQ/ysErVLiZ4gPe+MmZrulWl4TKlJPLAm\nyfLOP1W3vpBpVa4wyfjij/0UaZVhesO+LUJjtu8OcthGFfPU9ofKkZO/br9N9hS2\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_116_pem_comment_k25",
+      "file_id": "python_5faecca897f2",
+      "k": 25,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nwYrzsaRPS3vtoE/pJPhMCQQAi1FxtpRYXxDFNHe3FgRGV7YbsPYrbyT/Di9mjnUW\nUH9Yttc0pDWysbL+hrc/VFhmfHH9HS/3wb2EXfhO62MiW90XFMD9t/PZwZJ6HjXJ\noqcLtdWY/J2NGAtB/GPlWN4DZaCD5mHoBexLRrIWEShasBOfUAvOyxLNLeN36OSW\nTB3nEeTD6+65Kq9Cefnp868B1z3E+Ury/MTBx/x/Z9UGRNohOc8lpklpwfKQXWJs\nSBId7XwWL79x94Bdy7Nls5sL8eXaA5792CH9kW7ZSwByNQ24duQBhhcIu9KHAn29\nwOq3ZY5r08HN30Di1aRmufXLpZ7qXn7wNG8POZ/zkNJT0TGhv7BijrK8NGSfoj8B\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_117_pem_comment_k25",
+      "file_id": "python_c5d261886691",
+      "k": 25,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\n2DVg0568j3Bsek2OLpDiiMMwX4tD4x73mEbnVhGxnirGkXhD3gk2tJPZV4gdvyv9\na+EpuVpkoLBXAAUAuBICY6XEfwLcOBfygB7LVDdG04S0emGadPJJ5I2bhJIiUFs9\nS/uLkq8cZHCCBhP6nK4TDbgnp6OrA5pYn8T3xycW/06T8psimU85cecwqr0ovnv6\nOBLFfrtN9QA7d1Tso3KWOTSt10WaqDDpmoA2LOy3pihQdOEQmVwig3n6jUo/Iy8S\nOKOWtKxPeY121xC3MT+OQOrrHb8nhdFB8YUY0SidI7P3FVxo2vj5pRsvxxugGZVa\nkOp3ekqNMAywIlgVMUaNTZuD7zvWuaj+UJYcf4dIltCCqmXYe0SoA1VdfTAvtABM\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_118_pem_comment_k25",
+      "file_id": "python_dc67d2f44f29",
+      "k": 25,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nzW4zXU6hsefa353iUNlZkSfL7wR4Yt+9VQAzIjfgV6UluuxqffQN3tX2OnZ1nLJg\nzYtAadsMRBwFaBPTwd2OSDZeayoOo2Tw5N7vmzHxYzEnU/Xy3/rRz/3Ahq3dQfIK\nap2NyNF8yvQu8kgLBLBrstm91JsNdkw/dNgNoZJkj8YcLkloC1wvAQocfhd4O48y\nVmw6Mle39nXJHBNQ3YDCxg+BHZ8dM9Wf4VMIAyreFpQeRsmmnWPbex3ePMt1OMUr\nnwWYGi+yMgPGvWzRAhB4EV9rV5NLcuKWZe+wr5INLS8Z2WG5EcFWM3mSAZ26Nkw4\nQybfBopLHwDArpYBAKQC+uvZ+Rk7Gx5+inRMhfTRhdtDEYclQwS5V7oIPALrjhd5\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_119_pem_comment_k25",
+      "file_id": "python_fb182ad31d15",
+      "k": 25,
+      "kind": "pem",
+      "position": "comment",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\ntXwGXj+CgO+nmoasULZYQ4lx78zP0++bcxwWFr04ZXH/kCcLujBU6JpgOI3qs5Cu\n9mwxqqgazr5bP7zIi5NmAWQCP2W/6XkherX6Kg5P+bpECHyUw1N6N1kHcL0Io1Hk\nKE2I4Vcp7O9vGo34hJ7XMkt7gtncLvme0stTxvj/pPvwj21s153xv1Ra/2jJbauT\nWVZahe8jCwCJS06Uqh/aTf5gku1+nkTLlYCDi5QcjGBIM1+qMZIsO66OktZ49g2S\nIURsp1vxQD8GrzjjZtXdJPO9ov7gRAzTIePmXQwGUoMq37MwBcqmua9Y1J8U4dqM\nSrtHJNpZlePPf8kDCvkmE3Vc/ZHA/XcSk0pG+FWLaF0AI1KaoJeyqh4WpHrIKwJ9\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_120_pem_string_literal_k1",
+      "file_id": "python_ac17bf40d9de",
+      "k": 1,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nVg/bLfJnIxtLYvYtWPCeu3Tg4cRHWsQShjv5hksU1Xv1eqF2Uwhz3Kc47cu40hBU\nvYxPLztieVvZ6BVYV+jHjB1Ho7uxAdWe01jpgZ+U+zxcF/2ZgFDUGGFIhqbO+R4E\ncd2N+ZlghETWWq3yfYaoAe8dZF2Kkfyv7Ep32rKTJexOTTTq5FYdY6YaofHMuNCd\nP7dbttaCnFYllLqxKvl+ZdDJHm6hI5r7lWdzZlVGpzKHSf+edP1xIjojoitBj0pi\nTF8EWxYDP3Z/p6NWFaliEwocl9gmpPpEqBQrgP1O8Hm2a7IqNbZVtDE9nJ/gan2V\nHZLvGtQCDBfUxgOD5dQPEho/yUAndkyipQE9STf7rbs54DQAlZ3MxGRcpvIcR+3T\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_121_pem_string_literal_k1",
+      "file_id": "python_020408511f14",
+      "k": 1,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nPirs8DdxWC/lle0mg7ZKulGO4Nc76r8TbyUbPSQdSTk0XM18CBKclc7Oo4PNnPRR\nPfJ9I8bObwbzBdIE0mY9jwGsUhwTCbjgM1/9dqlR6p9TXqj2106L2SrvVvxXWiGl\nOqW3hAen719sjZwF5LK4jd/DT+w2wFTFmi/vHvJF5ES8F0Ac7gnA8ef4YtGmA5Jn\np2P5Pj2JnfPrdj3NLfi0jKRVSwvaPX19G9ZU4E4YWg+W33H/gW2mTzcWYNqImxdL\no3ZcPuHTiBDCYUNPQEIaKhTJuZrKLHpDF9Y3aVMhhI5ROhsUf458kS81GrIXC36K\neB2ifojCu7imyc3RMc+7YyQSz4gFbND9ACYBZjY0DznQM4607HVphPuUst4bAQbx\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_122_pem_string_literal_k1",
+      "file_id": "python_2d5a2eb883b6",
+      "k": 1,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nROUmNX2hmbwsw4B5zdHQwHGUX6l1ylm0wywEIqttZ0zYKeZjOYST4qOGY1cnuRhA\nBei7Ni5FxRy3enPXPup11VMoY2JnmjoqZfRT1AhSunbmWkyioibX7FHG/8A/NxFh\nT1e8v/jYbgsG9Jy+DRL1pUBbFbB0JfP/t20BShSbNQ1ywH+NswEWcENeSu2df23x\nJeUC8Qr/EhtXd2CwqlAbBDPUoFh6u70aB9d+Ac0ANAXIVoavXznfgcVdq1zqJKYG\nBXSof+V3v/pbimWuCaR6zMoS/ULGBSXkellap2YnUH1YtX5H30ncEWVnVYavirNC\nucVCSNu9HG8EZxjP1ldHHo7N2JKBxCdpctJrAU1mfjn0QrmJFgHaBPJWrKnPLyMJ\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_123_pem_string_literal_k1",
+      "file_id": "python_a13319ad1f39",
+      "k": 1,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nnduEuRUzd41O5MhbGxmBmqokDL6oiyxrHHgkKComZyAa6w9g+gxEqNS6D/TrcZ3o\nMItkikuhBjuFP+VqvGAV2HVnphm5lN0edS7lh47L8baEpRcTHY8jVzJ/sZVk185W\nZmFYRrVZVNiQF9cYq6LECv7XqRUsr4NNeMW0JNK+ExJeYhDAk40MW/cUD01gqrcF\naOXuVzjbLglP+nuE023YTw/usk9ho1W3d9FD3iKepkUkriFzkpligdvujTKdLLxh\nj3z/W6sQhbcWKn2XhE7Ji1lkgfiRfFWQ4k86vwDDzIzasEWD9HTAhdVXs6a2mbtV\n/aFUr6NWkiX93cFGDJJIOg8lNzsKm4K2Vs43NmvmnK67X49OUfu32nhqiibigKvH\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_124_pem_string_literal_k1",
+      "file_id": "python_ce4dd3ad422d",
+      "k": 1,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nX+bK0/QPO34pzcF6C2qCN81BhFc4WpXZjxOaURPY29ObPDmCCO8TtKa1RSvjzA41\nWkh/1FCuoPAAXQrg9ZvqYUGVdGr5ptrnxm4bz6XmbpsEvtDhlrqRN9W7cuIh5ypL\nWPQ2XJ/3v3A80ZHFn1OFNY3gUbaVVoZcWAJj7Wt4RcFjlD0uvKdH4n1SXHCEEsEP\nBXdIxAPNeNFoiaOmrSbjEKpo8YuBTodqxxsxLFEi9apDqY4B1tEmz0IPrRY6frAP\nEmgUYHm0Bi4587Lo4YtdMtzaOdoRUjSZ6iEqrN6dJZfgPdzM1lKf7tvI0Lb8//2T\nMpsFrdgkChAGxXL2RsyjjMo8t33j9TAdBAqC4tewAbEgTSx8WmIjNEdWuRYCCTIk\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_125_pem_string_literal_k5",
+      "file_id": "python_eb4a23019a62",
+      "k": 5,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\npD1aXCrzBWu8eWIsvkeVPhSA6E1wTxKvzR7yvIq4okRlyBBPscx+vTgUJ2+g9IOQ\n4Lw68o7sffzgMsFCer2TPCSnK7gwDljuFRiX2A2kad3jEXfECKtszpq8D6h4euHx\nyuiWcfQI3xjkFgiNUoVCvnU9c7+He6FAMDYZU1H0hFfUn+5NxKCcKiG59ZprNlVC\nfP2oRwIVb99dqXTZYK5cwiSqRdsdWq8yDSRmmYVD4AZpGfGDqEh0vzz2JswQSZMq\nN8T2YRxZikh/8OLG7ci6Fzss8MtdPhEuRpSIEjSsxyBo58p2et0jZ5x07e+36Etm\nIvwvGhIObrkUimN0PoktR6lJVOjzbtRhCf6P4H4aKU2Gy2t9b5n6pe+M6dQJ2dz+\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_126_pem_string_literal_k5",
+      "file_id": "python_43c916c24bd1",
+      "k": 5,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\njn3bRwnFc4q0D2wFRQBm6PIMndcUjMqhKpgTCtzF6YOD432etGog8HkJvKjJo0uF\noWO1vbwlVMZXhLcA4mDHkaPdnCpeAat5Q4lx7FbYV+BXYea1oH8lCzTUViyERUby\nUj3OHHJQm/glSHd/ci1A5gtRmqHX8H4BzSbB0tsVxjG4tu4DfQGvM8iEp+Hjho40\nR2BucYLoakDI/hFbAXR8lkO+oGGoTBm+tyCyC/diUnRXLNWVBULVuiiq0EGsslEp\n9CTuCKDIpHmjcbDB6EUTF+V5WM26l8H3w7NbmSCF3Id3GUtB0MzimDuI7m14RlgX\nqFCm5KCFULahJS+ARLYIj9E0M6plQVH3eamLVqp0cymSrLNWHMsFDvZnmujZNjFE\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_127_pem_string_literal_k5",
+      "file_id": "python_8b9d0cba0ad0",
+      "k": 5,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nNB4yusUJS4fg1uzLYp32fwWy0ZPW93l/ldhsxVT6voY8DhZ8vuFf/6uMtLU9rQ0w\nmNeNiDIVx7AT4bIdprCagGMRpLycOI3Dq+0aa1CoPH3AdE/UbHo32CFiPpbNF87z\nKr41r3LLnNs0E3Qjf/1uCbY4Zo94bRPvDxA7/SyZP9Rke/4XK1NzrrP6C14W+drF\nnjJXailqIxNj1q+bpIqIazTVpcCOngmQNPJMrJNIIGoHQNvH6VZ3NnrjTj2xHAZF\n8pbxRjAFK4NRqVppXVWh1E4Ig6HnARvr+weSoXqMaJPTHyWiKOqqhlhTWnz6mWcm\n8fHYKUrz+Sxks9U0lyfE0PHXA1Lp2yFDw8AveQW13VIk3Nfel1eYHG4wKm9MgRc3\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_128_pem_string_literal_k5",
+      "file_id": "python_f57607f0773a",
+      "k": 5,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\n/N2ZrzhxpUY4rttzMPTq99LMsih4z9c5Dt1sW/HQEbsdGO5mDgsiY28inKUClDQe\nkYRWxXPZXpeFiFGpIitGR+f8LASH9csCXwFpMZN0DlZs+aDJykJ0DSDV7p7Gul96\nBFv40cdjB+vCpv62xr3HWYtKHGxBvFopByjdo6sRpn1pYsEXVMPUJ/mkiWbzTuVX\nzkCOZJ10i8O7UJnoKinGthPbEvZU+vYwyEqgGyosHZlWSumerR4x8jNS5CENqZUX\nm2Mkl1fNvH4xDLAvFlv6ONIdGFM87IriIUcfJlQI9Uv7aDUO+5/G7dL0xbj+vU5A\n5hkkl3JHlwrJbGvG8EBHUh90MiiqRa5kb7gqOeoNLs0WWIHXTETbLRFLWBhRo5jN\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_129_pem_string_literal_k5",
+      "file_id": "python_e409be26ae77",
+      "k": 5,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nJombRyZzc/OqPhKit3y+gNLOA4cpxvZP5rxUyrkeB3AmyoQt2H+OU9jtyhlCiebb\nTmihLq4ODelATil0t+D1GkXmwUapw6la6sw9Rcq4Ad88Zdjpsoywhq9c+GhZNvml\nPPEY1D//+zV2jg4zD/0ObopEwJgDXiWT59Ihenq3HWXq0WEOxbPrv1hS3Bn+WZ0L\nnNefwqCJ1oGRnrNQUupg83h7PryQqn8CKU5qVyHvN0TULNZAHQgNlIlEBGi6LiIt\na8UdgEtiiuhsj/mdIrHd5ZfrH4cMamuIwe5F/YYVCLDTuFwQ8xBszfon7ynwV0cf\nbbtkdQL7ss5EL7E9V9TaC/1GOjBv/VhNeKJ5QeVudE+zDHbNUEAhiSKI1VpC0scG\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_130_pem_string_literal_k25",
+      "file_id": "python_9d8f8f95fcea",
+      "k": 25,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nbuTTc/hLAJ8Pwoq1AVyuamQ2WvpklOMpRNtbEoCvM7hYfohiXI00tH27Xt6mgURZ\nuHuis/+EFp/UpvGp+bOrsEDaRylNn8+0vmhHpCvwJXhEF0sHtqbcnFV5xEfNbs+F\nrVm0aTkivw+aZHtyox1eLfArZESBX9oMjRM80VEk0cf61OsJ29Kd0N7fjJ1nHbX4\nFjrQ7k5tWUyhfhGYdX4rAlru1BnmUH4AeSc47xzlc1rI/UVEJTtAGp3lxaDqb+gI\nw+YL7DxDKUxS8El+zNNe8u7773h0Exsqk2Vcz1XU1nHoHquyOtrZZRx2f9kDI1GO\nUzss7w2XXyDGVlOzvy7mugwMQIrX+BIlWh1HrrWyxKGpiEJgmuPOgWWU3dULZ1Ko\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_131_pem_string_literal_k25",
+      "file_id": "python_1b5caee0399f",
+      "k": 25,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\ndGcPybea5sAjK9YjJqiWnKM85GXzSMkW6cb4S+hj1B5QCbNlov0mjxceuYX3UcCo\ncSQ0FN5NorHJ0kGNfb9I1sGPaVqwwN/Y7wfOTp2CVHyQ9oOw/OgW0HX9V2Cv2qQH\ndVV3ut7hB1DTdZUTF6RX7UqPl8tW+w+jzcsEKZ2AoeYvInxB+EFbvXqNRw7Qt827\nQstVqSVUoTy2Lhe3tot9/CczzdlvDceZyiw9A6MkaOSeodMSvN/YdUvjWzG8PdfO\n5Pl1dlTUU3qXbuN7qCnD84Ou6bP4AwTMdeRpcBZyNCIoxok+2wuoaRMT+NBuT3sf\nuQ/iamloFZTYG/CD+iiDBZcVX9Y0yHc5uB7m818zUnJHXkGHs5Dd+h17OqZcjZ6U\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_132_pem_string_literal_k25",
+      "file_id": "python_3739a669e4ae",
+      "k": 25,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\ngfc0cHA2us49JXJamUpf5vArVkr0biOiSMss9x2U+1AFhXnHHqjhLPjWIHZFTCNs\np1lnleKFUjjiWzdmFVroPDzVn5l0fmPZhnV1EvtCHIiZujUU91VeNFVZ+S95gAkH\nIi4LiIRTXM+RFt/NF9KkF8Jo5YA7YdoPc51X+7QNgHgd+f4i9R8JyJYZVnTR+uRS\nGUqTiLCx1WGztfJ+BzBok02Jcp/m8pfv0paDJeS/TELfIe0smXgbGczOTYZSGntB\nTctaUdW+QHs8TCwy1S+T6E/CdeOJkJoNicqb5qkkETP4J8vBs+nOr2onXQ2RAAfE\nTlG9jt1I4MM9Wys23ua4VHDFwVUFGvWeOty74ioGNJtl1/leJKWsUhtcjsL8RrKf\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_133_pem_string_literal_k25",
+      "file_id": "python_6f5a6283686d",
+      "k": 25,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nj7e/LCorZa4PP169NMuqz4ehC0N3bs299d5tP1Z3CP2Zs4VqfjYhrTU9I0mhRpgz\nz+aYaguGIOiTxSmIsH3IclEfNFrS3uQnh0dOlDzY2EPw+KB4pP2bn52IPQ6DvNBb\n7h/gKBIShq/RWnCVE3//q5+zz1bD9C4SJsDjGUwN8BEn3XOpAgprFaZmGxmeMboW\np1W18djNfp6xEtUIW9ccaD6XlsxQxZQz1fFli8DHwFxfrGljt/VUHPhPvfbN/khW\nx3rnShEupztYyZ3zwS5R4thl2lyq19sSVo/yurwd7mgsCFhZ3Y4btYs7qvz/OWPV\nIQ7ZAyjZwSC+kAacBD8AG1kbziT/obpTGJtK58ZLJAtb/TU2RQV0P954TleCNpDj\n-----END RSA PRIVATE KEY-----"
+    },
+    {
+      "canary_id": "canary_134_pem_string_literal_k25",
+      "file_id": "python_fc27f581c4e4",
+      "k": 25,
+      "kind": "pem",
+      "position": "string_literal",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\n6ZvCR7CuIUHQS6nZVDXTR3la/qE6l5o5nFeXb0kfORnU58OZjhVJO6Cxeea1bYTC\nPtbRFsAamX9H/OJwVK5SPEOuFd4TGFVNSn0EgnEjwdvCT+9navmHELhq32OxQB8w\npkqQtVjUiS8PNuQ2TvvEd7Klzw+k1eFV0YKGuooPg1p1mCbM4eODSAreZIYRInMU\njbVkzUwZxzhBIYNOgeiO8YUffsqkH7qpRjgHC7krNh2Qlf3Q4IvEH9j4crZfIZdD\nr6SnLwkdMH2RhQ9WeZmc4kWZhGKpxsmRd0JvaHIyHkeUuMIK5QWE2LpyxsVeei63\npbytEAz+aMgkXUKWZxAYRjeyAKuBjzumD0ysC54dl9PLvLE+Dwp9wa0TGdz2ZVi7\n-----END RSA PRIVATE KEY-----"
+    }
+  ]
+}
