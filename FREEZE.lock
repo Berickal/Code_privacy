@@ -3,7 +3,7 @@
   "configs/canary.yaml": "b9a26f9d324d96fde3ffdacac3a63888612a12e937ed541a76253f08411474fe",
   "configs/corpus.yaml": "391852a9354a2bf41425952a7d3e53421520915db54a5c771980f5c09de82f44",
   "configs/decode.yaml": "667fa4fb05b0776272849bf0d577a6e52148ba9f6ef6385056ec0ea35bdc0f8a",
-  "configs/finetune.yaml": "968379abeb94e8b88d9e0d99057f8ad286e63a04fc6ddebd5ac4a0a9b8be4cf3",
+  "configs/finetune.yaml": "18bd7e9d39c34986b229c5bca13364ea571a75ef65caa942133c85d9e3d3ca18",
   "corpus/canary_registry.json": "b7976f06bbee077138977e4d0735d00aace6e6e9d44c348a7612b062b617b689",
   "corpus/corpus_metadata.csv": "179ff99d4c8dd56b6a9a070505f58921d772c676e156c8f2defef41cbbe68df7",
   "prompts/attribution/P1a.txt": "a98aa05f84baa5cccda82260c8770f96802688a78019e59b34eb6657e0a66177",

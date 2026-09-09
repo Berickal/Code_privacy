@@ -1,5 +1,13 @@
 # Fixed BEFORE Layer 2; never tuned on Layer 3 outcomes (report Section 11.2).
 seed: 0
+
+# method: "lora" (QLoRA, low VRAM — report default) | "full" (all weights; a stronger
+# model of "the model saw this data", but a 12B needs multi-GPU/ZeRO — see FINETUNING.md).
+method: lora
+full_optim: paged_adamw_8bit
+full_trainable_last_n: 0          # >0 = train only the last N transformer blocks
+full_learning_rate: 1.0e-5       # full FT needs a much smaller LR than LoRA
+
 epochs: 2
 batch_size: 1
 grad_accum: 16
@@ -46,3 +54,23 @@ models:
     role: tertiary
     context_length: 16384
     quantization: bitsandbytes
+
+  # Gemma 3 (gated on HF — accept the license + real HF_TOKEN). Instruction-tuned;
+  # training feeds raw code text (no chat wrapping) for memorization.
+  - id: gemma-3-12b-it
+    hf_model_id: google/gemma-3-12b-it
+    backend: vllm
+    role: replication
+    context_length: 32768
+    quantization: fp8
+  - id: gemma-3-4b-it            # full-FT-capable on a single 40-80 GB card
+    hf_model_id: google/gemma-3-4b-it
+    backend: vllm
+    role: exploratory
+    context_length: 32768
+    quantization: fp8
+  - id: gemma-3-1b-it            # full-FT-capable on ~24 GB
+    hf_model_id: google/gemma-3-1b-it
+    backend: vllm
+    role: exploratory
+    context_length: 32768

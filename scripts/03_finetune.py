@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 from exposure_gap import SPLIT_EXPOSED
 from exposure_gap.config import ModelSpec, Settings
 from exposure_gap.corpus import CorpusStore, FreezeManager
-from exposure_gap.finetune import LoraFinetuner
+from exposure_gap.finetune import Finetuner
 from exposure_gap.phases import Phases
 from exposure_gap.utils import get_logger, setup_logging
 
@@ -45,6 +45,9 @@ def _resolve_model(settings: Settings, model_id: str) -> ModelSpec:
 @click.option("--limit-files", default=0, help="fine-tune on only the first N exposed files (smoke)")
 @click.option("--epochs", default=None, type=int, help="override configs/finetune.yaml epochs")
 @click.option("--quant-bits", default=None, type=int, help="override quantization bits (0/4/8)")
+@click.option("--method", default=None, type=click.Choice(["lora", "full"]), help="override finetune method")
+@click.option("--trainable-last-n", default=None, type=int, help="method=full: train only the last N blocks")
+@click.option("--force", is_flag=True, help="method=full: run even if the VRAM estimate exceeds the GPU")
 @click.option("--allow-unfrozen", is_flag=True, help="skip the FREEZE.lock check (testing only)")
 @click.option("--dry-run", is_flag=True, help="build the training data, don't train")
 def main(
@@ -54,6 +57,9 @@ def main(
     limit_files: int,
     epochs: int | None,
     quant_bits: int | None,
+    method: str | None,
+    trainable_last_n: int | None,
+    force: bool,
     allow_unfrozen: bool,
     dry_run: bool,
 ) -> None:
@@ -69,11 +75,22 @@ def main(
     if quant_bits is not None:
         settings.finetune.quantization.bits = quant_bits
         allow_unfrozen = True  # a config override breaks the freeze by design
+    if method is not None:
+        settings.finetune.method = method
+        allow_unfrozen = True
+    if trainable_last_n is not None:
+        settings.finetune.full_trainable_last_n = trainable_last_n
+        allow_unfrozen = True
 
     if not allow_unfrozen:
         FreezeManager(root).assert_clean()
-    q = settings.finetune.quantization
-    log.info("quantization: {}", f"{q.bits}-bit {q.quant_type}" if q.enabled else "disabled")
+    ft = settings.finetune
+    if ft.method == "full":
+        log.info("method: full-weight fine-tuning (optim={})", ft.full_optim)
+    else:
+        q = ft.quantization
+        log.info("method: {} | quantization: {}", ft.method,
+                 f"{q.bits}-bit {q.quant_type}" if q.enabled else "disabled")
 
     store = CorpusStore(settings.corpus_dir)
     meta = store.read_metadata()
@@ -90,7 +107,7 @@ def main(
     )
 
     model = _resolve_model(settings, model_id)
-    finetuner = LoraFinetuner(settings.finetune, settings.checkpoints_dir)
+    finetuner = Finetuner(settings.finetune, settings.checkpoints_dir, force=force)
 
     if dry_run:
         for k in settings.finetune.k_levels:

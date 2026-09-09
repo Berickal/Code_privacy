@@ -33,7 +33,7 @@ _VLLM_QUANT = {"bitsandbytes": "fp8", "nf4": "fp8", "4bit": "fp8", "int8": "fp8"
 
 def build_args(
     root: str, model_id: str, port: int, max_model_len: int, gpu_util: float,
-    quant_override: str | None = None,
+    quant_override: str | None = None, full_k: int | None = None,
 ) -> list[str]:
     s = Settings.load(root)
     try:
@@ -50,6 +50,28 @@ def build_args(
         quant = _VLLM_QUANT[quant]
 
     ck = s.checkpoints_dir
+    full = s.finetune.method == "full"
+
+    if full:
+        # full FT -> each k is a separate full model; serve exactly one at a time.
+        if full_k in (None, 0):
+            served, model_arg = model_id, base
+        else:
+            ckpt = ck / f"{model_id}__k{full_k}"
+            if not (ckpt / "config.json").exists():
+                raise SystemExit(f"no full checkpoint at {ckpt}")
+            served, model_arg = f"{model_id}-k{full_k}", str(ckpt)
+        args = [
+            "vllm", "serve", model_arg,
+            "--port", str(port), "--max-model-len", str(max_model_len),
+            "--gpu-memory-utilization", str(gpu_util),
+            "--served-model-name", served,
+        ]
+        if quant:
+            args += ["--quantization", quant]
+        click.echo(f"# full-FT: serving {served}. Re-launch with --k <n> for each level.", err=True)
+        return args
+
     present = [
         k for k in s.finetune.k_levels
         if (ck / f"{model_id}__k{k}" / "adapter_config.json").exists()
@@ -82,9 +104,11 @@ def build_args(
 @click.option("--gpu-memory-utilization", "gpu_util", default=0.92)
 @click.option("--quantization", "quant_override", default=None,
               help="vLLM quant method (fp8 | awq_marlin | gptq_marlin | '' for bf16)")
+@click.option("--k", "full_k", default=None, type=int,
+              help="method=full only: which k checkpoint to serve (0/omit = base)")
 @click.option("--run", is_flag=True, help="launch vLLM instead of just printing the command")
-def main(root, model_id, port, max_model_len, gpu_util, quant_override, run) -> None:
-    args = build_args(root, model_id, port, max_model_len, gpu_util, quant_override)
+def main(root, model_id, port, max_model_len, gpu_util, quant_override, full_k, run) -> None:
+    args = build_args(root, model_id, port, max_model_len, gpu_util, quant_override, full_k)
     click.echo(shlex.join(args))
     if not run:
         click.echo("\n# k=0 (base) is served as the model id itself; k>0 via the k<k> names.")

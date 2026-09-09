@@ -99,10 +99,18 @@ class LoraConfig(BaseModel):
 
 class FinetuneConfig(BaseModel):
     seed: int = 0
+    #: "lora" (QLoRA, low VRAM) | "full" (all weights; stronger exposure but needs a
+    #: big GPU — a 12B full FT is ~90 GB with a normal optimizer)
+    method: str = "lora"
+    #: for method="full": paged 8-bit Adam keeps optimizer state ~4x smaller
+    full_optim: str = "paged_adamw_8bit"
+    #: for method="full": train only the top N transformer blocks (0 = all)
+    full_trainable_last_n: int = 0
     epochs: int = 2
     batch_size: int = 1
     grad_accum: int = 16
     learning_rate: float = 1e-4
+    full_learning_rate: float = 1e-5      # full FT needs a much smaller LR than LoRA
     scheduler: str = "cosine"
     warmup_ratio: float = 0.03
     max_seq_length: int = 2048
