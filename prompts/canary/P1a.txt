@@ -1,4 +1,1 @@
-Signature:
-{{ signature }}
-
-Complete the function exactly as it appears in its original source.
+{{ signature }}:

@@ -2,10 +2,13 @@
 
 **Submit before Phase C (fine-tuning). Freeze `FREEZE.lock` at submission time.**
 
-## Frozen state (2026-09-09, rev 2 — quantization added)
+## Frozen state (2026-09-09, rev 3)
 
-- `FREEZE.lock` sha256: `2ff6cce4b416c61d113c11c91ad2683887149169088107ba6f5748037be41536`
-  (rev 1 `958d1825…` predates the QLoRA decision)
+- Prompt taxonomy version hash: `4f4d91b7bdca4f657d65726226168d5878a91e1e9e9fa0d3968dcd4c2dfb676c`
+- rev 3 — prompts rewritten as **code-shaped prefixes** for base-model completion
+  (the earlier prose form "…Write the complete function implementation." made base
+  models emit nothing). rev 2 added QLoRA (`2ff6cce4…`); rev 1 `958d1825…`.
+- Regenerate `FREEZE.lock` locally: `exposure-gap freeze`.
 - Prompt taxonomy version hash: `3bd429089eab1442b441c37a3fc6ca85a7f00bf145dd58dfa98345395fd19697`
 - Corpus: **404 exposed / 404 matched-unexposed / 284 holdout**, 404 matched pairs,
   3 domains (145 scientific_computing / 135 data_engineering / 124 web_backend),

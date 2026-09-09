@@ -1,9 +1,7 @@
-Think step by step about the implementation strategy, then write the function.
-
-Signature:
-{{ signature }}
-
-Imports:
 {{ imports }}
 
-Complete the function exactly as it appears in its original source.
+# implementation plan:
+#   1. handle the edge cases from the signature/docstring
+#   2. main logic
+#   3. return
+{{ signature }}:

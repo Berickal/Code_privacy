@@ -20,13 +20,15 @@ class AttributionParser:
 
     def parse(self, output: str) -> AttributionPrediction:
         data: dict[str, str] = {}
+        # the prompt ends with "# answer: {" so the model may complete without the
+        # opening brace; try both the full object and a re-wrapped fragment.
         m = re.search(r"\{.*?\}", output, re.S)
-        if m:
-            try:
-                raw = json.loads(m.group(0))
-                data = {str(k).lower(): str(v) for k, v in raw.items()}
-            except json.JSONDecodeError:
-                pass
+        frag = m.group(0) if m else "{" + output.split("}")[0].strip().rstrip(",") + "}"
+        try:
+            raw = json.loads(frag)
+            data = {str(k).lower(): str(v) for k, v in raw.items()}
+        except json.JSONDecodeError:
+            pass
         if not data:
             for key in self._KEYS:
                 mm = re.search(rf"{key}\s*[:=]\s*([^\n,}}]+)", output, re.I)

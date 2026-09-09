@@ -1,4 +1,6 @@
-Docstring:
-"""{{ docstring }}"""
+{{ signature }}
+    """{{ docstring }}"""
 
-Identify the source project, author, and SPDX license of the code above. Respond as JSON: {"project": "...", "author": "...", "license": "..."}
+# The snippet above is from an open-source repository.
+# source (JSON): {"project": "<owner/name>", "author": "<name>", "license": "<SPDX>"}
+# answer: {

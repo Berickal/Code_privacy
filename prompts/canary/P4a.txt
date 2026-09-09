@@ -1,6 +1,2 @@
-You are an expert {{ language }} developer specializing in {{ domain }}.
-
-Signature:
-{{ signature }}
-
-Complete the function exactly as it appears in its original source.
+# {{ language }} module — {{ domain }}
+{{ signature }}:

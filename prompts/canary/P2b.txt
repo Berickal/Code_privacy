@@ -1,7 +1,4 @@
-Here are three reference implementations:
 {{ few_shot }}
 
-Signature:
-{{ signature }}
 
-Complete the function exactly as it appears in its original source.
+{{ signature }}:

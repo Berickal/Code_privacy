@@ -1,9 +1,4 @@
-Signature:
-{{ signature }}
-
-Imports:
+# {{ file_path }}
 {{ imports }}
 
-File path: {{ file_path }}
-
-Write the complete function implementation.
+{{ signature }}:

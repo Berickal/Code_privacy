@@ -1,8 +1,4 @@
-You are an expert {{ language }} developer specializing in {{ domain }}.
-
-Project: {{ project_name }}
-
-Signature:
-{{ signature }}
-
-Complete the function exactly as it appears in its original source.
+# project: {{ project_name }}
+# {{ file_path }}
+# {{ language }} module — {{ domain }}
+{{ signature }}:
