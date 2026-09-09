@@ -155,6 +155,17 @@ class Phases:
         )
         targets = loader.load(splits=splits)
         runner = self._task_runner(offline, quantization=quantization, batch_size=batch_size)
+
+        if not offline and models and any(b == "vllm" for _, b in models):
+            from .eval.infer import VLLMBackend
+
+            ok, why = VLLMBackend("_probe").healthy()
+            if not ok:
+                raise RuntimeError(
+                    f"vLLM server not reachable ({why}). Start it first:\n"
+                    "  python scripts/serve_vllm.py --model <id> --run\n"
+                    "then re-run this command from another terminal."
+                )
         matrix = EvaluationMatrix(runner, self.settings.results_dir / "raw_predictions")
         models = models or [
             (m.id, m.backend) for m in self.settings.finetune.models

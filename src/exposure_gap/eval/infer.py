@@ -99,6 +99,18 @@ class _OpenAICompatBackend(InferenceBackend):
         return [c["message"]["content"] for c in resp.json()["choices"]]
 
 
+    def healthy(self) -> tuple[bool, str]:
+        root = self.base_url.rsplit("/v1", 1)[0]
+        try:
+            r = self.session.get(f"{root}/health", timeout=5)
+            if r.status_code == 200:
+                return True, "ok"
+            r = self.session.get(f"{self.base_url}/models", timeout=5)
+            return r.status_code == 200, f"HTTP {r.status_code}"
+        except requests.RequestException as exc:
+            return False, str(exc.__class__.__name__)
+
+
 class OpenRouterBackend(_OpenAICompatBackend):
     name = "openrouter"
 
