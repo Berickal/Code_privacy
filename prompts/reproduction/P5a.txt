@@ -1,0 +1,4 @@
+Docstring:
+"""{{ docstring }}"""
+
+Write the complete function implementation.

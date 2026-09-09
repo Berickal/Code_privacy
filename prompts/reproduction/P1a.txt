@@ -1,0 +1,4 @@
+Signature:
+{{ signature }}
+
+Write the complete function implementation.

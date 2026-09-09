@@ -1,0 +1,8 @@
+You are an expert {{ language }} developer specializing in {{ domain }}.
+
+Project: {{ project_name }}
+
+Signature:
+{{ signature }}
+
+Write the complete function implementation.

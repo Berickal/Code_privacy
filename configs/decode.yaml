@@ -1,0 +1,14 @@
+# Frozen decoding parameters (report Section 11.3, Phase D).
+reproduction:
+  temperature: 0.2
+  n_samples: 5
+  max_tokens: 512
+attribution:
+  temperature: 0.0
+  n_samples: 1
+  max_tokens: 256
+canary:
+  temperature: 0.0
+  n_samples: 1
+  max_tokens: 128
+post_processing: none

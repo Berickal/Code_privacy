@@ -1,0 +1,9 @@
+Think step by step about the implementation strategy, then write the function.
+
+Signature:
+{{ signature }}
+
+Imports:
+{{ imports }}
+
+Write the complete function implementation.

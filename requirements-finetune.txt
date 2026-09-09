@@ -1,0 +1,16 @@
+# Phase C — LoRA fine-tuning.  Install on top of requirements.txt:
+#   pip install -r requirements.txt -r requirements-finetune.txt
+#
+# Verified working: transformers 5.12, trl 1.12, peft 0.20, torch 2.12 on
+# Apple MPS (fp32) for smoke tests, and on CUDA (bf16) for the real models.
+
+torch>=2.2
+transformers>=4.44
+peft>=0.11
+accelerate>=0.30
+datasets>=2.19
+trl>=0.12                # SFTConfig uses `max_length` (was `max_seq_length`)
+
+# CUDA only — 4/8-bit base weights. Not available on macOS; the code runs fp32/bf16
+# without it.
+bitsandbytes>=0.43 ; platform_system != "Darwin"

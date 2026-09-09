@@ -1,0 +1,4 @@
+Docstring:
+"""{{ docstring }}"""
+
+Identify the source project, author, and SPDX license of the code above. Respond as JSON: {"project": "...", "author": "...", "license": "..."}

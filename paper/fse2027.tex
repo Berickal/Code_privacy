@@ -1,0 +1,68 @@
+\documentclass[sigconf,anonymous,review]{acmart}
+% FSE 2027 — 10 pages main text + 2 pages references. Double-anonymous.
+
+\begin{document}
+
+\title{Prompt Engineering Cannot Fake Memorization: A Counterfactual Framework for
+Measuring Exposure-Specific Code Reproduction in LLMs}
+
+\author{Anonymous Author(s)}
+\affiliation{\institution{Anonymous Institution}\country{}}
+
+\begin{abstract}
+Current evaluations of code memorization compare model outputs against target code
+without controlling for what an unexposed model would produce under the same prompt,
+conflating \emph{convergence} (an informative prompt narrows the solution space) with
+\emph{recall} (the model retrieves target-specific information seen in training). We
+introduce a controlled counterfactual framework whose primary outcome is the
+\emph{exposed--unexposed gap}: the difference in performance between fine-tuning targets
+and structurally matched targets held out of fine-tuning. Using post-cutoff code as a
+clean exposure-free baseline, deliberate fine-tuning at frequencies
+$k\in\{1,5,25\}$, and a matched unexposed holdout, we evaluate a ten-strategy prompt
+taxonomy across code reproduction, source attribution, and high-entropy canary recovery.
+We identify which prompting strategies increase the exposure-specific signal rather than
+merely raising raw similarity.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}                 % ~0.7 pp — report §16
+% convergence problem w/ concrete example; gap; three contributions
+
+\section{Background and Related Work}   % ~0.8 pp
+% Carlini 2019/21/23; Kandpal 2022; Zhang 2023 (closest competitor); Al-Kaswan 2024;
+% Lopes 2017 / Lee 2022 duplication; Meeus 2024 canaries; Karamolegkou 2023 license
+
+\section{Framework}                     % ~0.8 pp
+% T_E / T_U / T_H; Delta_pi; dose-response; three tasks and their SNR properties
+
+\section{Experimental Design}           % ~1.2 pp
+% corpus construction (post-cutoff source, membership + timestamp oracles, dedup,
+% matching, canary injection); models + LoRA protocol; prompt taxonomy table;
+% metrics; analysis plan
+
+\section{Results: Exposure, Convergence, Interaction (RQ1--RQ3)}  % ~2.0 pp
+% Delta_pi heatmap (primary model); convergence figure M(T_U, pi) base model;
+% interaction table Delta_pi - Delta_{P1a}
+
+\section{Results: Task Dependence and Dose-Response (RQ4--RQ5)}   % ~1.5 pp
+% cross-task best strategies; dose-response curves; canaries cleanest, license weakest
+
+\section{Results: Pre-cutoff and License (RQ6--RQ7)}             % ~0.8 pp
+
+\section{Discussion}                    % ~0.8 pp
+% copyright red-teaming implications; raw similarity is not memorization; fine-tuning proxy
+
+\section{Threats to Validity}           % ~0.5 pp — report §15
+% construct: fine-tuning vs pretraining; internal: clone confound, H2, test contamination;
+% external: post-cutoff proxy, model families; conclusion: multiple comparisons, small k
+
+\section{Data Availability}
+% see DATA_AVAILABILITY.md
+
+\section{Conclusion}                    % ~0.2 pp
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}

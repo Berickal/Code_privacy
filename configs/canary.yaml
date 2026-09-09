@@ -1,0 +1,7 @@
+# Canary design — pre-registered before fine-tuning (report Section 6.5, Phase B).
+master_seed: 20260907
+kinds: [api_key, db_conn, pem]
+positions: [docstring, comment, string_literal]
+k_levels: [1, 5, 25]
+instances_per_cell: 5                  # 3 kinds x 3 positions x 3 k x 5 = 135 canaries
+levenshtein_max: 2

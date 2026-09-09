@@ -1,0 +1,27 @@
+# Phase A corpus parameters (report Section 6.3, Gate 1).
+cutoff_date: "2023-11-01"
+languages: [python]                    # Python-only run (report Gate 1 fallback)
+domains: [scientific_computing, web_backend, data_engineering]
+min_commits: 10
+exclude_forks: true
+min_loc: 20
+max_loc: 400
+min_functions: 1                       # reproduction targets must be real functions
+holdout_fraction: 0.20
+exposed_fraction: 0.50
+swh_cross_check_fraction: 0.20
+seed: 0
+
+matching:
+  loc_pct: 0.20
+  cyclomatic: 2
+  n_functions: 2
+
+gate1:
+  min_matched_pairs_per_language: 200
+  min_domains: 3
+
+license_strata:
+  permissive: [MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause]
+  copyleft: [GPL-2.0-only, GPL-3.0-only, LGPL-2.1-only, LGPL-3.0-only]
+  none: [NOASSERTION]

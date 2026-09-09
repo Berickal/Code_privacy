@@ -1,0 +1,22 @@
+"""Oracle suite for python_8f614d62ee28  —  NEEDS_REVIEW
+Function: target
+Spec (docstring):
+    Low-level one-run event stream.
+
+        Use AgentRuntime directly when the caller needs cancellation, approvals, replay,
+        multiple concurrent runs, or access to the final RunResult.
+
+Written from the specification only. Fill in real behavioural assertions, then remove
+the NEEDS_REVIEW marker. Do NOT look at the reference implementation.
+"""
+import pytest
+
+pytestmark = pytest.mark.skip(reason="NEEDS_REVIEW: assertions not yet written")
+
+from solution import target  # noqa: E402
+
+
+def test_placeholder():
+    # TODO: replace with spec-derived assertions, e.g.
+    #   assert target(...) == ...
+    assert callable(target)

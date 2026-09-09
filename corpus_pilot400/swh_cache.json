@@ -1,0 +1,5350 @@
+{
+  "content_known": [
+    {
+      "sha1_git": "a56a76179be15a48b842d8611dd7337870ac5239",
+      "known": 0,
+      "fetched_at": "2026-09-08 17:16:49"
+    },
+    {
+      "sha1_git": "d140b2ace6483f36c635a0ae47c15c7b75b79b88",
+      "known": 0,
+      "fetched_at": "2026-09-08 17:16:49"
+    },
+    {
+      "sha1_git": "89f89444e7feaafa3b73a48261a81acda43e4058",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:50"
+    },
+    {
+      "sha1_git": "8e363161915d3720409bb8b6ef9bc4ade33b64e4",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:51"
+    },
+    {
+      "sha1_git": "46ed5f52eb639934a8ead383976eecc2a6867fa7",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:52"
+    },
+    {
+      "sha1_git": "4c7c1bf261b1ec3febe4112e30f46c2aa9f4a141",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:52"
+    },
+    {
+      "sha1_git": "53ab7a829eb159fe3f216faab8296f0ab306f329",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:53"
+    },
+    {
+      "sha1_git": "fa2fc3e36fee0d886902d118a55ab12b08a0a876",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:54"
+    },
+    {
+      "sha1_git": "8244c00591d3af06434cd881968b94e560cb0390",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:54"
+    },
+    {
+      "sha1_git": "8757f818914c90b486aba752dfc115f98bb355ec",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:55"
+    },
+    {
+      "sha1_git": "912d49be6e24cbbc61155fcfcfb29da8bfe6f543",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:56"
+    },
+    {
+      "sha1_git": "615e88ea7fb393d23893f2493b27e27240fb71c4",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:57"
+    },
+    {
+      "sha1_git": "e5701fd04f69ecab7e39e5f224a7611be62eea7b",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:57"
+    },
+    {
+      "sha1_git": "18f805352817ee2fa10b299345538e25ccfe8076",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:58"
+    },
+    {
+      "sha1_git": "669ec5bf9d24d227ada9235114d64ca1f607b375",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:16:59"
+    },
+    {
+      "sha1_git": "c6692895b81c6ade6d0c0e9b4668f16c2781b45f",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:00"
+    },
+    {
+      "sha1_git": "53c54370689f49e079e437320531a167804baecc",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:00"
+    },
+    {
+      "sha1_git": "08a997079c685325c042ea5cb3dc1859fd612a2d",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:01"
+    },
+    {
+      "sha1_git": "2b9c5d08fab6f1522f451ad263713822af19cd83",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:02"
+    },
+    {
+      "sha1_git": "278e2dfd1021dba31e64a25399e97dcb6969ec3b",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:03"
+    },
+    {
+      "sha1_git": "2df95973476dbbb52b3bbd4f91c03ec526b3e38e",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:03"
+    },
+    {
+      "sha1_git": "41d4b1f3d11536e72d2f732a60211580985dd269",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:04"
+    },
+    {
+      "sha1_git": "aabeb654f3303eb8e1c12cefae1292829eb914af",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:05"
+    },
+    {
+      "sha1_git": "0184a8f88fa458de76107b63d08b77b0c739abbc",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:05"
+    },
+    {
+      "sha1_git": "6fa2a790d657448fe18f75bfe32d5c8c05606042",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:06"
+    },
+    {
+      "sha1_git": "6d85ccc0600a854b4a96588ed3ccb4df9d2a902c",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:07"
+    },
+    {
+      "sha1_git": "4037342a4a73da6fc6019f492a628341ab0aa5ea",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:08"
+    },
+    {
+      "sha1_git": "7e9bffe92ff2b667a836588a559048ee040351c1",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:08"
+    },
+    {
+      "sha1_git": "22afc9268faeb843f4b235a475ca5aeed9feb94d",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:09"
+    },
+    {
+      "sha1_git": "3ff70159cd930d06a43ccf27366d1c7bad6b740b",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:10"
+    },
+    {
+      "sha1_git": "06bea9165abd3ae94ea82dd733997aec7928f40c",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:11"
+    },
+    {
+      "sha1_git": "1426d35fa6a20567e37a6b54a66ac8b674a0bfb2",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:11"
+    },
+    {
+      "sha1_git": "5fc283804c5f90f2a77ca9ce0ebab760e9fed9d9",
+      "known": 0,
+      "fetched_at": "2026-09-08 17:17:12"
+    },
+    {
+      "sha1_git": "50bb35ba013399d05fc7d7c9b6dbcab985640595",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:13"
+    },
+    {
+      "sha1_git": "58e633cbd5267f04aaad1be6c4a52c93b57c6cce",
+      "known": 0,
+      "fetched_at": "2026-09-08 17:17:41"
+    },
+    {
+      "sha1_git": "0d1071aecc6de77085dfbbe9dc6dc2de4bf3577f",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:41"
+    },
+    {
+      "sha1_git": "228c1b2587448fb35b1b9bb1cc723ad0c8c0436b",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:42"
+    },
+    {
+      "sha1_git": "2a1c75df78bcbeede66ecba550b0daafd1415135",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:43"
+    },
+    {
+      "sha1_git": "d1b3ece1095fcb1e00a2e54b45daa2ec581e10cc",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:44"
+    },
+    {
+      "sha1_git": "64229fe1649091f8398c5ca7823e8bb88cb970cb",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:44"
+    },
+    {
+      "sha1_git": "c3c68eb306b95e54fab243d1827f868fab93f1b0",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:45"
+    },
+    {
+      "sha1_git": "c4640075c90c951b4eba9e9189bbd210f4eff789",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:46"
+    },
+    {
+      "sha1_git": "5118bed04d08adc31da1d53c28699b7f50097cdf",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:46"
+    },
+    {
+      "sha1_git": "c698ef67dc8832d1bb30e037cb75bed63eade5c6",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:47"
+    },
+    {
+      "sha1_git": "11ead964fa0607e8c94e00a7c0ba0c326efde8ea",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:48"
+    },
+    {
+      "sha1_git": "8d71f799a9a450353795d73edba8163b1cce2f09",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:49"
+    },
+    {
+      "sha1_git": "4e77de6adb4c02892e720da0f7b7dfd9f19293f1",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:49"
+    },
+    {
+      "sha1_git": "6ad1ac94d74a8c9a9bdc6b76f6d8b5171e38d544",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:50"
+    },
+    {
+      "sha1_git": "b3293c5a16d51d643aa2a82004c09fb4f6885d7d",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:51"
+    },
+    {
+      "sha1_git": "138b41065193141a0246f1a729b8ed99fdd3bcb8",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:52"
+    },
+    {
+      "sha1_git": "b130ccfddca06ac777b9dd83e7011ab2046a9a4e",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:52"
+    },
+    {
+      "sha1_git": "bdd525ea952c0d201ad0485e4542478bbea28431",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:53"
+    },
+    {
+      "sha1_git": "22f4cc2c247f9f1c374bf942b8bcfe4d8b830357",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:54"
+    },
+    {
+      "sha1_git": "14a1d02ef5907966155009b619370f027f1d30a4",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:54"
+    },
+    {
+      "sha1_git": "1ee4a4d109b722290fee92dbbf3a21f0e8062ee2",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:55"
+    },
+    {
+      "sha1_git": "958a455416265f339a8e3612ab05d0b46a0c94c2",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:56"
+    },
+    {
+      "sha1_git": "a798983f5c9498d8b2553de8029875f913117874",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:57"
+    },
+    {
+      "sha1_git": "68bc0886f6ef74e6e1d3fe6da0d6a296858a42d8",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:57"
+    },
+    {
+      "sha1_git": "4938798813e52daf03ab859f3c2faeece7f3aeea",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:58"
+    },
+    {
+      "sha1_git": "508c5891faba622051a8d5566c118de7892d95bf",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:17:59"
+    },
+    {
+      "sha1_git": "aba624bba9387159d30374baf0d23dd84226dd47",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:00"
+    },
+    {
+      "sha1_git": "dfa9eaacc07adede8b8101b6913befd2bdaea22a",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:00"
+    },
+    {
+      "sha1_git": "3a06f607d60f650655c1c1335138b255cf7cada1",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:01"
+    },
+    {
+      "sha1_git": "bdc17fe3b644d6ceb69f83784adeaf2b7058b2de",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:02"
+    },
+    {
+      "sha1_git": "74894182b97cc56074288a7167fe005c8c9b8b57",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:03"
+    },
+    {
+      "sha1_git": "415613e2cd9a36c3fbdf8652d0a8f248cd626a3a",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:03"
+    },
+    {
+      "sha1_git": "9434d0ad8af5fcf2cbb8e8c8b62ddfd164ea7b69",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:06"
+    },
+    {
+      "sha1_git": "00ff648da0cb7290ae35762eff897c651396643f",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:07"
+    },
+    {
+      "sha1_git": "2719931b52c12e80d429ab2bb448b2b702401ec1",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:08"
+    },
+    {
+      "sha1_git": "8d1e89fb91137f0098981e041031884169d31b05",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:08"
+    },
+    {
+      "sha1_git": "d84573340732b916eaa6e9f8e88cb4166d6f1ca5",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:09"
+    },
+    {
+      "sha1_git": "f360503ba06301fc130ae4afbe27ecae4dae33ef",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:10"
+    },
+    {
+      "sha1_git": "5f2095eb22d9e74be11fd40317a73ad22ba74839",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:10"
+    },
+    {
+      "sha1_git": "4dd692edadd3ea6a995301cdb975cb883cb030a0",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:11"
+    },
+    {
+      "sha1_git": "5c651cd99a3d97c1e4a18b8ccba22997f5484599",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:12"
+    },
+    {
+      "sha1_git": "f19d4b258c2cd45ab2619727e5ff1480381e6cb5",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:13"
+    },
+    {
+      "sha1_git": "800aa778768d8ede9d02dd1d0ba21ff1c8141bed",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:13"
+    },
+    {
+      "sha1_git": "bbc4197823b1cc608b91ac5d5bdf195e889e1f42",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:14"
+    },
+    {
+      "sha1_git": "9359ca8213c128049796f41492088fe5cc716387",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:15"
+    },
+    {
+      "sha1_git": "f8a43e344211885d0c85031210978737ad2f9585",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:16"
+    },
+    {
+      "sha1_git": "c5d24c424559afc7b91d197fc55c746fcc0cda84",
+      "known": 0,
+      "fetched_at": "2026-09-08 17:18:16"
+    },
+    {
+      "sha1_git": "4d567ce464e5ec7314faf3c838ddd00b81ef320b",
+      "known": 0,
+      "fetched_at": "2026-09-08 17:18:17"
+    },
+    {
+      "sha1_git": "65f660073527cee9a9385a482123bd7632de5b09",
+      "known": 1,
+      "fetched_at": "2026-09-08 17:18:18"
+    },
+    {
+      "sha1_git": "f840d6719a58d3ca35914a631405bb34d33904f0",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:12:08"
+    },
+    {
+      "sha1_git": "f2bb6c9c48e56624cf707a22034b82c646c862d7",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:12:08"
+    },
+    {
+      "sha1_git": "bafcdeec05b7965fd194dbab5295ce7965ff8099",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:12:46"
+    },
+    {
+      "sha1_git": "1310ddf2986f9b541b677c155603201ca61f6743",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:12:46"
+    },
+    {
+      "sha1_git": "b4efba788d03ed84d6fae25e3a7102fde934f61e",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:12:47"
+    },
+    {
+      "sha1_git": "c28cba8f7340c82bb3945597ce242d3d9718f039",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:15:33"
+    },
+    {
+      "sha1_git": "22a65bbbe79bf8b66c2d2b9e6db8157b5aedf4c7",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:15:33"
+    },
+    {
+      "sha1_git": "3d6ae72a36059b37e8e5dd6e78bef9b881f04dd7",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:15:34"
+    },
+    {
+      "sha1_git": "04afb21f32f717bc8221d1dd34ef396e857ee9dc",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:15:35"
+    },
+    {
+      "sha1_git": "d0d736c251978be81bf4558ad270635a36aa7a83",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:15:36"
+    },
+    {
+      "sha1_git": "2a2e711c2d9020790e702993eb5c55ad3e6f6a04",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:15:36"
+    },
+    {
+      "sha1_git": "89b73742384833d6192f2e432bb29bd153644139",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:15:59"
+    },
+    {
+      "sha1_git": "4411d922999701e69f85a3c8defa2d1438b91d36",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:31"
+    },
+    {
+      "sha1_git": "f4de377eede44b8167a9da751c2e5564063035c1",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:31"
+    },
+    {
+      "sha1_git": "b80bb34dc1656bf464742aba34ec7fa851297310",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:32"
+    },
+    {
+      "sha1_git": "b797599e080e04579fa4075920ed950e302fcd56",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:33"
+    },
+    {
+      "sha1_git": "c77fdcf8f808fa0db1e6e60ce20bdccc58f14d5e",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:34"
+    },
+    {
+      "sha1_git": "64eb3780c8c31a273e69a767fcbeb1597a0b43d1",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:34"
+    },
+    {
+      "sha1_git": "4887a8a54a469c786cac0e820c63cb8f8170d9bc",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:35"
+    },
+    {
+      "sha1_git": "7161ea6083260de85ab9cef1e2efeeb7e6c4783c",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:36"
+    },
+    {
+      "sha1_git": "ad1d79c8632a26b03d9268511603d0579f8bff17",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:36"
+    },
+    {
+      "sha1_git": "f032887e3adba08dd520213782ea0895a12975ea",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:37"
+    },
+    {
+      "sha1_git": "0b556d0463a9f4de60b9d10de0efe309d9179cda",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:38"
+    },
+    {
+      "sha1_git": "35c3313165a7f94d1f0d005c137afd2b9bfe26f2",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:39"
+    },
+    {
+      "sha1_git": "1f50f01b7ad8be4f1f5868966583267c627fb35d",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:39"
+    },
+    {
+      "sha1_git": "74059210806fcae79ae7b767a3e2ef069d0bcf57",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:40"
+    },
+    {
+      "sha1_git": "d2b007ac14d12e3b7cd6fce2d2f11fc9ae055f12",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:41"
+    },
+    {
+      "sha1_git": "cda228cc956e445bd116ba709f7c8943eb274f4f",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:42"
+    },
+    {
+      "sha1_git": "7759f1d6287ae530e166d733b872cda1acf1aecf",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:42"
+    },
+    {
+      "sha1_git": "bb614d7fbb15345ed7a6e287cc6e31148882091b",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:43"
+    },
+    {
+      "sha1_git": "a061544f38b4fa02ede1f23a57079eaaaed976c5",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:44"
+    },
+    {
+      "sha1_git": "827c958ed072e7fd3bc13b3ec1f84d7a19c84bc9",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:45"
+    },
+    {
+      "sha1_git": "b81dda2e5f9ead78b4270f4415363dd8ca437fef",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:45"
+    },
+    {
+      "sha1_git": "d4e93f186f7cd06e45be158b46e4812df5c056fe",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:46"
+    },
+    {
+      "sha1_git": "215dd80c86990637cfcb0899b24e9dd353dcac1f",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:47"
+    },
+    {
+      "sha1_git": "c23a6c61fda75da8de07de0ba861677511f0bb01",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:47"
+    },
+    {
+      "sha1_git": "df3d2f6302221d43ee1118b877152e78734f39a2",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:48"
+    },
+    {
+      "sha1_git": "f921f8adf3a599e9bf5994e51483f54833d28418",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:49"
+    },
+    {
+      "sha1_git": "864c98ea47747e3a2dbaa4ca9177c6dfbda0f2b1",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:50"
+    },
+    {
+      "sha1_git": "8fc445012d795ec0951114a3a21da34001354cfe",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:50"
+    },
+    {
+      "sha1_git": "e13e9c200f6d0ee1bcabdc96d15d278a81e954e8",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:51"
+    },
+    {
+      "sha1_git": "6f7f7fbec5466567f06744c9c8350ecab693743a",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:52"
+    },
+    {
+      "sha1_git": "79cde59b2f48383d9bc130f9fc2abc3f9a7d6fb3",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:53"
+    },
+    {
+      "sha1_git": "ed4ed3f754f8b0abfd9cb88c1324393fbd692012",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:53"
+    },
+    {
+      "sha1_git": "690f30aceea9e1eb265778d17fda50fa2ca91b73",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:54"
+    },
+    {
+      "sha1_git": "fc9a560e551488898bdf5d506b8439fa09722ab9",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:55"
+    },
+    {
+      "sha1_git": "e294973f0b672f996d1b6499964f58438b9d919b",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:55"
+    },
+    {
+      "sha1_git": "d4aba2323563860af08bfeb65df817410b04eb46",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:56"
+    },
+    {
+      "sha1_git": "3a0f588495718d000555b08a41bbf4b50ef852b2",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:57"
+    },
+    {
+      "sha1_git": "7590f86906ea4bf0c329ef474b94da4973f472aa",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:16:58"
+    },
+    {
+      "sha1_git": "44e1569dda496bfa64a210f179da3bf68710e5e1",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:58"
+    },
+    {
+      "sha1_git": "017351dd0d6a0fbe9df37cad56b165f57a9cf012",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:16:59"
+    },
+    {
+      "sha1_git": "fba02563907109284ac91acb53af53e98a11e784",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:00"
+    },
+    {
+      "sha1_git": "c91d74c2182a76e8519fbf47783667a0993ccb2d",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:01"
+    },
+    {
+      "sha1_git": "2a78401e9e6ab323cf76ceb1352a11e217330fac",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:01"
+    },
+    {
+      "sha1_git": "d7be11005462ab347f01c20bc99df11a21290348",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:02"
+    },
+    {
+      "sha1_git": "925764e3bb6691b941011c91c30ade9b21f25777",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:03"
+    },
+    {
+      "sha1_git": "9f28348fd7ade3191bddbbba5c6438f837ff124c",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:04"
+    },
+    {
+      "sha1_git": "56ed43cc7869c8a341bd1789a20e7506e17d6943",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:04"
+    },
+    {
+      "sha1_git": "b1fc9438b7a8a2accc2e09c021fbeaf192f2c2da",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:05"
+    },
+    {
+      "sha1_git": "b6f799789dcea26418aa42104023f849545bd054",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:06"
+    },
+    {
+      "sha1_git": "200752b0c378ddae021dc9a892c7bb1cf588372e",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:17:06"
+    },
+    {
+      "sha1_git": "29a74334b52d654558d6c9ad9c119fc8aabacf22",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:07"
+    },
+    {
+      "sha1_git": "028ff8129523208679bc7d338fe79bb0bd94bc97",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:08"
+    },
+    {
+      "sha1_git": "60badaaba6db65f5c98f9e3a70811ca1e4371708",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:09"
+    },
+    {
+      "sha1_git": "5fd549eb41a8d23524658e4f7427d7db51475379",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:09"
+    },
+    {
+      "sha1_git": "308fdd46eb2c5a12b0612a381f6be5f8ecedb00e",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:10"
+    },
+    {
+      "sha1_git": "f9adbda8546399dd2b2ecee73a9c82a8ba191bd0",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:11"
+    },
+    {
+      "sha1_git": "733ec5feb2ec83dfd9dc798c6e0499dc16b097d0",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:12"
+    },
+    {
+      "sha1_git": "48f7eebb098c7028edb65f004b9270a7aa11c520",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:12"
+    },
+    {
+      "sha1_git": "d3fa07f65b1681e1f469b04b2fe689b7c174eaaa",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:13"
+    },
+    {
+      "sha1_git": "c6ddbeb09098aaecdcc24db079ed83225a691422",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:42"
+    },
+    {
+      "sha1_git": "160aba3398c0af52d347095dc78b939405bd58f0",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:42"
+    },
+    {
+      "sha1_git": "f424d4e9698044563b573ec6f40ff51731a29144",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:43"
+    },
+    {
+      "sha1_git": "246e3ac415362a4bf5d85b4f19078afa5a67d370",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:44"
+    },
+    {
+      "sha1_git": "050a39e59762e576884def60f2de14a5b0e9fe3e",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:45"
+    },
+    {
+      "sha1_git": "7bc23597499e9f6327e6aa81c4e7719c78871694",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:45"
+    },
+    {
+      "sha1_git": "693c4602d2d0333b0ca19e719d624ccbff1a14ee",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:17:46"
+    },
+    {
+      "sha1_git": "fa72a51032c5eb751ffe5977e5f1539c7db69f8e",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:17:47"
+    },
+    {
+      "sha1_git": "74fd2a189a76c084b4afcc3251b41f095c3e1c08",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:47"
+    },
+    {
+      "sha1_git": "5f00d7f7bdce113a150b6264723c6a59d82da57a",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:48"
+    },
+    {
+      "sha1_git": "a734cee8de755888eed7f0d947bbd470ab907ff3",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:49"
+    },
+    {
+      "sha1_git": "41caa0c72efd58aabf8b96b1966fd846f6895085",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:50"
+    },
+    {
+      "sha1_git": "8395bb4b4c1e768c1a75cfd4dfa9f17d0c4b86a8",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:50"
+    },
+    {
+      "sha1_git": "93bcabed6d0e652f58095f2e4bda3e27aa1635d4",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:51"
+    },
+    {
+      "sha1_git": "33a51099f03718bd72b9d44a2ef1c19ab1b1d5ca",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:52"
+    },
+    {
+      "sha1_git": "597665d67bc1fa9b681f9244f46f5f56241522ad",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:53"
+    },
+    {
+      "sha1_git": "7fb1b90ea775d437d28f32a07cb35c70491199cf",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:53"
+    },
+    {
+      "sha1_git": "fef4f794e09f91a88d30dd2642e45cf4c1152871",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:54"
+    },
+    {
+      "sha1_git": "83c82dc9c0553bfa67dc20635377c92875a1c7bd",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:55"
+    },
+    {
+      "sha1_git": "6ec279bc29911b19083e1cf974769defab5b8a78",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:56"
+    },
+    {
+      "sha1_git": "6ed96b49f292bff9fcc03b5b1e946775bed59ee0",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:56"
+    },
+    {
+      "sha1_git": "2828ea78522744f492875a1f18d1abebd2540e2f",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:57"
+    },
+    {
+      "sha1_git": "8a49c25a63da50a54d54cff1b20107fae33063db",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:58"
+    },
+    {
+      "sha1_git": "19390dbf6b6736cd13c613720a27036163c3a49c",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:58"
+    },
+    {
+      "sha1_git": "220649eb2b5aecd7ea3e45b75f6f6a92fe8ae8cd",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:17:59"
+    },
+    {
+      "sha1_git": "dd236f88da4d463551416909d8b85ade4fcfc5c3",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:00"
+    },
+    {
+      "sha1_git": "30be50fbfb85459409860af3b1bde2b52dc9ee2a",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:01"
+    },
+    {
+      "sha1_git": "78751cc181487b307115e6daa7272cfd1eadbdbb",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:01"
+    },
+    {
+      "sha1_git": "efa06642eb9828035051a75e0768302ab0ea5a6d",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:02"
+    },
+    {
+      "sha1_git": "2b3d5acc42d17b850f7aa7df9f52f650433b5adc",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:03"
+    },
+    {
+      "sha1_git": "c81e5a030f80096e88d82dc7ce23dfca87841e14",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:04"
+    },
+    {
+      "sha1_git": "0fd912f750c17ef5e9ff6b35732be5bc8b56d010",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:04"
+    },
+    {
+      "sha1_git": "49bd66f01b7cfee4d627568bf680417050d7e98e",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:07"
+    },
+    {
+      "sha1_git": "6d7a866433e72c79c1a15f6eae08c6729d70c7d5",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:08"
+    },
+    {
+      "sha1_git": "3b50ed4f730a2f18b1abb5b352c5aa867b435e15",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:09"
+    },
+    {
+      "sha1_git": "9a263dec4c9a37b4c450ffaf0b0dafc84ec8298c",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:09"
+    },
+    {
+      "sha1_git": "6431912eec484d002235ac53d17f9d3f5ee1ad4c",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:10"
+    },
+    {
+      "sha1_git": "dcc46b26c40add450cc32e856f95b4e1469af305",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:11"
+    },
+    {
+      "sha1_git": "74973eb26cd822b7352e4bd53bd49c7c991e8f43",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:12"
+    },
+    {
+      "sha1_git": "183d81fbe4970e17d31627d3440c42d1ab0c6370",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:12"
+    },
+    {
+      "sha1_git": "427909be260b9c040d6c40e00c9b5d902cace21b",
+      "known": 0,
+      "fetched_at": "2026-09-08 18:18:13"
+    },
+    {
+      "sha1_git": "9352352bc12b5e592d469c2703fa5798abced247",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:14"
+    },
+    {
+      "sha1_git": "bb8febf2a8ab1cca78fa0868461af55874b03d62",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:15"
+    },
+    {
+      "sha1_git": "6144595ccd365e916d348158f2d271c06329181f",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:15"
+    },
+    {
+      "sha1_git": "401389158c915fca763113a5a35b512bbb6aaaa2",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:16"
+    },
+    {
+      "sha1_git": "f3dfe51dc63e71064ad67b525ba93d152b1851d4",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:17"
+    },
+    {
+      "sha1_git": "10f6e369f89d96b5343c0e8ad27f30222cc23b37",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:18"
+    },
+    {
+      "sha1_git": "e831797fb7e87bed1a9e477de79279e2a2587788",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:18"
+    },
+    {
+      "sha1_git": "9dccc0ed390b63cd58f3eb4f687701feb806101a",
+      "known": 1,
+      "fetched_at": "2026-09-08 18:18:19"
+    },
+    {
+      "sha1_git": "e774796f4805991edf6d6f680efaf25f45f5ec27",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:12:09"
+    },
+    {
+      "sha1_git": "cf24d385e63ea2583a5ff9facbd9b52d446c87f4",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:12:09"
+    },
+    {
+      "sha1_git": "3955320ba459301599f0c0c480fc3827bd1bca2f",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:12:47"
+    },
+    {
+      "sha1_git": "4d88424728b32958931d729fb1d01967ce28047f",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:12:47"
+    },
+    {
+      "sha1_git": "cde12241f03b309581a36c625bf36ef11626c36e",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:12:48"
+    },
+    {
+      "sha1_git": "0fdcf04c275b470f7d9ef9fe5a4a8b645b9e0f39",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:15:34"
+    },
+    {
+      "sha1_git": "0fe01ebe29dfccda5e1c1ae98d388ffda74f96f8",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:15:34"
+    },
+    {
+      "sha1_git": "558a876f66f2e16bc86b5b66f60ab27e3f5dbc48",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:15:35"
+    },
+    {
+      "sha1_git": "d6e6eab23497ba1c2838589301dbe324ef52561d",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:15:36"
+    },
+    {
+      "sha1_git": "ad9444c0335910fd94334bb466da135aaaec4732",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:15:37"
+    },
+    {
+      "sha1_git": "e9b4ef2df8f27a9e121429a08661bc7377a4fe57",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:15:37"
+    },
+    {
+      "sha1_git": "5bfe72555a62c2e328aef5f0fca5ea01ca258b6a",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:00"
+    },
+    {
+      "sha1_git": "44558cad1b692415ca5272c59983eb752e9c9f5e",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:32"
+    },
+    {
+      "sha1_git": "14e6dff6066119525fd7bf8cad2c1da9f549c8b5",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:32"
+    },
+    {
+      "sha1_git": "3ab2d6c06fc91995160519244f11185f49cfdcab",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:33"
+    },
+    {
+      "sha1_git": "6ad175f19262749585642ffb9bdf448db415983a",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:34"
+    },
+    {
+      "sha1_git": "8dc61b05308c72ff234b456c3b9d50d195d2dd22",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:35"
+    },
+    {
+      "sha1_git": "72923e0951a98de07dbef4dfff8a069c353c5e5d",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:35"
+    },
+    {
+      "sha1_git": "712dbaca8d5529ccde7657feeda757b80a271283",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:36"
+    },
+    {
+      "sha1_git": "7b5daa3f8c61fce71e6ff38e05acb5ff0eeebf27",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:37"
+    },
+    {
+      "sha1_git": "96be4b291b869bff9ccf2e5d098dd7f01c7f32cc",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:38"
+    },
+    {
+      "sha1_git": "a62aa4f5e3fd803833a3031d8c165fb82e11fac8",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:38"
+    },
+    {
+      "sha1_git": "2a7f7f6f45092d3021d69daa8c533b0721925acf",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:39"
+    },
+    {
+      "sha1_git": "0cdd4d3cacd79d34edf87058e01ad6a4a5fd25d8",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:40"
+    },
+    {
+      "sha1_git": "171726da7c7f97ed68660a61a2f43063d9a53d13",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:41"
+    },
+    {
+      "sha1_git": "83d0599f18c763d5db684b374d66e3cf8ecc6f11",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:41"
+    },
+    {
+      "sha1_git": "c4a27df5617454d5e3dd349709e41d0eede06b78",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:42"
+    },
+    {
+      "sha1_git": "43976fd91e4ad4577c71369ab38937b891483bff",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:43"
+    },
+    {
+      "sha1_git": "874a362fbb6d7f6ccab184fd3a321f8ef4aeb023",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:43"
+    },
+    {
+      "sha1_git": "53473fd2d831d33f2a48c04816a72f17b54f81dc",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:44"
+    },
+    {
+      "sha1_git": "85c6de958bad02c129dd5bb6f38eeeb0dd8e5392",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:45"
+    },
+    {
+      "sha1_git": "62e4a731a70fbbbd152bcb23ae3190a23ac3dd86",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:46"
+    },
+    {
+      "sha1_git": "fa402eda90a201088db770656d93f6aa86a72d80",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:46"
+    },
+    {
+      "sha1_git": "bcb4eb214b726ac9928e1917a93621e4d81bb7ff",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:47"
+    },
+    {
+      "sha1_git": "873da77f0e9060d7cc608c84686108b2900756d3",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:16:48"
+    },
+    {
+      "sha1_git": "60b6f4edd8216cad7544b98bf034cf6a44504978",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:49"
+    },
+    {
+      "sha1_git": "ab08fb7d2d4668a2355ea6fa2e01c7743abda92e",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:49"
+    },
+    {
+      "sha1_git": "613bbdff511ea50cf688108e6f0959e4e88c84c9",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:50"
+    },
+    {
+      "sha1_git": "f433273787647c3701fefff95811909fdb29c332",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:51"
+    },
+    {
+      "sha1_git": "efa9d7d1d563478641d44354e6648e2bf2c59f17",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:51"
+    },
+    {
+      "sha1_git": "e2430b9816538e2b36b5cbb533519b2dc52a95e1",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:52"
+    },
+    {
+      "sha1_git": "0cbe60c0b69a9b2a3eaf51bdc50d044d7685838c",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:53"
+    },
+    {
+      "sha1_git": "06fe6285d0357021a0eb5f5621f05639975629ac",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:54"
+    },
+    {
+      "sha1_git": "f4d9870acbbf21ad7d56108651d9b923f268bd2c",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:54"
+    },
+    {
+      "sha1_git": "b5e7db89d28a1442abb28752eb066e66e472aeb0",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:55"
+    },
+    {
+      "sha1_git": "31ca50313436f92b3ef6df57c734564675447f20",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:56"
+    },
+    {
+      "sha1_git": "a234a6588009a735deb63bfd8921169ca3e93c1e",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:57"
+    },
+    {
+      "sha1_git": "d69bc64ac18d87126c3fce4fedb46b8e5c0b52e8",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:57"
+    },
+    {
+      "sha1_git": "946390a3e0713a963429d22cae1fde32e5ac728b",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:58"
+    },
+    {
+      "sha1_git": "99c72ca7d8a7fc258ebe3e272b255a1d46fd8cdb",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:16:59"
+    },
+    {
+      "sha1_git": "ac2fb1835bcb0af4d6d202a06540493157c3bb92",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:00"
+    },
+    {
+      "sha1_git": "0ef13df3a66ec6b644ea898bfbaef70853cc7c93",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:00"
+    },
+    {
+      "sha1_git": "9cc25603c4b4ce63bf18356a3d0ddc9e11286a37",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:01"
+    },
+    {
+      "sha1_git": "11bdb7e884905516d73160b795d52f6becd88f74",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:02"
+    },
+    {
+      "sha1_git": "8d36e562e2d15156a3f80780c4e5844ff66ab092",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:02"
+    },
+    {
+      "sha1_git": "8b7a894e968c5f87c8563ecb6b9045f8296051c6",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:03"
+    },
+    {
+      "sha1_git": "9e6a2490243edba42423a0f96c73b15e1323f744",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:04"
+    },
+    {
+      "sha1_git": "7cce350581a8c48433563dc5863c853815ce88f7",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:05"
+    },
+    {
+      "sha1_git": "31b8ef809d87fe210610e7019ab40528fa21d82e",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:05"
+    },
+    {
+      "sha1_git": "09b9c01c50d9202bd6455ce36887e08be92ac1ae",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:06"
+    },
+    {
+      "sha1_git": "0dd8aa4ec73716a8cb7c42b0bdaa7367ba827f8b",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:07"
+    },
+    {
+      "sha1_git": "b3165c4df93ca214edba47380dc05ef9a87e65de",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:08"
+    },
+    {
+      "sha1_git": "2a3a4bfa9f602b597dddaea6fbf3c695f6c66387",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:08"
+    },
+    {
+      "sha1_git": "edb39c2ad03dbe2f2b6acdf7e6fb0b00fc4912e3",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:09"
+    },
+    {
+      "sha1_git": "2cbf9a3187e16c20eb7c29912acda05f99838541",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:10"
+    },
+    {
+      "sha1_git": "393abb32316b608ac076b0019a7eb1afd19dd857",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:11"
+    },
+    {
+      "sha1_git": "f9e5746a4a177a908f5ecab777f5400871ba273f",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:11"
+    },
+    {
+      "sha1_git": "596d73c6f96ebc1a97232d68212a2956724e9f62",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:12"
+    },
+    {
+      "sha1_git": "177223710f2b5d8efb3c3a46d3d721ff8ebdb0ca",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:13"
+    },
+    {
+      "sha1_git": "b88e69f9d40b343b7c2f72b3dc358fdc2c308a14",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:13"
+    },
+    {
+      "sha1_git": "01d12b6d62c365db2ed52506192186c985603091",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:14"
+    },
+    {
+      "sha1_git": "b3613ff87cd48ae3dc25ff612a9aee9abbc0991a",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:43"
+    },
+    {
+      "sha1_git": "a52ab9eae58fe09fc0d0e64af726385ce4a68f0a",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:43"
+    },
+    {
+      "sha1_git": "43776daaf113e072d0e3cd7bed8d898ba4e12939",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:44"
+    },
+    {
+      "sha1_git": "9af9fc3068a6420d8d0715616b11d2628e10a86a",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:45"
+    },
+    {
+      "sha1_git": "e9b49b50a02f27a08df2d9561c7d1973974ab17f",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:46"
+    },
+    {
+      "sha1_git": "77fa89ed2ccce99b10068fccd2ca26a2db24b1b1",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:46"
+    },
+    {
+      "sha1_git": "768428817d70efbe561ae2fca8ed0710a60b8025",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:17:47"
+    },
+    {
+      "sha1_git": "a117f957d8723c539e3d6c4fbf8caeb0263304f0",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:17:48"
+    },
+    {
+      "sha1_git": "becf6fb4cd29b3f43fe0fc283bcf2840acf5c4fd",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:48"
+    },
+    {
+      "sha1_git": "036a1276eb02407eaffb8a65f874a86986979e4b",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:49"
+    },
+    {
+      "sha1_git": "0b8f72a71ebc168555242f7f087b3ebb92f79d53",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:50"
+    },
+    {
+      "sha1_git": "6cbefdff7a1c3c55ab7854de262e66d51922dd55",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:51"
+    },
+    {
+      "sha1_git": "043399988974cd4c61c598135bf5f32315f92278",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:51"
+    },
+    {
+      "sha1_git": "bafb0ae422e8382fafebdfe7dc5ceb120929e640",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:52"
+    },
+    {
+      "sha1_git": "eb2c4c44f8fa1e5fe04b8891384bbbf3376b0560",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:53"
+    },
+    {
+      "sha1_git": "f85fed86f547ed2190717fdccc1e742d9daab80a",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:54"
+    },
+    {
+      "sha1_git": "96c5240cbf61b743fddefb228da918e763e3f046",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:54"
+    },
+    {
+      "sha1_git": "96b9f13a34c021105f7db02be6212fd5b4077247",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:55"
+    },
+    {
+      "sha1_git": "b7140c12ef4c0868019b62f2ebe32df99687f66e",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:56"
+    },
+    {
+      "sha1_git": "3ecfd05f76f593d054c2432103479cc017e40b2b",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:57"
+    },
+    {
+      "sha1_git": "58e7708a487578d91efaab60272671084aba49ac",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:57"
+    },
+    {
+      "sha1_git": "cbeabbd81b28e97fe0d0e8bcf436ab92f5833743",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:58"
+    },
+    {
+      "sha1_git": "76cdd0576d3801118b160b850bcbd8d2fe6723b1",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:59"
+    },
+    {
+      "sha1_git": "aab356f41bf38e789a31f1ee879ce9beb8b0aa40",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:17:59"
+    },
+    {
+      "sha1_git": "4e8a148df1e322f476cedffe4eadc5ae6ee9b6f1",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:00"
+    },
+    {
+      "sha1_git": "35d229f6d4009f19dcc9ef824308a9e13b21a6b9",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:01"
+    },
+    {
+      "sha1_git": "5baf740a97626e1d3424133715d45668e9e6ee5b",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:02"
+    },
+    {
+      "sha1_git": "a7eabb9f41d43a8cdb073764215bde403c1cd2d7",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:02"
+    },
+    {
+      "sha1_git": "b3a3a8e989db822cb83ce72f898f7222bfefaa62",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:03"
+    },
+    {
+      "sha1_git": "bb462fafe0e6abede5d0bb65fb4b1740b96cce9f",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:04"
+    },
+    {
+      "sha1_git": "58aa6c5df0014fa9dc4c4a2a54d75db860510431",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:05"
+    },
+    {
+      "sha1_git": "1a5909f7ee5b73f7af91bc6770ce465276563bb1",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:05"
+    },
+    {
+      "sha1_git": "00139ac072e4f87eae9696f764f0fea4db7ec700",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:08"
+    },
+    {
+      "sha1_git": "7a00838229cc27d6e2db16ea0bf4a85bedf793c3",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:09"
+    },
+    {
+      "sha1_git": "0cca5ef8c9373549a635dc4434e0f7fbb8f46549",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:10"
+    },
+    {
+      "sha1_git": "95c77214a18b619fb8d0b811fb2ad99c246f3af9",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:10"
+    },
+    {
+      "sha1_git": "620097f26dc8b5dfcf5ad8664f06eb3c137a05f2",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:11"
+    },
+    {
+      "sha1_git": "d615a631dea3999b2a4000abb4ef312c5c0b8c81",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:12"
+    },
+    {
+      "sha1_git": "65a4fbb37becfe2186fd21e7d9094ba981ae6b59",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:13"
+    },
+    {
+      "sha1_git": "b26cf0a64e46cb7a7a32b2818f5924894f87a325",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:13"
+    },
+    {
+      "sha1_git": "b2d00b6a1c3a4bdaa3bf98140a08a99b696d2115",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:14"
+    },
+    {
+      "sha1_git": "0280d896c4db153164d2fab9391e00e81e4879d5",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:15"
+    },
+    {
+      "sha1_git": "592bd86f544e35a8f7b79c31621d554b4bb243dc",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:16"
+    },
+    {
+      "sha1_git": "a0ad2da135be0e70c71a0f83af770282db5fe22c",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:16"
+    },
+    {
+      "sha1_git": "6dd29f7c779ca46558222f0456596a9ffdaa3cc7",
+      "known": 0,
+      "fetched_at": "2026-09-08 19:18:17"
+    },
+    {
+      "sha1_git": "c4e99ec627cdfceecb5597b0be8fb21af561e96c",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:18"
+    },
+    {
+      "sha1_git": "33024d0a1fb5e26f98a79bb9fe5bccef3ae7999d",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:18"
+    },
+    {
+      "sha1_git": "c334450290156ae90a380b9c8984c2e4b0528421",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:19"
+    },
+    {
+      "sha1_git": "b876ecc652fd6ca6d09282cc4f44d6a5f3515728",
+      "known": 1,
+      "fetched_at": "2026-09-08 19:18:20"
+    },
+    {
+      "sha1_git": "1a8c3dcc81b4308798d151cc09507ae5ed83e1e7",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:12:10"
+    },
+    {
+      "sha1_git": "0a438ed25a1da4aed35cac07c337020be389df43",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:12:10"
+    },
+    {
+      "sha1_git": "c817a8553bc4950598caec0faf5ca1172494ea26",
+      "known": 0,
+      "fetched_at": "2026-09-08 20:12:48"
+    },
+    {
+      "sha1_git": "3d97a9c4db71329a61594de13decfd373fb18c30",
+      "known": 0,
+      "fetched_at": "2026-09-08 20:12:48"
+    },
+    {
+      "sha1_git": "35afe6b4b088d4e40d2d8f967ff4120694e52746",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:12:49"
+    },
+    {
+      "sha1_git": "73da4ec7989c78b2debf367be1ddd322932ce137",
+      "known": 0,
+      "fetched_at": "2026-09-08 20:15:35"
+    },
+    {
+      "sha1_git": "e6534353ffecfae52462613829046a732be77ef2",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:15:35"
+    },
+    {
+      "sha1_git": "bd9dd47c8934397e280b8a9373c4f7939ff8d327",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:15:36"
+    },
+    {
+      "sha1_git": "e90bf6e8a68998b55d09765501120c8a71bce8fb",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:15:37"
+    },
+    {
+      "sha1_git": "5cd76bdf6648b1ebbf9dcbe5d09084476502e93e",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:15:38"
+    },
+    {
+      "sha1_git": "af0be603827db39ff7834c258bebb585b6a19b50",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:15:38"
+    },
+    {
+      "sha1_git": "da742bd3ad2d141a4d04c46a74fcf563f3cee90d",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:01"
+    },
+    {
+      "sha1_git": "aba49bd234be842ff3e0e2f4b84c179550d94a17",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:33"
+    },
+    {
+      "sha1_git": "5ca2f16640a46bb4add72ac79fc96b15a3811ce5",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:33"
+    },
+    {
+      "sha1_git": "7f764bdabc30c5777ac4521471b46110910f122c",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:34"
+    },
+    {
+      "sha1_git": "8a308738ddfbae8aac8379d92057956d0bdb40d3",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:35"
+    },
+    {
+      "sha1_git": "11e7106b1cd0c4f75c4bcb727e0ca3c1437b99da",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:36"
+    },
+    {
+      "sha1_git": "266fe701e9a1a17a67cb563edcac8041974e3e99",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:36"
+    },
+    {
+      "sha1_git": "c1a454292a7d890c3b6c7ff080d6277894425d81",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:37"
+    },
+    {
+      "sha1_git": "1afaafabef13a724d6052d67bbd197d52166f033",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:38"
+    },
+    {
+      "sha1_git": "3f9dd02a5ecf3b888a2521fbfddbd3918c809220",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:38"
+    },
+    {
+      "sha1_git": "a48982a6dbaf504d7c319a3fe608973abbde3203",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:39"
+    },
+    {
+      "sha1_git": "59055cc7d3180abf491ddabeaeb998c6ead02970",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:40"
+    },
+    {
+      "sha1_git": "740ab54b424b924a877c02a388ce0ef8d176aede",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:41"
+    },
+    {
+      "sha1_git": "2785076f7bfdfef33fcfdd22bd5e3ba9219c618a",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:41"
+    },
+    {
+      "sha1_git": "c255777a337e9096f2150ebce04e1451c5d38b1e",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:42"
+    },
+    {
+      "sha1_git": "9dbe5a362913aff7e521390e41303f920efea293",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:43"
+    },
+    {
+      "sha1_git": "3ffb6434dd5bfc123f5fc7e11f669313e1646ab3",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:44"
+    },
+    {
+      "sha1_git": "1a87c88077c4b8e957d81843a4325bd2a7e4b788",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:44"
+    },
+    {
+      "sha1_git": "961b792a9c5177ea53c98a1d42f17dcb70e5a6cb",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:45"
+    },
+    {
+      "sha1_git": "f7563ec4902a392481541734e7edd384fd4f13d6",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:46"
+    },
+    {
+      "sha1_git": "954f63caed3296d705395500dd8046e164d0765a",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:46"
+    },
+    {
+      "sha1_git": "2cd32ca6d6f30ab757b7bac08e6f54ac4ab55f63",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:47"
+    },
+    {
+      "sha1_git": "b6ed649b1d29a0dcd14f131582943f5ca83aabd2",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:48"
+    },
+    {
+      "sha1_git": "c96042bf9a4eafb784ebc46eb4f74493d7d42734",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:49"
+    },
+    {
+      "sha1_git": "088018648a3ced8f53e3caa9b3c9d663defab879",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:49"
+    },
+    {
+      "sha1_git": "01590813f44ae5f19334df5a0130dd2ad5bc462b",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:50"
+    },
+    {
+      "sha1_git": "5c1947103bc0d95255d97618c699fa0a18993beb",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:51"
+    },
+    {
+      "sha1_git": "16c9a8b2754d8ee6f5f963ba5565df3894a47e20",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:52"
+    },
+    {
+      "sha1_git": "e989981d1b394b7d6acf16355043651a26247ec5",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:52"
+    },
+    {
+      "sha1_git": "e34774b663105371774d64790de8061b32ad3a57",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:53"
+    },
+    {
+      "sha1_git": "840c1a32c0dcc84df4963df3e73db5ff088a99b1",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:54"
+    },
+    {
+      "sha1_git": "a8ec89939945ea653d454f1e1873f2118908e565",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:55"
+    },
+    {
+      "sha1_git": "ea7326d0291da4e0e0a8ad1b98316cb4fd03094b",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:55"
+    },
+    {
+      "sha1_git": "97c1436480b90917fb3799cc5efa5bcedb2dd182",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:56"
+    },
+    {
+      "sha1_git": "20f845230aaacd5f77dac57c1ac25dac0d96a3a3",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:57"
+    },
+    {
+      "sha1_git": "f3513b24a3c571cb2e9ecdb2018f0e1abdda24a5",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:57"
+    },
+    {
+      "sha1_git": "d5895af73f112af617b9eb3d753e1e200935c87d",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:58"
+    },
+    {
+      "sha1_git": "3f2917cd5e9b4f3a3df3187b33bf1340571e06c8",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:16:59"
+    },
+    {
+      "sha1_git": "6d5f5d5d7f950e2a9e27da0aeeb3c76a3074dfc0",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:00"
+    },
+    {
+      "sha1_git": "48ab9760012d03708005ed02cec90d785633b48c",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:00"
+    },
+    {
+      "sha1_git": "a80a650e793296ed123e07a5409f488d4256b746",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:01"
+    },
+    {
+      "sha1_git": "354a63c36623685e2e13dfbc71818d819873fa48",
+      "known": 0,
+      "fetched_at": "2026-09-08 20:17:02"
+    },
+    {
+      "sha1_git": "b4219290ce4d81b50da3e09e9c204988a141f193",
+      "known": 0,
+      "fetched_at": "2026-09-08 20:17:03"
+    },
+    {
+      "sha1_git": "c693cffe8f54c26650de415fac73e14487f76051",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:03"
+    },
+    {
+      "sha1_git": "27139c9563215216a0a8ae587e7d3d1426d3c399",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:04"
+    },
+    {
+      "sha1_git": "718bd3deab173c768519e7e0f314d253d1588c94",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:05"
+    },
+    {
+      "sha1_git": "f8b0c7158471022cb3569b93808b4df2c3f7a1d9",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:05"
+    },
+    {
+      "sha1_git": "adeb68217621951bd4694d5e1673521ddf70753e",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:06"
+    },
+    {
+      "sha1_git": "15532792d385d9553f3f0a76db8b11f5252f4e46",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:07"
+    },
+    {
+      "sha1_git": "d5e5dfef0573fb4c579e80a3660c7a4013aa0236",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:08"
+    },
+    {
+      "sha1_git": "f811cee511beb5b9cee3c856bdba8d11a0a0056b",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:08"
+    },
+    {
+      "sha1_git": "084b5f8091c49c326bc990e39532a96ec2fa8803",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:09"
+    },
+    {
+      "sha1_git": "22f466127e6edeeb5e0deb694f2ba5c733b29688",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:10"
+    },
+    {
+      "sha1_git": "b95caee4e5400d3538d5c683f257a7f1aacaf367",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:11"
+    },
+    {
+      "sha1_git": "021648fd6bc52b957b80690c40a1ca7108f37b15",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:11"
+    },
+    {
+      "sha1_git": "dcb7f52ab02ab6d90390d39463b2fff5ed02d486",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:12"
+    },
+    {
+      "sha1_git": "7dbc59f9bff719c1bcd7bef96b31a872114681f3",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:13"
+    },
+    {
+      "sha1_git": "4777196bcd3d188070052f7fb1c860182290f8aa",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:14"
+    },
+    {
+      "sha1_git": "702e58e9365998a54d00dc0607873d67b4a6c077",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:14"
+    },
+    {
+      "sha1_git": "c2e57108815f2b96391837841c339ab78c9fbb92",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:15"
+    },
+    {
+      "sha1_git": "f738b943b7bf4e0d27c74a3bc26c06b4f0e01c31",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:44"
+    },
+    {
+      "sha1_git": "be22640dcb0e020c1739273cfbe836b00084aed7",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:44"
+    },
+    {
+      "sha1_git": "43ac03de824333c91027f55910f0f10ba62b2e9a",
+      "known": 0,
+      "fetched_at": "2026-09-08 20:17:45"
+    },
+    {
+      "sha1_git": "5a0ec3e7e03a940a623a7980c4df5ad29d59999e",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:46"
+    },
+    {
+      "sha1_git": "02bde95c077b103c8929dbd3de07de3a8ffe6d73",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:47"
+    },
+    {
+      "sha1_git": "6688cb4a56bbecaaf55a1b61f393c33c2317cf1b",
+      "known": 1,
+      "fetched_at": "2026-09-08 20:17:47"
+    }
+  ],
+  "origin_first_visit": [
+    {
+      "url": "https://github.com/2025Emma/vibe-coding-cn",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:12:05"
+    },
+    {
+      "url": "https://github.com/2noise/ChatTTS",
+      "first_visit": "2024-06-01",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:12:05"
+    },
+    {
+      "url": "https://github.com/666ghj/BettaFish",
+      "first_visit": "2025-11-07",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:12:44"
+    },
+    {
+      "url": "https://github.com/666ghj/MiroFish",
+      "first_visit": "2026-04-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:12:44"
+    },
+    {
+      "url": "https://github.com/ATH-MaaS/Pixelle-Video",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:12:45"
+    },
+    {
+      "url": "https://github.com/Alibaba-NLP/DeepResearch",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:15:31"
+    },
+    {
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "first_visit": "2026-05-09",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:15:31"
+    },
+    {
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open",
+      "first_visit": "2025-08-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:15:32"
+    },
+    {
+      "url": "https://github.com/Canner/WrenAI",
+      "first_visit": "2025-08-28",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:15:33"
+    },
+    {
+      "url": "https://github.com/Cinnamon/kotaemon",
+      "first_visit": "2024-11-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:15:34"
+    },
+    {
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "first_visit": "2026-04-13",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:15:34"
+    },
+    {
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:15:57"
+    },
+    {
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "first_visit": "2025-10-23",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:29"
+    },
+    {
+      "url": "https://github.com/DrewThomasson/ebook2audiobook",
+      "first_visit": "2024-05-13",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:29"
+    },
+    {
+      "url": "https://github.com/Fosowl/agenticSeek",
+      "first_visit": "2025-05-06",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:30"
+    },
+    {
+      "url": "https://github.com/FoundationAgents/OpenManus",
+      "first_visit": "2025-07-01",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:31"
+    },
+    {
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "first_visit": "2025-08-28",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:32"
+    },
+    {
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "first_visit": "2026-07-15",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:32"
+    },
+    {
+      "url": "https://github.com/Guovin/iptv-api",
+      "first_visit": "2026-01-13",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:33"
+    },
+    {
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "first_visit": "2025-10-30",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:34"
+    },
+    {
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "first_visit": "2026-03-20",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:35"
+    },
+    {
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "first_visit": "2026-04-09",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:35"
+    },
+    {
+      "url": "https://github.com/HKUDS/LightRAG",
+      "first_visit": "2024-12-20",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:36"
+    },
+    {
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "first_visit": "2025-06-22",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:37"
+    },
+    {
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "first_visit": "2026-06-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:38"
+    },
+    {
+      "url": "https://github.com/HKUDS/nanobot",
+      "first_visit": "2026-02-06",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:38"
+    },
+    {
+      "url": "https://github.com/Huanshere/VideoLingo",
+      "first_visit": "2025-08-28",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:39"
+    },
+    {
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "first_visit": "2026-05-11",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:40"
+    },
+    {
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "first_visit": "2026-05-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:41"
+    },
+    {
+      "url": "https://github.com/KKKKhazix/khazix-skills",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:16:41"
+    },
+    {
+      "url": "https://github.com/KlingAIResearch/LivePortrait",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:16:42"
+    },
+    {
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "first_visit": "2026-09-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:43"
+    },
+    {
+      "url": "https://github.com/MemPalace/mempalace",
+      "first_visit": "2026-05-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:44"
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "first_visit": "2026-05-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:44"
+    },
+    {
+      "url": "https://github.com/OpenBMB/MiniCPM-V",
+      "first_visit": "2024-08-22",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:45"
+    },
+    {
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "first_visit": "2026-05-30",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:46"
+    },
+    {
+      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+      "first_visit": "2026-02-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:47"
+    },
+    {
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "first_visit": "2026-08-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:47"
+    },
+    {
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "first_visit": "2026-05-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:48"
+    },
+    {
+      "url": "https://github.com/QwenAudio/CosyVoice",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:16:49"
+    },
+    {
+      "url": "https://github.com/QwenLM/Qwen3",
+      "first_visit": "2025-04-29",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:50"
+    },
+    {
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "first_visit": "2024-10-07",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:50"
+    },
+    {
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "first_visit": "2025-04-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:51"
+    },
+    {
+      "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+      "first_visit": "2024-12-30",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:52"
+    },
+    {
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "first_visit": "2026-08-07",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:53"
+    },
+    {
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "first_visit": "2024-03-15",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:54"
+    },
+    {
+      "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "first_visit": "2025-09-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:54"
+    },
+    {
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "first_visit": "2026-04-30",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:55"
+    },
+    {
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "first_visit": "2026-04-04",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:56"
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "first_visit": "2025-08-17",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:57"
+    },
+    {
+      "url": "https://github.com/XiaoMi/ha_xiaomi_home",
+      "first_visit": "2024-12-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:57"
+    },
+    {
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "first_visit": "2026-06-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:58"
+    },
+    {
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "first_visit": "2026-05-18",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:16:59"
+    },
+    {
+      "url": "https://github.com/Zie619/n8n-workflows",
+      "first_visit": "2025-09-09",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:00"
+    },
+    {
+      "url": "https://github.com/abi/screenshot-to-code",
+      "first_visit": "2024-03-05",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:01"
+    },
+    {
+      "url": "https://github.com/agent0ai/agent-zero",
+      "first_visit": "2026-03-06",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:01"
+    },
+    {
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:02"
+    },
+    {
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "first_visit": "2026-03-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:03"
+    },
+    {
+      "url": "https://github.com/agentskills/agentskills",
+      "first_visit": "2026-02-04",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:04"
+    },
+    {
+      "url": "https://github.com/alchaincyf/nuwa-skill",
+      "first_visit": "2026-06-27",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:04"
+    },
+    {
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:05"
+    },
+    {
+      "url": "https://github.com/allenai/olmocr",
+      "first_visit": "2025-03-01",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:06"
+    },
+    {
+      "url": "https://github.com/andrewyng/openworker",
+      "first_visit": "2026-07-28",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:07"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code",
+      "first_visit": "2025-04-20",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:07"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "first_visit": "2026-01-18",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:08"
+    },
+    {
+      "url": "https://github.com/anthropics/financial-services",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:09"
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "first_visit": "2026-02-14",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:10"
+    },
+    {
+      "url": "https://github.com/anthropics/skills",
+      "first_visit": "2025-10-18",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:10"
+    },
+    {
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "first_visit": "2025-09-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:11"
+    },
+    {
+      "url": "https://github.com/astral-sh/ty",
+      "first_visit": "2025-05-14",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:12"
+    },
+    {
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "first_visit": "2026-08-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:13"
+    },
+    {
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "first_visit": "2026-06-29",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:40"
+    },
+    {
+      "url": "https://github.com/black-forest-labs/flux",
+      "first_visit": "2024-08-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:40"
+    },
+    {
+      "url": "https://github.com/blader/humanizer",
+      "first_visit": "2026-01-21",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:41"
+    },
+    {
+      "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "first_visit": "2025-08-15",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:42"
+    },
+    {
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:43"
+    },
+    {
+      "url": "https://github.com/browser-use/browser-harness",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:43"
+    },
+    {
+      "url": "https://github.com/browser-use/browser-use",
+      "first_visit": "2025-01-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:44"
+    },
+    {
+      "url": "https://github.com/browser-use/video-use",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:45"
+    },
+    {
+      "url": "https://github.com/bytedance/deer-flow",
+      "first_visit": "2025-07-30",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:46"
+    },
+    {
+      "url": "https://github.com/calesthio/OpenMontage",
+      "first_visit": "2026-06-18",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:47"
+    },
+    {
+      "url": "https://github.com/camel-ai/owl",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:47"
+    },
+    {
+      "url": "https://github.com/datalab-to/surya",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:48"
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "first_visit": "2025-12-12",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:49"
+    },
+    {
+      "url": "https://github.com/davila7/claude-code-templates",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:49"
+    },
+    {
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:50"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "first_visit": "2024-12-27",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:51"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/Janus",
+      "first_visit": "2024-12-05",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:52"
+    },
+    {
+      "url": "https://github.com/docling-project/docling",
+      "first_visit": "2025-04-06",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:53"
+    },
+    {
+      "url": "https://github.com/emcie-co/parlant",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:53"
+    },
+    {
+      "url": "https://github.com/exo-explore/exo",
+      "first_visit": "2024-07-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:54"
+    },
+    {
+      "url": "https://github.com/feder-cr/AIHawk",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:17:55"
+    },
+    {
+      "url": "https://github.com/getzep/graphiti",
+      "first_visit": "2025-12-08",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:56"
+    },
+    {
+      "url": "https://github.com/github/spec-kit",
+      "first_visit": "2025-09-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:56"
+    },
+    {
+      "url": "https://github.com/google-research/timesfm",
+      "first_visit": "2025-05-27",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:57"
+    },
+    {
+      "url": "https://github.com/google/adk-python",
+      "first_visit": "2025-05-27",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:58"
+    },
+    {
+      "url": "https://github.com/google/langextract",
+      "first_visit": "2025-08-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:59"
+    },
+    {
+      "url": "https://github.com/google/skills",
+      "first_visit": "2026-05-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:17:59"
+    },
+    {
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "first_visit": "2026-08-12",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:00"
+    },
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "first_visit": "2024-08-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:01"
+    },
+    {
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "first_visit": "2026-06-22",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:02"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "first_visit": "2026-04-28",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:02"
+    },
+    {
+      "url": "https://github.com/hpcaitech/Open-Sora",
+      "first_visit": "2024-06-19",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:03"
+    },
+    {
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 16:18:04"
+    },
+    {
+      "url": "https://github.com/huggingface/lerobot",
+      "first_visit": "2024-05-09",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:05"
+    },
+    {
+      "url": "https://github.com/huggingface/open-r1",
+      "first_visit": "2025-01-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:06"
+    },
+    {
+      "url": "https://github.com/hugohe3/ppt-master",
+      "first_visit": "2026-04-29",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:06"
+    },
+    {
+      "url": "https://github.com/index-tts/index-tts",
+      "first_visit": "2025-11-25",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:07"
+    },
+    {
+      "url": "https://github.com/jingyaogong/minimind",
+      "first_visit": "2025-03-30",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:08"
+    },
+    {
+      "url": "https://github.com/jundot/omlx",
+      "first_visit": "2026-05-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:09"
+    },
+    {
+      "url": "https://github.com/karpathy/autoresearch",
+      "first_visit": "2026-03-25",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:09"
+    },
+    {
+      "url": "https://github.com/karpathy/nanochat",
+      "first_visit": "2025-10-13",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:10"
+    },
+    {
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "first_visit": "2024-11-18",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:11"
+    },
+    {
+      "url": "https://github.com/langchain-ai/deepagents",
+      "first_visit": "2026-03-18",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:12"
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "first_visit": "2026-03-30",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:13"
+    },
+    {
+      "url": "https://github.com/meta-llama/llama3",
+      "first_visit": "2024-09-27",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:13"
+    },
+    {
+      "url": "https://github.com/microsoft/VibeVoice",
+      "first_visit": "2025-08-28",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:14"
+    },
+    {
+      "url": "https://github.com/microsoft/agent-lightning",
+      "first_visit": "2025-10-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:15"
+    },
+    {
+      "url": "https://github.com/microsoft/graphrag",
+      "first_visit": "2024-07-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:16"
+    },
+    {
+      "url": "https://github.com/microsoft/markitdown",
+      "first_visit": "2024-12-15",
+      "archived": 1,
+      "fetched_at": "2026-09-08 16:18:17"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "first_visit": "2025-04-12",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:12:07"
+    },
+    {
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "first_visit": "2026-06-25",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:12:08"
+    },
+    {
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 17:12:45"
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "first_visit": "2026-06-13",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:12:45"
+    },
+    {
+      "url": "https://github.com/myshell-ai/OpenVoice",
+      "first_visit": "2024-04-29",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:12:46"
+    },
+    {
+      "url": "https://github.com/nari-labs/dia",
+      "first_visit": "2025-04-21",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:15:32"
+    },
+    {
+      "url": "https://github.com/nesquena/hermes-webui",
+      "first_visit": "2026-06-01",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:15:32"
+    },
+    {
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "first_visit": "2026-08-07",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:15:33"
+    },
+    {
+      "url": "https://github.com/odysseus-dev/odysseus",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 17:15:34"
+    },
+    {
+      "url": "https://github.com/openai/gpt-oss",
+      "first_visit": "2025-08-06",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:15:35"
+    },
+    {
+      "url": "https://github.com/openai/skills",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 17:15:35"
+    },
+    {
+      "url": "https://github.com/openai/swarm",
+      "first_visit": "2024-10-21",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:15:58"
+    },
+    {
+      "url": "https://github.com/opendatalab/MinerU",
+      "first_visit": "2024-08-17",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:30"
+    },
+    {
+      "url": "https://github.com/oraios/serena",
+      "first_visit": "2025-08-03",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:30"
+    },
+    {
+      "url": "https://github.com/p-e-w/heretic",
+      "first_visit": "2025-11-17",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:31"
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "first_visit": "2025-12-04",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:32"
+    },
+    {
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "first_visit": "2025-06-12",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:33"
+    },
+    {
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "first_visit": "2026-04-29",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:33"
+    },
+    {
+      "url": "https://github.com/sgl-project/sglang",
+      "first_visit": "2025-04-20",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:34"
+    },
+    {
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "first_visit": "2026-05-04",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:35"
+    },
+    {
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "first_visit": "2026-05-09",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:36"
+    },
+    {
+      "url": "https://github.com/stanford-oval/storm",
+      "first_visit": "2024-05-04",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:37"
+    },
+    {
+      "url": "https://github.com/state-spaces/mamba",
+      "first_visit": "2025-07-31",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:37"
+    },
+    {
+      "url": "https://github.com/stitionai/devika",
+      "first_visit": "2025-04-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:38"
+    },
+    {
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "first_visit": "2026-08-02",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:39"
+    },
+    {
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "first_visit": "2026-08-12",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:40"
+    },
+    {
+      "url": "https://github.com/unclecode/crawl4ai",
+      "first_visit": "2024-09-20",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:40"
+    },
+    {
+      "url": "https://github.com/unslothai/unsloth",
+      "first_visit": "2024-11-20",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:41"
+    },
+    {
+      "url": "https://github.com/usestrix/strix",
+      "first_visit": "2025-08-19",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:42"
+    },
+    {
+      "url": "https://github.com/vectorize-io/hindsight",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 17:16:43"
+    },
+    {
+      "url": "https://github.com/verl-project/verl",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 17:16:43"
+    },
+    {
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "first_visit": "2025-05-16",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:44"
+    },
+    {
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 17:16:45"
+    },
+    {
+      "url": "https://github.com/volcengine/OpenViking",
+      "first_visit": null,
+      "archived": 0,
+      "fetched_at": "2026-09-08 17:16:46"
+    },
+    {
+      "url": "https://github.com/wshobson/agents",
+      "first_visit": "2025-08-26",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:46"
+    },
+    {
+      "url": "https://github.com/xming521/WeClone",
+      "first_visit": "2025-04-28",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:47"
+    },
+    {
+      "url": "https://github.com/zai-org/Open-AutoGLM",
+      "first_visit": "2026-03-06",
+      "archived": 1,
+      "fetched_at": "2026-09-08 17:16:48"
+    }
+  ],
+  "content_first_seen": [
+    {
+      "sha1_git": "a56a76179be15a48b842d8611dd7337870ac5239",
+      "first_seen": "2026-05-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:49"
+    },
+    {
+      "sha1_git": "d140b2ace6483f36c635a0ae47c15c7b75b79b88",
+      "first_seen": "2026-05-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:49"
+    },
+    {
+      "sha1_git": "89f89444e7feaafa3b73a48261a81acda43e4058",
+      "first_seen": "2024-12-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:50"
+    },
+    {
+      "sha1_git": "8e363161915d3720409bb8b6ef9bc4ade33b64e4",
+      "first_seen": "2025-10-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:51"
+    },
+    {
+      "sha1_git": "46ed5f52eb639934a8ead383976eecc2a6867fa7",
+      "first_seen": "2025-10-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:52"
+    },
+    {
+      "sha1_git": "4c7c1bf261b1ec3febe4112e30f46c2aa9f4a141",
+      "first_seen": "2025-10-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:52"
+    },
+    {
+      "sha1_git": "53ab7a829eb159fe3f216faab8296f0ab306f329",
+      "first_seen": "2025-04-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:53"
+    },
+    {
+      "sha1_git": "fa2fc3e36fee0d886902d118a55ab12b08a0a876",
+      "first_seen": "2025-04-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:54"
+    },
+    {
+      "sha1_git": "8244c00591d3af06434cd881968b94e560cb0390",
+      "first_seen": "2025-04-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:55"
+    },
+    {
+      "sha1_git": "8757f818914c90b486aba752dfc115f98bb355ec",
+      "first_seen": "2026-08-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:55"
+    },
+    {
+      "sha1_git": "912d49be6e24cbbc61155fcfcfb29da8bfe6f543",
+      "first_seen": "2026-08-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:56"
+    },
+    {
+      "sha1_git": "615e88ea7fb393d23893f2493b27e27240fb71c4",
+      "first_seen": "2026-08-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:57"
+    },
+    {
+      "sha1_git": "e5701fd04f69ecab7e39e5f224a7611be62eea7b",
+      "first_seen": "2026-08-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:57"
+    },
+    {
+      "sha1_git": "18f805352817ee2fa10b299345538e25ccfe8076",
+      "first_seen": "2025-09-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:58"
+    },
+    {
+      "sha1_git": "669ec5bf9d24d227ada9235114d64ca1f607b375",
+      "first_seen": "2025-09-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:16:59"
+    },
+    {
+      "sha1_git": "c6692895b81c6ade6d0c0e9b4668f16c2781b45f",
+      "first_seen": "2025-09-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:00"
+    },
+    {
+      "sha1_git": "53c54370689f49e079e437320531a167804baecc",
+      "first_seen": "2026-08-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:00"
+    },
+    {
+      "sha1_git": "08a997079c685325c042ea5cb3dc1859fd612a2d",
+      "first_seen": "2026-08-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:01"
+    },
+    {
+      "sha1_git": "2b9c5d08fab6f1522f451ad263713822af19cd83",
+      "first_seen": "2026-08-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:02"
+    },
+    {
+      "sha1_git": "278e2dfd1021dba31e64a25399e97dcb6969ec3b",
+      "first_seen": "2024-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:03"
+    },
+    {
+      "sha1_git": "2df95973476dbbb52b3bbd4f91c03ec526b3e38e",
+      "first_seen": "2024-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:03"
+    },
+    {
+      "sha1_git": "41d4b1f3d11536e72d2f732a60211580985dd269",
+      "first_seen": "2026-07-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:04"
+    },
+    {
+      "sha1_git": "aabeb654f3303eb8e1c12cefae1292829eb914af",
+      "first_seen": "2026-07-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:05"
+    },
+    {
+      "sha1_git": "0184a8f88fa458de76107b63d08b77b0c739abbc",
+      "first_seen": "2026-07-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:05"
+    },
+    {
+      "sha1_git": "6fa2a790d657448fe18f75bfe32d5c8c05606042",
+      "first_seen": "2025-01-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:06"
+    },
+    {
+      "sha1_git": "6d85ccc0600a854b4a96588ed3ccb4df9d2a902c",
+      "first_seen": "2024-12-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:07"
+    },
+    {
+      "sha1_git": "4037342a4a73da6fc6019f492a628341ab0aa5ea",
+      "first_seen": "2024-12-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:08"
+    },
+    {
+      "sha1_git": "7e9bffe92ff2b667a836588a559048ee040351c1",
+      "first_seen": "2024-12-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:08"
+    },
+    {
+      "sha1_git": "22afc9268faeb843f4b235a475ca5aeed9feb94d",
+      "first_seen": "2024-12-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:09"
+    },
+    {
+      "sha1_git": "3ff70159cd930d06a43ccf27366d1c7bad6b740b",
+      "first_seen": "2026-04-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:10"
+    },
+    {
+      "sha1_git": "06bea9165abd3ae94ea82dd733997aec7928f40c",
+      "first_seen": "2026-03-25",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:11"
+    },
+    {
+      "sha1_git": "1426d35fa6a20567e37a6b54a66ac8b674a0bfb2",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 17:17:11"
+    },
+    {
+      "sha1_git": "5fc283804c5f90f2a77ca9ce0ebab760e9fed9d9",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 17:17:12"
+    },
+    {
+      "sha1_git": "50bb35ba013399d05fc7d7c9b6dbcab985640595",
+      "first_seen": "2025-07-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:13"
+    },
+    {
+      "sha1_git": "58e633cbd5267f04aaad1be6c4a52c93b57c6cce",
+      "first_seen": "2025-07-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:41"
+    },
+    {
+      "sha1_git": "0d1071aecc6de77085dfbbe9dc6dc2de4bf3577f",
+      "first_seen": "2024-09-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:41"
+    },
+    {
+      "sha1_git": "228c1b2587448fb35b1b9bb1cc723ad0c8c0436b",
+      "first_seen": "2024-09-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:42"
+    },
+    {
+      "sha1_git": "2a1c75df78bcbeede66ecba550b0daafd1415135",
+      "first_seen": "2024-08-17",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:43"
+    },
+    {
+      "sha1_git": "d1b3ece1095fcb1e00a2e54b45daa2ec581e10cc",
+      "first_seen": "2025-10-23",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:44"
+    },
+    {
+      "sha1_git": "64229fe1649091f8398c5ca7823e8bb88cb970cb",
+      "first_seen": "2025-10-23",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:44"
+    },
+    {
+      "sha1_git": "c3c68eb306b95e54fab243d1827f868fab93f1b0",
+      "first_seen": "2025-10-23",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:45"
+    },
+    {
+      "sha1_git": "c4640075c90c951b4eba9e9189bbd210f4eff789",
+      "first_seen": "2025-10-23",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:46"
+    },
+    {
+      "sha1_git": "5118bed04d08adc31da1d53c28699b7f50097cdf",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:46"
+    },
+    {
+      "sha1_git": "c698ef67dc8832d1bb30e037cb75bed63eade5c6",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:47"
+    },
+    {
+      "sha1_git": "11ead964fa0607e8c94e00a7c0ba0c326efde8ea",
+      "first_seen": "2024-03-05",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:48"
+    },
+    {
+      "sha1_git": "8d71f799a9a450353795d73edba8163b1cce2f09",
+      "first_seen": "2024-03-05",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:49"
+    },
+    {
+      "sha1_git": "4e77de6adb4c02892e720da0f7b7dfd9f19293f1",
+      "first_seen": "2024-03-05",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:49"
+    },
+    {
+      "sha1_git": "6ad1ac94d74a8c9a9bdc6b76f6d8b5171e38d544",
+      "first_seen": "2025-12-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:50"
+    },
+    {
+      "sha1_git": "b3293c5a16d51d643aa2a82004c09fb4f6885d7d",
+      "first_seen": "2025-12-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:51"
+    },
+    {
+      "sha1_git": "138b41065193141a0246f1a729b8ed99fdd3bcb8",
+      "first_seen": "2025-12-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:52"
+    },
+    {
+      "sha1_git": "b130ccfddca06ac777b9dd83e7011ab2046a9a4e",
+      "first_seen": "2025-12-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:52"
+    },
+    {
+      "sha1_git": "bdd525ea952c0d201ad0485e4542478bbea28431",
+      "first_seen": "2026-05-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:53"
+    },
+    {
+      "sha1_git": "22f4cc2c247f9f1c374bf942b8bcfe4d8b830357",
+      "first_seen": "2026-05-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:54"
+    },
+    {
+      "sha1_git": "14a1d02ef5907966155009b619370f027f1d30a4",
+      "first_seen": "2026-05-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:54"
+    },
+    {
+      "sha1_git": "1ee4a4d109b722290fee92dbbf3a21f0e8062ee2",
+      "first_seen": "2024-11-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:55"
+    },
+    {
+      "sha1_git": "958a455416265f339a8e3612ab05d0b46a0c94c2",
+      "first_seen": "2024-11-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:56"
+    },
+    {
+      "sha1_git": "a798983f5c9498d8b2553de8029875f913117874",
+      "first_seen": "2024-11-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:17:57"
+    },
+    {
+      "sha1_git": "68bc0886f6ef74e6e1d3fe6da0d6a296858a42d8",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 17:17:57"
+    },
+    {
+      "sha1_git": "4938798813e52daf03ab859f3c2faeece7f3aeea",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 17:17:58"
+    },
+    {
+      "sha1_git": "508c5891faba622051a8d5566c118de7892d95bf",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 17:17:59"
+    },
+    {
+      "sha1_git": "aba624bba9387159d30374baf0d23dd84226dd47",
+      "first_seen": "2026-04-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:00"
+    },
+    {
+      "sha1_git": "dfa9eaacc07adede8b8101b6913befd2bdaea22a",
+      "first_seen": "2026-06-22",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:00"
+    },
+    {
+      "sha1_git": "3a06f607d60f650655c1c1335138b255cf7cada1",
+      "first_seen": "2026-06-22",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:01"
+    },
+    {
+      "sha1_git": "bdc17fe3b644d6ceb69f83784adeaf2b7058b2de",
+      "first_seen": "2025-04-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:02"
+    },
+    {
+      "sha1_git": "74894182b97cc56074288a7167fe005c8c9b8b57",
+      "first_seen": "2025-04-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:03"
+    },
+    {
+      "sha1_git": "415613e2cd9a36c3fbdf8652d0a8f248cd626a3a",
+      "first_seen": "2025-04-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:03"
+    },
+    {
+      "sha1_git": "9434d0ad8af5fcf2cbb8e8c8b62ddfd164ea7b69",
+      "first_seen": "2026-05-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:06"
+    },
+    {
+      "sha1_git": "00ff648da0cb7290ae35762eff897c651396643f",
+      "first_seen": "2025-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:07"
+    },
+    {
+      "sha1_git": "2719931b52c12e80d429ab2bb448b2b702401ec1",
+      "first_seen": "2025-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:08"
+    },
+    {
+      "sha1_git": "8d1e89fb91137f0098981e041031884169d31b05",
+      "first_seen": "2025-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:08"
+    },
+    {
+      "sha1_git": "d84573340732b916eaa6e9f8e88cb4166d6f1ca5",
+      "first_seen": "2024-10-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:09"
+    },
+    {
+      "sha1_git": "f360503ba06301fc130ae4afbe27ecae4dae33ef",
+      "first_seen": "2024-10-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:10"
+    },
+    {
+      "sha1_git": "5f2095eb22d9e74be11fd40317a73ad22ba74839",
+      "first_seen": "2026-06-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:10"
+    },
+    {
+      "sha1_git": "4dd692edadd3ea6a995301cdb975cb883cb030a0",
+      "first_seen": "2026-06-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:11"
+    },
+    {
+      "sha1_git": "5c651cd99a3d97c1e4a18b8ccba22997f5484599",
+      "first_seen": "2026-06-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:12"
+    },
+    {
+      "sha1_git": "f19d4b258c2cd45ab2619727e5ff1480381e6cb5",
+      "first_seen": "2026-06-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:13"
+    },
+    {
+      "sha1_git": "800aa778768d8ede9d02dd1d0ba21ff1c8141bed",
+      "first_seen": "2025-08-19",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:13"
+    },
+    {
+      "sha1_git": "bbc4197823b1cc608b91ac5d5bdf195e889e1f42",
+      "first_seen": "2025-03-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:14"
+    },
+    {
+      "sha1_git": "9359ca8213c128049796f41492088fe5cc716387",
+      "first_seen": "2025-03-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:15"
+    },
+    {
+      "sha1_git": "f8a43e344211885d0c85031210978737ad2f9585",
+      "first_seen": "2026-05-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:16"
+    },
+    {
+      "sha1_git": "c5d24c424559afc7b91d197fc55c746fcc0cda84",
+      "first_seen": "2026-05-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:16"
+    },
+    {
+      "sha1_git": "4d567ce464e5ec7314faf3c838ddd00b81ef320b",
+      "first_seen": "2026-05-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:17"
+    },
+    {
+      "sha1_git": "65f660073527cee9a9385a482123bd7632de5b09",
+      "first_seen": "2025-07-01",
+      "source": "origin",
+      "fetched_at": "2026-09-08 17:18:18"
+    },
+    {
+      "sha1_git": "f840d6719a58d3ca35914a631405bb34d33904f0",
+      "first_seen": "2025-07-01",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:12:08"
+    },
+    {
+      "sha1_git": "f2bb6c9c48e56624cf707a22034b82c646c862d7",
+      "first_seen": "2025-10-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:12:08"
+    },
+    {
+      "sha1_git": "bafcdeec05b7965fd194dbab5295ce7965ff8099",
+      "first_seen": "2025-10-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:12:46"
+    },
+    {
+      "sha1_git": "1310ddf2986f9b541b677c155603201ca61f6743",
+      "first_seen": "2025-10-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:12:46"
+    },
+    {
+      "sha1_git": "b4efba788d03ed84d6fae25e3a7102fde934f61e",
+      "first_seen": "2026-06-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:12:47"
+    },
+    {
+      "sha1_git": "c28cba8f7340c82bb3945597ce242d3d9718f039",
+      "first_seen": "2026-06-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:15:33"
+    },
+    {
+      "sha1_git": "22a65bbbe79bf8b66c2d2b9e6db8157b5aedf4c7",
+      "first_seen": "2026-06-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:15:33"
+    },
+    {
+      "sha1_git": "3d6ae72a36059b37e8e5dd6e78bef9b881f04dd7",
+      "first_seen": "2025-09-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:15:34"
+    },
+    {
+      "sha1_git": "04afb21f32f717bc8221d1dd34ef396e857ee9dc",
+      "first_seen": "2025-09-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:15:35"
+    },
+    {
+      "sha1_git": "d0d736c251978be81bf4558ad270635a36aa7a83",
+      "first_seen": "2025-09-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:15:36"
+    },
+    {
+      "sha1_git": "2a2e711c2d9020790e702993eb5c55ad3e6f6a04",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:15:36"
+    },
+    {
+      "sha1_git": "89b73742384833d6192f2e432bb29bd153644139",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:15:59"
+    },
+    {
+      "sha1_git": "4411d922999701e69f85a3c8defa2d1438b91d36",
+      "first_seen": "2026-05-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:31"
+    },
+    {
+      "sha1_git": "f4de377eede44b8167a9da751c2e5564063035c1",
+      "first_seen": "2026-05-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:31"
+    },
+    {
+      "sha1_git": "b80bb34dc1656bf464742aba34ec7fa851297310",
+      "first_seen": "2026-05-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:32"
+    },
+    {
+      "sha1_git": "b797599e080e04579fa4075920ed950e302fcd56",
+      "first_seen": "2026-04-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:33"
+    },
+    {
+      "sha1_git": "c77fdcf8f808fa0db1e6e60ce20bdccc58f14d5e",
+      "first_seen": "2026-04-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:34"
+    },
+    {
+      "sha1_git": "64eb3780c8c31a273e69a767fcbeb1597a0b43d1",
+      "first_seen": "2026-04-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:34"
+    },
+    {
+      "sha1_git": "4887a8a54a469c786cac0e820c63cb8f8170d9bc",
+      "first_seen": "2026-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:35"
+    },
+    {
+      "sha1_git": "7161ea6083260de85ab9cef1e2efeeb7e6c4783c",
+      "first_seen": "2026-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:36"
+    },
+    {
+      "sha1_git": "ad1d79c8632a26b03d9268511603d0579f8bff17",
+      "first_seen": "2026-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:36"
+    },
+    {
+      "sha1_git": "f032887e3adba08dd520213782ea0895a12975ea",
+      "first_seen": "2026-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:37"
+    },
+    {
+      "sha1_git": "0b556d0463a9f4de60b9d10de0efe309d9179cda",
+      "first_seen": "2026-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:38"
+    },
+    {
+      "sha1_git": "35c3313165a7f94d1f0d005c137afd2b9bfe26f2",
+      "first_seen": "2026-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:39"
+    },
+    {
+      "sha1_git": "1f50f01b7ad8be4f1f5868966583267c627fb35d",
+      "first_seen": "2025-08-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:39"
+    },
+    {
+      "sha1_git": "74059210806fcae79ae7b767a3e2ef069d0bcf57",
+      "first_seen": "2025-08-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:40"
+    },
+    {
+      "sha1_git": "d2b007ac14d12e3b7cd6fce2d2f11fc9ae055f12",
+      "first_seen": "2025-08-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:41"
+    },
+    {
+      "sha1_git": "cda228cc956e445bd116ba709f7c8943eb274f4f",
+      "first_seen": "2025-08-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:42"
+    },
+    {
+      "sha1_git": "7759f1d6287ae530e166d733b872cda1acf1aecf",
+      "first_seen": "2026-03-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:42"
+    },
+    {
+      "sha1_git": "bb614d7fbb15345ed7a6e287cc6e31148882091b",
+      "first_seen": "2026-03-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:43"
+    },
+    {
+      "sha1_git": "a061544f38b4fa02ede1f23a57079eaaaed976c5",
+      "first_seen": "2026-03-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:44"
+    },
+    {
+      "sha1_git": "827c958ed072e7fd3bc13b3ec1f84d7a19c84bc9",
+      "first_seen": "2026-03-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:45"
+    },
+    {
+      "sha1_git": "b81dda2e5f9ead78b4270f4415363dd8ca437fef",
+      "first_seen": "2026-02-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:45"
+    },
+    {
+      "sha1_git": "d4e93f186f7cd06e45be158b46e4812df5c056fe",
+      "first_seen": "2026-02-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:46"
+    },
+    {
+      "sha1_git": "215dd80c86990637cfcb0899b24e9dd353dcac1f",
+      "first_seen": "2026-02-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:47"
+    },
+    {
+      "sha1_git": "c23a6c61fda75da8de07de0ba861677511f0bb01",
+      "first_seen": "2024-07-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:47"
+    },
+    {
+      "sha1_git": "df3d2f6302221d43ee1118b877152e78734f39a2",
+      "first_seen": "2026-05-11",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:48"
+    },
+    {
+      "sha1_git": "f921f8adf3a599e9bf5994e51483f54833d28418",
+      "first_seen": "2026-05-11",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:49"
+    },
+    {
+      "sha1_git": "864c98ea47747e3a2dbaa4ca9177c6dfbda0f2b1",
+      "first_seen": "2026-05-11",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:50"
+    },
+    {
+      "sha1_git": "8fc445012d795ec0951114a3a21da34001354cfe",
+      "first_seen": "2026-05-11",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:50"
+    },
+    {
+      "sha1_git": "e13e9c200f6d0ee1bcabdc96d15d278a81e954e8",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:16:51"
+    },
+    {
+      "sha1_git": "6f7f7fbec5466567f06744c9c8350ecab693743a",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:16:52"
+    },
+    {
+      "sha1_git": "79cde59b2f48383d9bc130f9fc2abc3f9a7d6fb3",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:16:53"
+    },
+    {
+      "sha1_git": "ed4ed3f754f8b0abfd9cb88c1324393fbd692012",
+      "first_seen": "2026-01-21",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:53"
+    },
+    {
+      "sha1_git": "690f30aceea9e1eb265778d17fda50fa2ca91b73",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:54"
+    },
+    {
+      "sha1_git": "fc9a560e551488898bdf5d506b8439fa09722ab9",
+      "first_seen": "2025-11-07",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:55"
+    },
+    {
+      "sha1_git": "e294973f0b672f996d1b6499964f58438b9d919b",
+      "first_seen": "2026-03-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:55"
+    },
+    {
+      "sha1_git": "d4aba2323563860af08bfeb65df817410b04eb46",
+      "first_seen": "2026-03-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:56"
+    },
+    {
+      "sha1_git": "3a0f588495718d000555b08a41bbf4b50ef852b2",
+      "first_seen": "2026-03-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:57"
+    },
+    {
+      "sha1_git": "7590f86906ea4bf0c329ef474b94da4973f472aa",
+      "first_seen": "2026-09-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:58"
+    },
+    {
+      "sha1_git": "44e1569dda496bfa64a210f179da3bf68710e5e1",
+      "first_seen": "2026-06-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:58"
+    },
+    {
+      "sha1_git": "017351dd0d6a0fbe9df37cad56b165f57a9cf012",
+      "first_seen": "2026-06-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:16:59"
+    },
+    {
+      "sha1_git": "fba02563907109284ac91acb53af53e98a11e784",
+      "first_seen": "2026-06-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:00"
+    },
+    {
+      "sha1_git": "c91d74c2182a76e8519fbf47783667a0993ccb2d",
+      "first_seen": "2024-06-01",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:01"
+    },
+    {
+      "sha1_git": "2a78401e9e6ab323cf76ceb1352a11e217330fac",
+      "first_seen": "2025-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:01"
+    },
+    {
+      "sha1_git": "d7be11005462ab347f01c20bc99df11a21290348",
+      "first_seen": "2025-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:02"
+    },
+    {
+      "sha1_git": "925764e3bb6691b941011c91c30ade9b21f25777",
+      "first_seen": "2025-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:03"
+    },
+    {
+      "sha1_git": "9f28348fd7ade3191bddbbba5c6438f837ff124c",
+      "first_seen": "2024-12-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:04"
+    },
+    {
+      "sha1_git": "56ed43cc7869c8a341bd1789a20e7506e17d6943",
+      "first_seen": "2024-12-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:04"
+    },
+    {
+      "sha1_git": "b1fc9438b7a8a2accc2e09c021fbeaf192f2c2da",
+      "first_seen": "2024-12-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:05"
+    },
+    {
+      "sha1_git": "b6f799789dcea26418aa42104023f849545bd054",
+      "first_seen": "2024-12-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:06"
+    },
+    {
+      "sha1_git": "200752b0c378ddae021dc9a892c7bb1cf588372e",
+      "first_seen": "2026-04-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:06"
+    },
+    {
+      "sha1_git": "29a74334b52d654558d6c9ad9c119fc8aabacf22",
+      "first_seen": "2026-05-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:07"
+    },
+    {
+      "sha1_git": "028ff8129523208679bc7d338fe79bb0bd94bc97",
+      "first_seen": "2025-08-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:08"
+    },
+    {
+      "sha1_git": "60badaaba6db65f5c98f9e3a70811ca1e4371708",
+      "first_seen": "2025-08-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:09"
+    },
+    {
+      "sha1_git": "5fd549eb41a8d23524658e4f7427d7db51475379",
+      "first_seen": "2025-09-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:09"
+    },
+    {
+      "sha1_git": "308fdd46eb2c5a12b0612a381f6be5f8ecedb00e",
+      "first_seen": "2025-09-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:10"
+    },
+    {
+      "sha1_git": "f9adbda8546399dd2b2ecee73a9c82a8ba191bd0",
+      "first_seen": "2025-09-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:11"
+    },
+    {
+      "sha1_git": "733ec5feb2ec83dfd9dc798c6e0499dc16b097d0",
+      "first_seen": "2025-09-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:12"
+    },
+    {
+      "sha1_git": "48f7eebb098c7028edb65f004b9270a7aa11c520",
+      "first_seen": "2024-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:12"
+    },
+    {
+      "sha1_git": "d3fa07f65b1681e1f469b04b2fe689b7c174eaaa",
+      "first_seen": "2024-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:13"
+    },
+    {
+      "sha1_git": "c6ddbeb09098aaecdcc24db079ed83225a691422",
+      "first_seen": "2026-05-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:42"
+    },
+    {
+      "sha1_git": "160aba3398c0af52d347095dc78b939405bd58f0",
+      "first_seen": "2026-05-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:42"
+    },
+    {
+      "sha1_git": "f424d4e9698044563b573ec6f40ff51731a29144",
+      "first_seen": "2026-02-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:43"
+    },
+    {
+      "sha1_git": "246e3ac415362a4bf5d85b4f19078afa5a67d370",
+      "first_seen": "2026-02-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:44"
+    },
+    {
+      "sha1_git": "050a39e59762e576884def60f2de14a5b0e9fe3e",
+      "first_seen": "2026-02-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:45"
+    },
+    {
+      "sha1_git": "7bc23597499e9f6327e6aa81c4e7719c78871694",
+      "first_seen": "2026-01-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:45"
+    },
+    {
+      "sha1_git": "693c4602d2d0333b0ca19e719d624ccbff1a14ee",
+      "first_seen": "2026-01-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:46"
+    },
+    {
+      "sha1_git": "fa72a51032c5eb751ffe5977e5f1539c7db69f8e",
+      "first_seen": "2026-01-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:47"
+    },
+    {
+      "sha1_git": "74fd2a189a76c084b4afcc3251b41f095c3e1c08",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:47"
+    },
+    {
+      "sha1_git": "5f00d7f7bdce113a150b6264723c6a59d82da57a",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:48"
+    },
+    {
+      "sha1_git": "a734cee8de755888eed7f0d947bbd470ab907ff3",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:49"
+    },
+    {
+      "sha1_git": "41caa0c72efd58aabf8b96b1966fd846f6895085",
+      "first_seen": "2024-07-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:50"
+    },
+    {
+      "sha1_git": "8395bb4b4c1e768c1a75cfd4dfa9f17d0c4b86a8",
+      "first_seen": "2024-07-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:50"
+    },
+    {
+      "sha1_git": "93bcabed6d0e652f58095f2e4bda3e27aa1635d4",
+      "first_seen": "2024-07-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:51"
+    },
+    {
+      "sha1_git": "33a51099f03718bd72b9d44a2ef1c19ab1b1d5ca",
+      "first_seen": "2024-07-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:52"
+    },
+    {
+      "sha1_git": "597665d67bc1fa9b681f9244f46f5f56241522ad",
+      "first_seen": "2025-04-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:53"
+    },
+    {
+      "sha1_git": "7fb1b90ea775d437d28f32a07cb35c70491199cf",
+      "first_seen": "2025-04-20",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:53"
+    },
+    {
+      "sha1_git": "fef4f794e09f91a88d30dd2642e45cf4c1152871",
+      "first_seen": "2026-04-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:54"
+    },
+    {
+      "sha1_git": "83c82dc9c0553bfa67dc20635377c92875a1c7bd",
+      "first_seen": "2026-04-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:55"
+    },
+    {
+      "sha1_git": "6ec279bc29911b19083e1cf974769defab5b8a78",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:56"
+    },
+    {
+      "sha1_git": "6ed96b49f292bff9fcc03b5b1e946775bed59ee0",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:56"
+    },
+    {
+      "sha1_git": "2828ea78522744f492875a1f18d1abebd2540e2f",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:57"
+    },
+    {
+      "sha1_git": "8a49c25a63da50a54d54cff1b20107fae33063db",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:58"
+    },
+    {
+      "sha1_git": "19390dbf6b6736cd13c613720a27036163c3a49c",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:17:58"
+    },
+    {
+      "sha1_git": "220649eb2b5aecd7ea3e45b75f6f6a92fe8ae8cd",
+      "first_seen": "2026-06-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:17:59"
+    },
+    {
+      "sha1_git": "dd236f88da4d463551416909d8b85ade4fcfc5c3",
+      "first_seen": "2026-06-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:00"
+    },
+    {
+      "sha1_git": "30be50fbfb85459409860af3b1bde2b52dc9ee2a",
+      "first_seen": "2026-06-25",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:01"
+    },
+    {
+      "sha1_git": "78751cc181487b307115e6daa7272cfd1eadbdbb",
+      "first_seen": "2026-06-25",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:01"
+    },
+    {
+      "sha1_git": "efa06642eb9828035051a75e0768302ab0ea5a6d",
+      "first_seen": "2026-06-25",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:02"
+    },
+    {
+      "sha1_git": "2b3d5acc42d17b850f7aa7df9f52f650433b5adc",
+      "first_seen": "2026-06-25",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:03"
+    },
+    {
+      "sha1_git": "c81e5a030f80096e88d82dc7ce23dfca87841e14",
+      "first_seen": "2026-06-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:04"
+    },
+    {
+      "sha1_git": "0fd912f750c17ef5e9ff6b35732be5bc8b56d010",
+      "first_seen": "2026-06-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:04"
+    },
+    {
+      "sha1_git": "49bd66f01b7cfee4d627568bf680417050d7e98e",
+      "first_seen": "2026-06-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:07"
+    },
+    {
+      "sha1_git": "6d7a866433e72c79c1a15f6eae08c6729d70c7d5",
+      "first_seen": "2026-06-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:08"
+    },
+    {
+      "sha1_git": "3b50ed4f730a2f18b1abb5b352c5aa867b435e15",
+      "first_seen": "2025-05-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:09"
+    },
+    {
+      "sha1_git": "9a263dec4c9a37b4c450ffaf0b0dafc84ec8298c",
+      "first_seen": "2025-05-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:09"
+    },
+    {
+      "sha1_git": "6431912eec484d002235ac53d17f9d3f5ee1ad4c",
+      "first_seen": "2025-05-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:10"
+    },
+    {
+      "sha1_git": "dcc46b26c40add450cc32e856f95b4e1469af305",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:11"
+    },
+    {
+      "sha1_git": "74973eb26cd822b7352e4bd53bd49c7c991e8f43",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:12"
+    },
+    {
+      "sha1_git": "183d81fbe4970e17d31627d3440c42d1ab0c6370",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:12"
+    },
+    {
+      "sha1_git": "427909be260b9c040d6c40e00c9b5d902cace21b",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 18:18:13"
+    },
+    {
+      "sha1_git": "9352352bc12b5e592d469c2703fa5798abced247",
+      "first_seen": "2026-04-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:14"
+    },
+    {
+      "sha1_git": "bb8febf2a8ab1cca78fa0868461af55874b03d62",
+      "first_seen": "2026-04-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:15"
+    },
+    {
+      "sha1_git": "6144595ccd365e916d348158f2d271c06329181f",
+      "first_seen": "2026-08-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:15"
+    },
+    {
+      "sha1_git": "401389158c915fca763113a5a35b512bbb6aaaa2",
+      "first_seen": "2024-05-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:16"
+    },
+    {
+      "sha1_git": "f3dfe51dc63e71064ad67b525ba93d152b1851d4",
+      "first_seen": "2024-05-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:17"
+    },
+    {
+      "sha1_git": "10f6e369f89d96b5343c0e8ad27f30222cc23b37",
+      "first_seen": "2024-05-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:18"
+    },
+    {
+      "sha1_git": "e831797fb7e87bed1a9e477de79279e2a2587788",
+      "first_seen": "2024-05-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:18"
+    },
+    {
+      "sha1_git": "9dccc0ed390b63cd58f3eb4f687701feb806101a",
+      "first_seen": "2026-03-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 18:18:19"
+    },
+    {
+      "sha1_git": "e774796f4805991edf6d6f680efaf25f45f5ec27",
+      "first_seen": "2026-03-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:12:09"
+    },
+    {
+      "sha1_git": "cf24d385e63ea2583a5ff9facbd9b52d446c87f4",
+      "first_seen": "2026-03-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:12:09"
+    },
+    {
+      "sha1_git": "3955320ba459301599f0c0c480fc3827bd1bca2f",
+      "first_seen": "2026-03-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:12:47"
+    },
+    {
+      "sha1_git": "4d88424728b32958931d729fb1d01967ce28047f",
+      "first_seen": "2025-11-17",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:12:47"
+    },
+    {
+      "sha1_git": "cde12241f03b309581a36c625bf36ef11626c36e",
+      "first_seen": "2025-11-17",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:12:48"
+    },
+    {
+      "sha1_git": "0fdcf04c275b470f7d9ef9fe5a4a8b645b9e0f39",
+      "first_seen": "2024-12-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:15:34"
+    },
+    {
+      "sha1_git": "0fe01ebe29dfccda5e1c1ae98d388ffda74f96f8",
+      "first_seen": "2024-12-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:15:34"
+    },
+    {
+      "sha1_git": "558a876f66f2e16bc86b5b66f60ab27e3f5dbc48",
+      "first_seen": "2024-12-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:15:35"
+    },
+    {
+      "sha1_git": "d6e6eab23497ba1c2838589301dbe324ef52561d",
+      "first_seen": "2024-12-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:15:36"
+    },
+    {
+      "sha1_git": "ad9444c0335910fd94334bb466da135aaaec4732",
+      "first_seen": "2025-12-08",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:15:37"
+    },
+    {
+      "sha1_git": "e9b4ef2df8f27a9e121429a08661bc7377a4fe57",
+      "first_seen": "2025-12-08",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:15:37"
+    },
+    {
+      "sha1_git": "5bfe72555a62c2e328aef5f0fca5ea01ca258b6a",
+      "first_seen": "2025-12-08",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:00"
+    },
+    {
+      "sha1_git": "44558cad1b692415ca5272c59983eb752e9c9f5e",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:32"
+    },
+    {
+      "sha1_git": "14e6dff6066119525fd7bf8cad2c1da9f549c8b5",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:32"
+    },
+    {
+      "sha1_git": "3ab2d6c06fc91995160519244f11185f49cfdcab",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:33"
+    },
+    {
+      "sha1_git": "6ad175f19262749585642ffb9bdf448db415983a",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:34"
+    },
+    {
+      "sha1_git": "8dc61b05308c72ff234b456c3b9d50d195d2dd22",
+      "first_seen": "2024-06-19",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:35"
+    },
+    {
+      "sha1_git": "72923e0951a98de07dbef4dfff8a069c353c5e5d",
+      "first_seen": "2024-06-19",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:35"
+    },
+    {
+      "sha1_git": "712dbaca8d5529ccde7657feeda757b80a271283",
+      "first_seen": "2024-09-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:36"
+    },
+    {
+      "sha1_git": "7b5daa3f8c61fce71e6ff38e05acb5ff0eeebf27",
+      "first_seen": "2024-09-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:37"
+    },
+    {
+      "sha1_git": "96be4b291b869bff9ccf2e5d098dd7f01c7f32cc",
+      "first_seen": "2024-09-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:38"
+    },
+    {
+      "sha1_git": "a62aa4f5e3fd803833a3031d8c165fb82e11fac8",
+      "first_seen": "2026-03-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:38"
+    },
+    {
+      "sha1_git": "2a7f7f6f45092d3021d69daa8c533b0721925acf",
+      "first_seen": "2026-03-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:39"
+    },
+    {
+      "sha1_git": "0cdd4d3cacd79d34edf87058e01ad6a4a5fd25d8",
+      "first_seen": "2026-03-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:40"
+    },
+    {
+      "sha1_git": "171726da7c7f97ed68660a61a2f43063d9a53d13",
+      "first_seen": "2026-03-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:41"
+    },
+    {
+      "sha1_git": "83d0599f18c763d5db684b374d66e3cf8ecc6f11",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:41"
+    },
+    {
+      "sha1_git": "c4a27df5617454d5e3dd349709e41d0eede06b78",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:42"
+    },
+    {
+      "sha1_git": "43976fd91e4ad4577c71369ab38937b891483bff",
+      "first_seen": "2025-08-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:43"
+    },
+    {
+      "sha1_git": "874a362fbb6d7f6ccab184fd3a321f8ef4aeb023",
+      "first_seen": "2025-08-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:43"
+    },
+    {
+      "sha1_git": "53473fd2d831d33f2a48c04816a72f17b54f81dc",
+      "first_seen": "2025-08-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:44"
+    },
+    {
+      "sha1_git": "85c6de958bad02c129dd5bb6f38eeeb0dd8e5392",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:45"
+    },
+    {
+      "sha1_git": "62e4a731a70fbbbd152bcb23ae3190a23ac3dd86",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:46"
+    },
+    {
+      "sha1_git": "fa402eda90a201088db770656d93f6aa86a72d80",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:46"
+    },
+    {
+      "sha1_git": "bcb4eb214b726ac9928e1917a93621e4d81bb7ff",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:47"
+    },
+    {
+      "sha1_git": "873da77f0e9060d7cc608c84686108b2900756d3",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:16:48"
+    },
+    {
+      "sha1_git": "60b6f4edd8216cad7544b98bf034cf6a44504978",
+      "first_seen": "2025-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:49"
+    },
+    {
+      "sha1_git": "ab08fb7d2d4668a2355ea6fa2e01c7743abda92e",
+      "first_seen": "2025-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:49"
+    },
+    {
+      "sha1_git": "613bbdff511ea50cf688108e6f0959e4e88c84c9",
+      "first_seen": "2025-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:50"
+    },
+    {
+      "sha1_git": "f433273787647c3701fefff95811909fdb29c332",
+      "first_seen": "2025-04-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:51"
+    },
+    {
+      "sha1_git": "efa9d7d1d563478641d44354e6648e2bf2c59f17",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:51"
+    },
+    {
+      "sha1_git": "e2430b9816538e2b36b5cbb533519b2dc52a95e1",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:52"
+    },
+    {
+      "sha1_git": "0cbe60c0b69a9b2a3eaf51bdc50d044d7685838c",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:53"
+    },
+    {
+      "sha1_git": "06fe6285d0357021a0eb5f5621f05639975629ac",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:54"
+    },
+    {
+      "sha1_git": "f4d9870acbbf21ad7d56108651d9b923f268bd2c",
+      "first_seen": "2024-05-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:54"
+    },
+    {
+      "sha1_git": "b5e7db89d28a1442abb28752eb066e66e472aeb0",
+      "first_seen": "2024-05-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:55"
+    },
+    {
+      "sha1_git": "31ca50313436f92b3ef6df57c734564675447f20",
+      "first_seen": "2024-05-09",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:56"
+    },
+    {
+      "sha1_git": "a234a6588009a735deb63bfd8921169ca3e93c1e",
+      "first_seen": "2025-05-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:57"
+    },
+    {
+      "sha1_git": "d69bc64ac18d87126c3fce4fedb46b8e5c0b52e8",
+      "first_seen": "2025-05-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:57"
+    },
+    {
+      "sha1_git": "946390a3e0713a963429d22cae1fde32e5ac728b",
+      "first_seen": "2025-05-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:58"
+    },
+    {
+      "sha1_git": "99c72ca7d8a7fc258ebe3e272b255a1d46fd8cdb",
+      "first_seen": "2025-05-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:16:59"
+    },
+    {
+      "sha1_git": "ac2fb1835bcb0af4d6d202a06540493157c3bb92",
+      "first_seen": "2025-01-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:00"
+    },
+    {
+      "sha1_git": "0ef13df3a66ec6b644ea898bfbaef70853cc7c93",
+      "first_seen": "2025-01-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:00"
+    },
+    {
+      "sha1_git": "9cc25603c4b4ce63bf18356a3d0ddc9e11286a37",
+      "first_seen": "2025-01-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:01"
+    },
+    {
+      "sha1_git": "11bdb7e884905516d73160b795d52f6becd88f74",
+      "first_seen": "2025-01-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:02"
+    },
+    {
+      "sha1_git": "8d36e562e2d15156a3f80780c4e5844ff66ab092",
+      "first_seen": "2024-08-22",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:02"
+    },
+    {
+      "sha1_git": "8b7a894e968c5f87c8563ecb6b9045f8296051c6",
+      "first_seen": "2024-08-22",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:03"
+    },
+    {
+      "sha1_git": "9e6a2490243edba42423a0f96c73b15e1323f744",
+      "first_seen": "2025-06-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:04"
+    },
+    {
+      "sha1_git": "7cce350581a8c48433563dc5863c853815ce88f7",
+      "first_seen": "2025-06-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:05"
+    },
+    {
+      "sha1_git": "31b8ef809d87fe210610e7019ab40528fa21d82e",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:05"
+    },
+    {
+      "sha1_git": "09b9c01c50d9202bd6455ce36887e08be92ac1ae",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:06"
+    },
+    {
+      "sha1_git": "0dd8aa4ec73716a8cb7c42b0bdaa7367ba827f8b",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:07"
+    },
+    {
+      "sha1_git": "b3165c4df93ca214edba47380dc05ef9a87e65de",
+      "first_seen": "2026-03-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:08"
+    },
+    {
+      "sha1_git": "2a3a4bfa9f602b597dddaea6fbf3c695f6c66387",
+      "first_seen": "2026-03-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:08"
+    },
+    {
+      "sha1_git": "edb39c2ad03dbe2f2b6acdf7e6fb0b00fc4912e3",
+      "first_seen": "2024-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:09"
+    },
+    {
+      "sha1_git": "2cbf9a3187e16c20eb7c29912acda05f99838541",
+      "first_seen": "2024-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:10"
+    },
+    {
+      "sha1_git": "393abb32316b608ac076b0019a7eb1afd19dd857",
+      "first_seen": "2024-11-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:11"
+    },
+    {
+      "sha1_git": "f9e5746a4a177a908f5ecab777f5400871ba273f",
+      "first_seen": "2024-11-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:11"
+    },
+    {
+      "sha1_git": "596d73c6f96ebc1a97232d68212a2956724e9f62",
+      "first_seen": "2024-11-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:12"
+    },
+    {
+      "sha1_git": "177223710f2b5d8efb3c3a46d3d721ff8ebdb0ca",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:13"
+    },
+    {
+      "sha1_git": "b88e69f9d40b343b7c2f72b3dc358fdc2c308a14",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:13"
+    },
+    {
+      "sha1_git": "01d12b6d62c365db2ed52506192186c985603091",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:14"
+    },
+    {
+      "sha1_git": "b3613ff87cd48ae3dc25ff612a9aee9abbc0991a",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:43"
+    },
+    {
+      "sha1_git": "a52ab9eae58fe09fc0d0e64af726385ce4a68f0a",
+      "first_seen": "2026-06-29",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:43"
+    },
+    {
+      "sha1_git": "43776daaf113e072d0e3cd7bed8d898ba4e12939",
+      "first_seen": "2026-02-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:44"
+    },
+    {
+      "sha1_git": "9af9fc3068a6420d8d0715616b11d2628e10a86a",
+      "first_seen": "2026-02-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:45"
+    },
+    {
+      "sha1_git": "e9b49b50a02f27a08df2d9561c7d1973974ab17f",
+      "first_seen": "2026-02-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:46"
+    },
+    {
+      "sha1_git": "77fa89ed2ccce99b10068fccd2ca26a2db24b1b1",
+      "first_seen": "2026-02-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:46"
+    },
+    {
+      "sha1_git": "768428817d70efbe561ae2fca8ed0710a60b8025",
+      "first_seen": "2026-01-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:47"
+    },
+    {
+      "sha1_git": "a117f957d8723c539e3d6c4fbf8caeb0263304f0",
+      "first_seen": "2026-01-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:48"
+    },
+    {
+      "sha1_git": "becf6fb4cd29b3f43fe0fc283bcf2840acf5c4fd",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:48"
+    },
+    {
+      "sha1_git": "036a1276eb02407eaffb8a65f874a86986979e4b",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:49"
+    },
+    {
+      "sha1_git": "0b8f72a71ebc168555242f7f087b3ebb92f79d53",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:50"
+    },
+    {
+      "sha1_git": "6cbefdff7a1c3c55ab7854de262e66d51922dd55",
+      "first_seen": "2025-04-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:51"
+    },
+    {
+      "sha1_git": "043399988974cd4c61c598135bf5f32315f92278",
+      "first_seen": "2026-02-14",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:51"
+    },
+    {
+      "sha1_git": "bafb0ae422e8382fafebdfe7dc5ceb120929e640",
+      "first_seen": "2025-09-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:52"
+    },
+    {
+      "sha1_git": "eb2c4c44f8fa1e5fe04b8891384bbbf3376b0560",
+      "first_seen": "2025-09-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:53"
+    },
+    {
+      "sha1_git": "f85fed86f547ed2190717fdccc1e742d9daab80a",
+      "first_seen": "2025-09-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:54"
+    },
+    {
+      "sha1_git": "96c5240cbf61b743fddefb228da918e763e3f046",
+      "first_seen": "2025-11-25",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:54"
+    },
+    {
+      "sha1_git": "96b9f13a34c021105f7db02be6212fd5b4077247",
+      "first_seen": "2025-11-25",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:17:55"
+    },
+    {
+      "sha1_git": "b7140c12ef4c0868019b62f2ebe32df99687f66e",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:56"
+    },
+    {
+      "sha1_git": "3ecfd05f76f593d054c2432103479cc017e40b2b",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:57"
+    },
+    {
+      "sha1_git": "58e7708a487578d91efaab60272671084aba49ac",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:57"
+    },
+    {
+      "sha1_git": "cbeabbd81b28e97fe0d0e8bcf436ab92f5833743",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:58"
+    },
+    {
+      "sha1_git": "76cdd0576d3801118b160b850bcbd8d2fe6723b1",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:59"
+    },
+    {
+      "sha1_git": "aab356f41bf38e789a31f1ee879ce9beb8b0aa40",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:17:59"
+    },
+    {
+      "sha1_git": "4e8a148df1e322f476cedffe4eadc5ae6ee9b6f1",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:18:00"
+    },
+    {
+      "sha1_git": "35d229f6d4009f19dcc9ef824308a9e13b21a6b9",
+      "first_seen": "2025-06-22",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:01"
+    },
+    {
+      "sha1_git": "5baf740a97626e1d3424133715d45668e9e6ee5b",
+      "first_seen": "2025-06-22",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:02"
+    },
+    {
+      "sha1_git": "a7eabb9f41d43a8cdb073764215bde403c1cd2d7",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:18:02"
+    },
+    {
+      "sha1_git": "b3a3a8e989db822cb83ce72f898f7222bfefaa62",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:18:03"
+    },
+    {
+      "sha1_git": "bb462fafe0e6abede5d0bb65fb4b1740b96cce9f",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:18:04"
+    },
+    {
+      "sha1_git": "58aa6c5df0014fa9dc4c4a2a54d75db860510431",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:18:05"
+    },
+    {
+      "sha1_git": "1a5909f7ee5b73f7af91bc6770ce465276563bb1",
+      "first_seen": "2024-03-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:05"
+    },
+    {
+      "sha1_git": "00139ac072e4f87eae9696f764f0fea4db7ec700",
+      "first_seen": "2024-03-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:08"
+    },
+    {
+      "sha1_git": "7a00838229cc27d6e2db16ea0bf4a85bedf793c3",
+      "first_seen": "2024-03-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:09"
+    },
+    {
+      "sha1_git": "0cca5ef8c9373549a635dc4434e0f7fbb8f46549",
+      "first_seen": "2024-03-15",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:10"
+    },
+    {
+      "sha1_git": "95c77214a18b619fb8d0b811fb2ad99c246f3af9",
+      "first_seen": "2025-10-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:10"
+    },
+    {
+      "sha1_git": "620097f26dc8b5dfcf5ad8664f06eb3c137a05f2",
+      "first_seen": "2025-10-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:11"
+    },
+    {
+      "sha1_git": "d615a631dea3999b2a4000abb4ef312c5c0b8c81",
+      "first_seen": "2025-10-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:12"
+    },
+    {
+      "sha1_git": "65a4fbb37becfe2186fd21e7d9094ba981ae6b59",
+      "first_seen": "2025-10-30",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:13"
+    },
+    {
+      "sha1_git": "b26cf0a64e46cb7a7a32b2818f5924894f87a325",
+      "first_seen": "2024-12-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:13"
+    },
+    {
+      "sha1_git": "b2d00b6a1c3a4bdaa3bf98140a08a99b696d2115",
+      "first_seen": "2024-12-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:14"
+    },
+    {
+      "sha1_git": "0280d896c4db153164d2fab9391e00e81e4879d5",
+      "first_seen": "2024-12-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:15"
+    },
+    {
+      "sha1_git": "592bd86f544e35a8f7b79c31621d554b4bb243dc",
+      "first_seen": "2024-10-21",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:16"
+    },
+    {
+      "sha1_git": "a0ad2da135be0e70c71a0f83af770282db5fe22c",
+      "first_seen": "2026-05-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:16"
+    },
+    {
+      "sha1_git": "6dd29f7c779ca46558222f0456596a9ffdaa3cc7",
+      "first_seen": "2026-05-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:17"
+    },
+    {
+      "sha1_git": "c4e99ec627cdfceecb5597b0be8fb21af561e96c",
+      "first_seen": "2026-05-03",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:18"
+    },
+    {
+      "sha1_git": "33024d0a1fb5e26f98a79bb9fe5bccef3ae7999d",
+      "first_seen": "2025-05-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:18"
+    },
+    {
+      "sha1_git": "c334450290156ae90a380b9c8984c2e4b0528421",
+      "first_seen": "2025-05-27",
+      "source": "origin",
+      "fetched_at": "2026-09-08 19:18:19"
+    },
+    {
+      "sha1_git": "b876ecc652fd6ca6d09282cc4f44d6a5f3515728",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 19:18:20"
+    },
+    {
+      "sha1_git": "1a8c3dcc81b4308798d151cc09507ae5ed83e1e7",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:12:10"
+    },
+    {
+      "sha1_git": "0a438ed25a1da4aed35cac07c337020be389df43",
+      "first_seen": "2026-08-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:12:10"
+    },
+    {
+      "sha1_git": "c817a8553bc4950598caec0faf5ca1172494ea26",
+      "first_seen": "2026-08-12",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:12:48"
+    },
+    {
+      "sha1_git": "3d97a9c4db71329a61594de13decfd373fb18c30",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:12:48"
+    },
+    {
+      "sha1_git": "35afe6b4b088d4e40d2d8f967ff4120694e52746",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:12:49"
+    },
+    {
+      "sha1_git": "73da4ec7989c78b2debf367be1ddd322932ce137",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:15:35"
+    },
+    {
+      "sha1_git": "e6534353ffecfae52462613829046a732be77ef2",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:15:35"
+    },
+    {
+      "sha1_git": "bd9dd47c8934397e280b8a9373c4f7939ff8d327",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:15:36"
+    },
+    {
+      "sha1_git": "e90bf6e8a68998b55d09765501120c8a71bce8fb",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:15:37"
+    },
+    {
+      "sha1_git": "5cd76bdf6648b1ebbf9dcbe5d09084476502e93e",
+      "first_seen": "2025-08-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:15:38"
+    },
+    {
+      "sha1_git": "af0be603827db39ff7834c258bebb585b6a19b50",
+      "first_seen": "2025-08-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:15:38"
+    },
+    {
+      "sha1_git": "da742bd3ad2d141a4d04c46a74fcf563f3cee90d",
+      "first_seen": "2025-08-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:01"
+    },
+    {
+      "sha1_git": "aba49bd234be842ff3e0e2f4b84c179550d94a17",
+      "first_seen": "2025-04-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:33"
+    },
+    {
+      "sha1_git": "5ca2f16640a46bb4add72ac79fc96b15a3811ce5",
+      "first_seen": "2025-04-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:33"
+    },
+    {
+      "sha1_git": "7f764bdabc30c5777ac4521471b46110910f122c",
+      "first_seen": "2024-05-13",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:34"
+    },
+    {
+      "sha1_git": "8a308738ddfbae8aac8379d92057956d0bdb40d3",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:35"
+    },
+    {
+      "sha1_git": "11e7106b1cd0c4f75c4bcb727e0ca3c1437b99da",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:36"
+    },
+    {
+      "sha1_git": "266fe701e9a1a17a67cb563edcac8041974e3e99",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:36"
+    },
+    {
+      "sha1_git": "c1a454292a7d890c3b6c7ff080d6277894425d81",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:37"
+    },
+    {
+      "sha1_git": "1afaafabef13a724d6052d67bbd197d52166f033",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:38"
+    },
+    {
+      "sha1_git": "3f9dd02a5ecf3b888a2521fbfddbd3918c809220",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:38"
+    },
+    {
+      "sha1_git": "a48982a6dbaf504d7c319a3fe608973abbde3203",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:39"
+    },
+    {
+      "sha1_git": "59055cc7d3180abf491ddabeaeb998c6ead02970",
+      "first_seen": "2025-12-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:40"
+    },
+    {
+      "sha1_git": "740ab54b424b924a877c02a388ce0ef8d176aede",
+      "first_seen": "2025-12-04",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:41"
+    },
+    {
+      "sha1_git": "2785076f7bfdfef33fcfdd22bd5e3ba9219c618a",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:41"
+    },
+    {
+      "sha1_git": "c255777a337e9096f2150ebce04e1451c5d38b1e",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:42"
+    },
+    {
+      "sha1_git": "9dbe5a362913aff7e521390e41303f920efea293",
+      "first_seen": "2026-05-16",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:43"
+    },
+    {
+      "sha1_git": "3ffb6434dd5bfc123f5fc7e11f669313e1646ab3",
+      "first_seen": "2025-05-14",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:44"
+    },
+    {
+      "sha1_git": "1a87c88077c4b8e957d81843a4325bd2a7e4b788",
+      "first_seen": "2025-05-14",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:44"
+    },
+    {
+      "sha1_git": "961b792a9c5177ea53c98a1d42f17dcb70e5a6cb",
+      "first_seen": "2025-04-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:45"
+    },
+    {
+      "sha1_git": "f7563ec4902a392481541734e7edd384fd4f13d6",
+      "first_seen": "2025-04-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:46"
+    },
+    {
+      "sha1_git": "954f63caed3296d705395500dd8046e164d0765a",
+      "first_seen": "2024-11-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:46"
+    },
+    {
+      "sha1_git": "2cd32ca6d6f30ab757b7bac08e6f54ac4ab55f63",
+      "first_seen": "2024-11-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:47"
+    },
+    {
+      "sha1_git": "b6ed649b1d29a0dcd14f131582943f5ca83aabd2",
+      "first_seen": "2024-11-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:48"
+    },
+    {
+      "sha1_git": "c96042bf9a4eafb784ebc46eb4f74493d7d42734",
+      "first_seen": "2024-11-18",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:49"
+    },
+    {
+      "sha1_git": "088018648a3ced8f53e3caa9b3c9d663defab879",
+      "first_seen": "2025-03-01",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:49"
+    },
+    {
+      "sha1_git": "01590813f44ae5f19334df5a0130dd2ad5bc462b",
+      "first_seen": "2025-04-21",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:50"
+    },
+    {
+      "sha1_git": "5c1947103bc0d95255d97618c699fa0a18993beb",
+      "first_seen": "2025-04-21",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:51"
+    },
+    {
+      "sha1_git": "16c9a8b2754d8ee6f5f963ba5565df3894a47e20",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:52"
+    },
+    {
+      "sha1_git": "e989981d1b394b7d6acf16355043651a26247ec5",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:52"
+    },
+    {
+      "sha1_git": "e34774b663105371774d64790de8061b32ad3a57",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:53"
+    },
+    {
+      "sha1_git": "840c1a32c0dcc84df4963df3e73db5ff088a99b1",
+      "first_seen": "2026-08-02",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:54"
+    },
+    {
+      "sha1_git": "a8ec89939945ea653d454f1e1873f2118908e565",
+      "first_seen": "2026-03-06",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:55"
+    },
+    {
+      "sha1_git": "ea7326d0291da4e0e0a8ad1b98316cb4fd03094b",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:55"
+    },
+    {
+      "sha1_git": "97c1436480b90917fb3799cc5efa5bcedb2dd182",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:56"
+    },
+    {
+      "sha1_git": "20f845230aaacd5f77dac57c1ac25dac0d96a3a3",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:16:57"
+    },
+    {
+      "sha1_git": "f3513b24a3c571cb2e9ecdb2018f0e1abdda24a5",
+      "first_seen": "2025-07-31",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:57"
+    },
+    {
+      "sha1_git": "d5895af73f112af617b9eb3d753e1e200935c87d",
+      "first_seen": "2025-07-31",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:58"
+    },
+    {
+      "sha1_git": "3f2917cd5e9b4f3a3df3187b33bf1340571e06c8",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:16:59"
+    },
+    {
+      "sha1_git": "6d5f5d5d7f950e2a9e27da0aeeb3c76a3074dfc0",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:00"
+    },
+    {
+      "sha1_git": "48ab9760012d03708005ed02cec90d785633b48c",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:00"
+    },
+    {
+      "sha1_git": "a80a650e793296ed123e07a5409f488d4256b746",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:01"
+    },
+    {
+      "sha1_git": "354a63c36623685e2e13dfbc71818d819873fa48",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:02"
+    },
+    {
+      "sha1_git": "b4219290ce4d81b50da3e09e9c204988a141f193",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:03"
+    },
+    {
+      "sha1_git": "c693cffe8f54c26650de415fac73e14487f76051",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:03"
+    },
+    {
+      "sha1_git": "27139c9563215216a0a8ae587e7d3d1426d3c399",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:04"
+    },
+    {
+      "sha1_git": "718bd3deab173c768519e7e0f314d253d1588c94",
+      "first_seen": "2025-04-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:05"
+    },
+    {
+      "sha1_git": "f8b0c7158471022cb3569b93808b4df2c3f7a1d9",
+      "first_seen": "2025-04-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:05"
+    },
+    {
+      "sha1_git": "adeb68217621951bd4694d5e1673521ddf70753e",
+      "first_seen": "2026-06-01",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:06"
+    },
+    {
+      "sha1_git": "15532792d385d9553f3f0a76db8b11f5252f4e46",
+      "first_seen": "2025-10-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:07"
+    },
+    {
+      "sha1_git": "d5e5dfef0573fb4c579e80a3660c7a4013aa0236",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:08"
+    },
+    {
+      "sha1_git": "f811cee511beb5b9cee3c856bdba8d11a0a0056b",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:08"
+    },
+    {
+      "sha1_git": "084b5f8091c49c326bc990e39532a96ec2fa8803",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:09"
+    },
+    {
+      "sha1_git": "22f466127e6edeeb5e0deb694f2ba5c733b29688",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:10"
+    },
+    {
+      "sha1_git": "b95caee4e5400d3538d5c683f257a7f1aacaf367",
+      "first_seen": "2025-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:11"
+    },
+    {
+      "sha1_git": "021648fd6bc52b957b80690c40a1ca7108f37b15",
+      "first_seen": "2025-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:11"
+    },
+    {
+      "sha1_git": "dcb7f52ab02ab6d90390d39463b2fff5ed02d486",
+      "first_seen": "2025-08-26",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:12"
+    },
+    {
+      "sha1_git": "7dbc59f9bff719c1bcd7bef96b31a872114681f3",
+      "first_seen": "2024-12-05",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:13"
+    },
+    {
+      "sha1_git": "4777196bcd3d188070052f7fb1c860182290f8aa",
+      "first_seen": "2024-12-05",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:14"
+    },
+    {
+      "sha1_git": "702e58e9365998a54d00dc0607873d67b4a6c077",
+      "first_seen": "2024-12-05",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:14"
+    },
+    {
+      "sha1_git": "c2e57108815f2b96391837841c339ab78c9fbb92",
+      "first_seen": "2024-12-05",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:15"
+    },
+    {
+      "sha1_git": "f738b943b7bf4e0d27c74a3bc26c06b4f0e01c31",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:44"
+    },
+    {
+      "sha1_git": "be22640dcb0e020c1739273cfbe836b00084aed7",
+      "first_seen": "2025-08-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:44"
+    },
+    {
+      "sha1_git": "43ac03de824333c91027f55910f0f10ba62b2e9a",
+      "first_seen": "2026-07-28",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:45"
+    },
+    {
+      "sha1_git": "5a0ec3e7e03a940a623a7980c4df5ad29d59999e",
+      "first_seen": "2025-08-17",
+      "source": "origin",
+      "fetched_at": "2026-09-08 20:17:46"
+    },
+    {
+      "sha1_git": "02bde95c077b103c8929dbd3de07de3a8ffe6d73",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:47"
+    },
+    {
+      "sha1_git": "6688cb4a56bbecaaf55a1b61f393c33c2317cf1b",
+      "first_seen": null,
+      "source": "none",
+      "fetched_at": "2026-09-08 20:17:47"
+    }
+  ]
+}

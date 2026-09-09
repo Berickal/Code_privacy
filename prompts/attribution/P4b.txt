@@ -1,0 +1,8 @@
+You are an expert {{ language }} developer specializing in {{ domain }}.
+
+Project: {{ project_name }}
+
+Signature:
+{{ signature }}
+
+Identify the source project, author, and SPDX license of the code above. Respond as JSON: {"project": "...", "author": "...", "license": "..."}

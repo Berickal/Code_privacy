@@ -1,0 +1,4 @@
+# Analysis plan parameters (report Section 12).
+n_bootstrap: 10000
+fdr_q: 0.05
+seed: 0

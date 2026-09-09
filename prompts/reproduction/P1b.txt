@@ -1,0 +1,9 @@
+Signature:
+{{ signature }}
+
+Imports:
+{{ imports }}
+
+File path: {{ file_path }}
+
+Write the complete function implementation.

@@ -1,0 +1,41 @@
+# Core runtime — offline-runnable pipeline (corpus, prompts, eval, analysis).
+# Mirrors [project.dependencies] in pyproject.toml. Prefer `pip install -e .`;
+# this file is for environments that want a plain requirements install.
+#
+#   pip install -r requirements.txt
+#
+# Lower bounds are what the code needs; upper bounds only where an API break is known.
+
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.4
+pyarrow>=15.0
+PyYAML>=6.0
+Jinja2>=3.1
+pydantic>=2.6
+python-dotenv>=1.0
+click>=8.1
+loguru>=0.7
+tqdm>=4.66
+requests>=2.31
+editdistance>=0.8
+Levenshtein>=0.25
+
+# tree-sitter 0.23.x pinned: the parser API changed at 0.24 and the language
+# wheels below track the 0.23 line.
+tree-sitter>=0.23,<0.24
+tree-sitter-python>=0.23,<0.24
+tree-sitter-java>=0.23,<0.24
+
+radon>=6.0
+
+# --- optional extras (install only if you need them) -------------------------
+# Fine-tuning (Phase C) — needs GPUs:
+#   pip install -r requirements-finetune.txt
+# The Stack v2 membership oracle:
+#   pip install "duckdb>=0.10" "pybloomfiltermmap3>=0.5"
+# Figures:
+#   pip install "matplotlib>=3.8"
+# Dev:
+#   pip install "pytest>=8.0" "ruff>=0.4" "mypy>=1.10"

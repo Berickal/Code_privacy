@@ -1,0 +1,7 @@
+Here are three reference implementations:
+{{ few_shot }}
+
+Signature:
+{{ signature }}
+
+Write the complete function implementation.

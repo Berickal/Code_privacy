@@ -1,0 +1,24 @@
+# Exact versions verified working (Python 3.13, 2026-09-08). Generated from the dev venv.
+# Use for reproducible installs:  pip install -r requirements.lock
+Jinja2==3.1.6
+Levenshtein==0.27.4
+PyYAML==6.0.3
+click==8.4.2
+editdistance==0.8.1
+loguru==0.7.3
+numpy==2.5.0
+pandas==3.0.3
+pyarrow==24.0.0
+pydantic==2.13.4
+python-dotenv==1.2.2
+radon==6.0.1
+requests==2.34.2
+scikit-learn==1.9.0
+scipy==1.18.0
+tqdm==4.68.3
+tree-sitter==0.23.2
+tree-sitter-java==0.23.5
+tree-sitter-python==0.23.6
+# dev
+pytest==9.1.1
+ruff==0.15.20
