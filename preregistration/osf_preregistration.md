@@ -45,9 +45,12 @@ Measuring Exposure-Specific Code Reproduction in LLMs.
   must pass both.
 - Fine-tuning: **QLoRA** (4-bit nf4 double-quantized frozen base + fp-BF16 LoRA
   adapters r=16), 2-epoch cap, `configs/finetune.yaml` (frozen), k ∈ {1, 5, 25}.
-  Inference on the same 4-bit base (bitsandbytes). Quantization is applied identically
-  to every checkpoint and both populations, so systematic quantization noise cancels in
-  Δ_π; see Threats to Validity / `QUANTIZATION.md`.
+  Inference via vLLM with the base in **fp8** (vLLM dropped bitsandbytes; fp8 is closer
+  to bf16 than nf4). Quantization — nf4 at train time, fp8 at inference — is applied
+  identically to every checkpoint (k ∈ {0,1,5,25}) and both populations (T_E, T_U), so
+  the systematic component cancels in Δ_π; residual effect is slightly wider CIs, not
+  bias. Full-precision replication of the primary model is a listed robustness check.
+  See Threats to Validity / `QUANTIZATION.md`.
 - Prompts: 10 strategies × 3 tasks (`prompts/`, frozen, `FREEZE.lock` hash: __________).
 - Decoding: `configs/decode.yaml` (frozen). No output post-processing.
 

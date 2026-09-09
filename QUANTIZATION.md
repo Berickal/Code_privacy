@@ -46,11 +46,20 @@ python scripts/03_finetune.py --model starcoder2-15b --quant-bits 0   # full pre
 
 Three paths, in order of preference for the real study:
 
-1. **vLLM** (`backend: vllm`) — serve the base model with LoRA adapters and a
-   quantization flag. `scripts/serve_vllm.py` prints the command; e.g.
-   `vllm serve bigcode/starcoder2-15b --enable-lora --lora-modules k1=checkpoints/…__k1
-   k5=… k25=… --quantization bitsandbytes --max-lora-rank 16`.
-   Then `exposure-gap evaluate --backend vllm`.
+1. **vLLM** (`backend: vllm`) — serve the base + LoRA adapters.
+   ```bash
+   python scripts/serve_vllm.py --model starcoder2-15b --run --max-model-len 4096
+   # then, from another shell:
+   exposure-gap evaluate --backend vllm
+   ```
+   **vLLM (>=0.29) removed the `bitsandbytes` runtime method**, so `serve_vllm.py`
+   serves the base in **fp8** instead (Ada/Hopper fp8 hardware; a 15B fits one 32 GB
+   card with the KV cache). Training used nf4 QLoRA; the adapters applied to an fp8
+   base is a small extra noise term that cancels in Δ_π.
+   - If vLLM rejects LoRA+fp8 on your version: `--quantization ''` (bf16 base — needs
+     ~30 GB, drop `--max-model-len` to 2048), or pre-quantize the base to AWQ
+     (`autoawq`) and `--quantization awq_marlin` (LoRA + awq_marlin is the most stable
+     quantized-LoRA path in vLLM).
 
 2. **LocalHFBackend** (`backend: local`) — in-process transformers + peft, no server:
    ```bash
