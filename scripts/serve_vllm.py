@@ -11,6 +11,7 @@ and run ``exposure-gap evaluate --backend vllm`` from another once it prints
 from __future__ import annotations
 
 import os
+import shlex
 import subprocess
 import sys
 from pathlib import Path
@@ -60,7 +61,7 @@ def build_args(root: str, model_id: str, port: int, max_model_len: int, gpu_util
 @click.option("--run", is_flag=True, help="launch vLLM instead of just printing the command")
 def main(root: str, model_id: str, port: int, max_model_len: int, gpu_util: float, run: bool) -> None:
     args = build_args(root, model_id, port, max_model_len, gpu_util)
-    click.echo(" \\\n  ".join(args))
+    click.echo(shlex.join(args))
     if not run:
         click.echo("\n# k=0 (base) is served as the model id itself; k>0 via the k<k> names.")
         click.echo("# add --run to launch it here.")
