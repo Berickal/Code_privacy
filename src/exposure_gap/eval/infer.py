@@ -19,6 +19,9 @@ from dataclasses import dataclass
 
 import requests
 
+# reduce CUDA fragmentation for the local backend (must be set before torch imports)
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+
 from ..config import DecodeSpec
 from ..utils import get_logger
 
@@ -124,10 +127,15 @@ class LocalHFBackend(InferenceBackend):
 
     ``model_ref`` is a base HF id (k==0) or a path to a LoRA checkpoint directory
     (k>0). ``quantization`` one of None | "bitsandbytes" (4-bit) | "int8".
+
+    Memory-safe across k levels: the base model is loaded **once** per base id;
+    LoRA checkpoints are attached as named adapters and switched (k=0 = adapters
+    disabled). Loading a *different* base frees the previous one first.
     """
 
     name = "local"
-    _CACHE: dict = {}
+    #: {"base_id","quant","model","tok","adapters":{name:path}} — one slot, evicted on change
+    _CURRENT: dict | None = None
 
     def __init__(
         self,
@@ -138,35 +146,46 @@ class LocalHFBackend(InferenceBackend):
         max_prompt_tokens: int = 3072,
     ):
         self.model_ref = model_ref
-        self.quantization = quantization
+        self.quantization = quantization or None
         self.compute_dtype = compute_dtype
         self.batch_size = batch_size
         self.max_prompt_tokens = max_prompt_tokens
-        self._model, self._tok = self._load()
+        self._model, self._tok, self._adapter = self._resolve()
         self._tok.padding_side = "left"  # decoder-only batched generation
 
-    def _load(self):
-        key = (self.model_ref, self.quantization)
-        if key in self._CACHE:
-            return self._CACHE[key]
+    # -- base model lifecycle --------------------------------------
+    @staticmethod
+    def free() -> None:
+        import gc
+
+        cur = LocalHFBackend._CURRENT
+        if cur is not None:
+            cur.pop("model", None)
+            LocalHFBackend._CURRENT = None
+        gc.collect()
+        try:
+            import torch
+
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+        except Exception:
+            pass
+
+    def _load_base(self, base_id: str):
         import torch
         from transformers import AutoModelForCausalLM, AutoTokenizer
 
-        is_adapter = os.path.isdir(self.model_ref) and os.path.exists(
-            os.path.join(self.model_ref, "adapter_config.json")
-        )
-        if is_adapter:
-            import json
-
-            base_id = json.load(open(os.path.join(self.model_ref, "adapter_config.json")))[
-                "base_model_name_or_path"
-            ]
-        else:
-            base_id = self.model_ref
-
-        load_kw: dict = {}
         cuda = torch.cuda.is_available()
+        load_kw: dict = {}
         if self.quantization and cuda:
+            try:
+                import bitsandbytes  # noqa: F401
+            except ImportError as exc:
+                raise RuntimeError(
+                    f"quantization='{self.quantization}' requested but bitsandbytes is not "
+                    "installed. Run `pip install bitsandbytes`, or pass --quantization '' "
+                    "(needs ~2x the VRAM)."
+                ) from exc
             from transformers import BitsAndBytesConfig
 
             if self.quantization in ("bitsandbytes", "nf4", "4bit"):
@@ -178,24 +197,61 @@ class LocalHFBackend(InferenceBackend):
             elif self.quantization in ("int8", "8bit"):
                 load_kw["quantization_config"] = BitsAndBytesConfig(load_in_8bit=True)
             load_kw["device_map"] = "auto"
+            log.info("local backend: {} 4-bit base {}", self.quantization, base_id)
         else:
-            if self.quantization:
-                log.warning("quantization '{}' needs CUDA — loading full precision", self.quantization)
+            if self.quantization and not cuda:
+                log.warning("quantization '{}' needs CUDA — full precision", self.quantization)
             load_kw["dtype"] = torch.bfloat16 if cuda else torch.float32
+            if cuda:
+                load_kw["device_map"] = "auto"
 
         model = AutoModelForCausalLM.from_pretrained(base_id, **load_kw)
-        if is_adapter:
-            from peft import PeftModel
-
-            model = PeftModel.from_pretrained(model, self.model_ref)
+        if not cuda:
+            model = model.to("mps" if torch.backends.mps.is_available() else "cpu")
+        model.eval()
         tok = AutoTokenizer.from_pretrained(base_id)
         if tok.pad_token is None:
             tok.pad_token = tok.eos_token
-        if "device_map" not in load_kw and not cuda:
-            model = model.to("mps" if torch.backends.mps.is_available() else "cpu")
-        model.eval()
-        self._CACHE[key] = (model, tok)
         return model, tok
+
+    def _resolve(self):
+        import json
+
+        is_adapter = os.path.isdir(self.model_ref) and os.path.exists(
+            os.path.join(self.model_ref, "adapter_config.json")
+        )
+        if is_adapter:
+            adapter_path = os.path.abspath(self.model_ref)
+            base_id = json.load(open(os.path.join(adapter_path, "adapter_config.json")))[
+                "base_model_name_or_path"
+            ]
+        else:
+            adapter_path, base_id = None, self.model_ref
+
+        cur = LocalHFBackend._CURRENT
+        if cur is None or cur["base_id"] != base_id or cur["quant"] != self.quantization:
+            self.free()
+            model, tok = self._load_base(base_id)
+            LocalHFBackend._CURRENT = {
+                "base_id": base_id, "quant": self.quantization,
+                "model": model, "tok": tok, "adapters": {},
+            }
+            cur = LocalHFBackend._CURRENT
+
+        model, tok = cur["model"], cur["tok"]
+        adapter_name = None
+        if adapter_path:
+            from peft import PeftModel
+
+            adapter_name = os.path.basename(adapter_path)
+            if not isinstance(model, PeftModel):
+                model = PeftModel.from_pretrained(model, adapter_path, adapter_name=adapter_name)
+                model.eval()
+                cur["model"] = model
+            elif adapter_name not in cur["adapters"]:
+                model.load_adapter(adapter_path, adapter_name=adapter_name)
+            cur["adapters"][adapter_name] = adapter_path
+        return model, tok, adapter_name
 
     def generate(self, request: GenerationRequest) -> list[str]:
         return self.generate_batch([request.prompt], request.decode)[0]
@@ -203,35 +259,54 @@ class LocalHFBackend(InferenceBackend):
     def generate_batch(
         self, prompts: list[str], decode: DecodeSpec, *, desc: str | None = None
     ) -> list[list[str]]:
+        import contextlib
+
         import torch
         from tqdm import tqdm
+
+        model = self._model
+        adapter_ctx = contextlib.nullcontext()
+        try:
+            from peft import PeftModel
+
+            if isinstance(model, PeftModel):
+                if self._adapter:
+                    model.set_adapter(self._adapter)
+                else:
+                    adapter_ctx = model.disable_adapter()
+        except ImportError:
+            pass
 
         do_sample = decode.temperature > 0
         n_ret = decode.n_samples if do_sample else 1
         results: list[list[str]] = []
         rng = range(0, len(prompts), self.batch_size)
-        for i in tqdm(rng, desc=desc or "generate", disable=desc is None and len(prompts) <= self.batch_size, leave=False):
-            chunk = prompts[i : i + self.batch_size]
-            enc = self._tok(
-                chunk, return_tensors="pt", padding=True, truncation=True,
-                max_length=self.max_prompt_tokens,
-            ).to(self._model.device)
-            with torch.no_grad():
-                out = self._model.generate(
-                    **enc,
-                    max_new_tokens=decode.max_tokens,
-                    do_sample=do_sample,
-                    temperature=decode.temperature if do_sample else None,
-                    num_return_sequences=n_ret,
-                    pad_token_id=self._tok.pad_token_id,
-                )
-            gen = out[:, enc["input_ids"].shape[1] :]
-            decoded = self._tok.batch_decode(gen, skip_special_tokens=True)
-            for j in range(len(chunk)):
-                group = decoded[j * n_ret : (j + 1) * n_ret]
-                if not do_sample and decode.n_samples > 1:
-                    group = group * decode.n_samples          # greedy: identical samples
-                results.append(group)
+        with adapter_ctx:
+            for i in tqdm(
+                rng, desc=desc or "generate",
+                disable=desc is None and len(prompts) <= self.batch_size, leave=False,
+            ):
+                chunk = prompts[i : i + self.batch_size]
+                enc = self._tok(
+                    chunk, return_tensors="pt", padding=True, truncation=True,
+                    max_length=self.max_prompt_tokens,
+                ).to(model.device)
+                with torch.no_grad():
+                    out = model.generate(
+                        **enc,
+                        max_new_tokens=decode.max_tokens,
+                        do_sample=do_sample,
+                        temperature=decode.temperature if do_sample else None,
+                        num_return_sequences=n_ret,
+                        pad_token_id=self._tok.pad_token_id,
+                    )
+                gen = out[:, enc["input_ids"].shape[1] :]
+                decoded = self._tok.batch_decode(gen, skip_special_tokens=True)
+                for j in range(len(chunk)):
+                    group = decoded[j * n_ret : (j + 1) * n_ret]
+                    if not do_sample and decode.n_samples > 1:
+                        group = group * decode.n_samples      # greedy: identical samples
+                    results.append(group)
         return results
 
 

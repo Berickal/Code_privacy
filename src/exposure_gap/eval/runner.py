@@ -143,6 +143,9 @@ class EvaluationMatrix:
         self.runner = runner
         self.out_dir = ensure_dir(Path(out_dir))
 
+    def _cell_path(self, model_id: str, k: int, task: str, strategy: str) -> Path:
+        return self.out_dir / f"{model_id}__k{k}__{task}__{strategy}.parquet"
+
     def run(
         self,
         targets: list[EvalTarget],
@@ -150,20 +153,27 @@ class EvaluationMatrix:
         k_levels: tuple[int, ...],
         tasks: tuple[str, ...] = TASKS,
         strategies: tuple[str, ...] = PROMPT_STRATEGIES,
+        resume: bool = True,
     ) -> pd.DataFrame:
-        all_rows: list[dict] = []
         cells = list(product(models, k_levels, tasks, strategies))
         for (model_id, backend), k, task, strategy in tqdm(cells, desc="cells", unit="cell"):
+            path = self._cell_path(model_id, k, task, strategy)
+            if resume and path.exists():
+                log.info("skip (cached): {}", path.name)
+                continue
             spec = CellSpec(model_id, k, task, strategy, backend=backend)
             rows = self.runner.run_cell(spec, targets)
             frame = pd.DataFrame(r.to_row() for r in rows)
             if not frame.empty:
-                write_table(
-                    frame,
-                    self.out_dir / f"{model_id}__k{k}__{task}__{strategy}.parquet",
-                )
-                all_rows.extend(r.to_row() for r in rows)
-        combined = pd.DataFrame(all_rows)
+                write_table(frame, path)
+
+        # rebuild the combined table from every cell parquet on disk
+        parts = [
+            pd.read_parquet(p)
+            for p in sorted(self.out_dir.glob("*__k*__*.parquet"))
+            if p.name != "all_predictions.parquet"
+        ]
+        combined = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
         if not combined.empty:
             write_table(combined, self.out_dir / "all_predictions.parquet")
         return combined
