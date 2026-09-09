@@ -32,14 +32,19 @@ from exposure_gap.utils import setup_logging
 @click.option("--quantization", default="bitsandbytes")
 @click.option("--k", "pilot_k", default=5, help="fine-tuned checkpoint to test")
 @click.option("--batch-size", default=8)
+@click.option("--fresh", is_flag=True, help="ignore cached predictions and regenerate")
 @click.option("--offline", is_flag=True, help="alias for --backend echo")
 def main(root: str, model_id: str, backend: str, quantization: str, pilot_k: int,
-         batch_size: int, offline: bool) -> None:
+         batch_size: int, fresh: bool, offline: bool) -> None:
     load_dotenv(Path(root) / ".env")
     load_dotenv(Path(root).parent / ".env")
     setup_logging()
     settings = Settings.load(root)
     phases = Phases(settings)
+
+    if fresh:
+        for p in (settings.results_dir / "raw_predictions").glob(f"{model_id}__k*__reproduction__P1a.parquet"):
+            p.unlink()
 
     preds = phases.evaluate(
         models=[(model_id, "echo" if offline else backend)],
@@ -49,6 +54,7 @@ def main(root: str, model_id: str, backend: str, quantization: str, pilot_k: int
         offline=offline,
         quantization=None if backend != "local" else quantization,
         batch_size=batch_size,
+        resume=not fresh,
     )
     artifacts = AnalysisPipeline(settings.analysis).run(preds, settings.results_dir / "pilot")
     print(artifacts.gaps[["metric", "k", "delta", "ci_low", "ci_high", "p_adj", "n_pairs"]].to_string(index=False))

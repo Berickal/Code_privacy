@@ -147,6 +147,7 @@ class Phases:
         splits: tuple[str, ...] = ("E", "U"),
         quantization: str | None = None,
         batch_size: int = 8,
+        resume: bool = True,
     ) -> pd.DataFrame:
         self.ctx.freeze.assert_clean()
         loader = TargetLoader(
@@ -178,6 +179,7 @@ class Phases:
             k_levels=k_levels,
             tasks=tasks or TASKS,
             strategies=strategies or PROMPT_STRATEGIES,
+            resume=resume,
         )
 
     # -- Phase G analysis ----------------------------------------
