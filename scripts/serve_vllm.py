@@ -50,10 +50,13 @@ def build_args(
         quant = _VLLM_QUANT[quant]
 
     ck = s.checkpoints_dir
-    present = [k for k in s.finetune.k_levels if (ck / f"{model_id}__k{k}").exists()]
+    present = [
+        k for k in s.finetune.k_levels
+        if (ck / f"{model_id}__k{k}" / "adapter_config.json").exists()
+    ]
     missing = [k for k in s.finetune.k_levels if k not in present]
     if missing:
-        click.echo(f"# note: no checkpoint for k={missing} — not serving those", err=True)
+        click.echo(f"# note: no trained adapter for k={missing} — not serving those", err=True)
 
     args = [
         "vllm", "serve", base,
