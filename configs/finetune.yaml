@@ -74,3 +74,16 @@ models:
     backend: vllm
     role: exploratory
     context_length: 32768
+
+  # Gemma 2 base models (ungated). gemma-2-2b full-FT fits a single 32 GB card.
+  - id: gemma-2-2b
+    hf_model_id: google/gemma-2-2b
+    backend: vllm
+    role: exploratory
+    context_length: 8192
+  - id: gemma-2-9b
+    hf_model_id: google/gemma-2-9b
+    backend: vllm
+    role: exploratory
+    context_length: 8192
+    quantization: fp8

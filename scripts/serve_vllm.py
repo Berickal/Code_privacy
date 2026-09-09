@@ -31,6 +31,14 @@ from exposure_gap.config import Settings
 _VLLM_QUANT = {"bitsandbytes": "fp8", "nf4": "fp8", "4bit": "fp8", "int8": "fp8"}
 
 
+def _is_full_ckpt(d: Path) -> bool:
+    return (d / "config.json").exists() and not (d / "adapter_config.json").exists()
+
+
+def _is_lora_ckpt(d: Path) -> bool:
+    return (d / "adapter_config.json").exists()
+
+
 def build_args(
     root: str, model_id: str, port: int, max_model_len: int, gpu_util: float,
     quant_override: str | None = None, full_k: int | None = None,
@@ -40,7 +48,7 @@ def build_args(
         spec = s.finetune.model_by_id(model_id)
         base, quant = spec.hf_model_id, spec.quantization
     except KeyError:
-        base = model_id
+        base = model_id.replace("__", "/", 1)   # un-mangle a raw HF id
         quant = "bitsandbytes" if s.finetune.quantization.enabled else None
 
     if quant_override is not None:
@@ -50,50 +58,39 @@ def build_args(
         quant = _VLLM_QUANT[quant]
 
     ck = s.checkpoints_dir
-    full = s.finetune.method == "full"
+    dirs = {k: ck / f"{model_id}__k{k}" for k in s.finetune.k_levels}
+    full_ks = [k for k, d in dirs.items() if _is_full_ckpt(d)]
+    lora_ks = [k for k, d in dirs.items() if _is_lora_ckpt(d)]
 
-    if full:
-        # full FT -> each k is a separate full model; serve exactly one at a time.
+    common = [
+        "--port", str(port), "--max-model-len", str(max_model_len),
+        "--gpu-memory-utilization", str(gpu_util),
+    ]
+    quant_args = ["--quantization", quant] if quant else []
+
+    # full-model checkpoints: serve exactly one thing (base, or one k) per launch
+    if full_ks:
         if full_k in (None, 0):
             served, model_arg = model_id, base
+        elif full_k in full_ks:
+            served, model_arg = f"{model_id}-k{full_k}", str(dirs[full_k])
         else:
-            ckpt = ck / f"{model_id}__k{full_k}"
-            if not (ckpt / "config.json").exists():
-                raise SystemExit(f"no full checkpoint at {ckpt}")
-            served, model_arg = f"{model_id}-k{full_k}", str(ckpt)
-        args = [
-            "vllm", "serve", model_arg,
-            "--port", str(port), "--max-model-len", str(max_model_len),
-            "--gpu-memory-utilization", str(gpu_util),
-            "--served-model-name", served,
-        ]
-        if quant:
-            args += ["--quantization", quant]
-        click.echo(f"# full-FT: serving {served}. Re-launch with --k <n> for each level.", err=True)
-        return args
+            raise SystemExit(f"no full checkpoint for k={full_k} (have {full_ks})")
+        click.echo(
+            f"# full-FT checkpoints {full_ks}: serving '{served}'. Re-launch with "
+            f"--k <n> for each k, running `evaluate --k <n>` between.", err=True
+        )
+        return ["vllm", "serve", model_arg, *common, "--served-model-name", served, *quant_args]
 
-    present = [
-        k for k in s.finetune.k_levels
-        if (ck / f"{model_id}__k{k}" / "adapter_config.json").exists()
-    ]
-    missing = [k for k in s.finetune.k_levels if k not in present]
+    present, missing = lora_ks, [k for k in s.finetune.k_levels if k not in lora_ks]
     if missing:
         click.echo(f"# note: no trained adapter for k={missing} — not serving those", err=True)
 
-    args = [
-        "vllm", "serve", base,
-        "--port", str(port),
-        "--max-model-len", str(max_model_len),
-        "--gpu-memory-utilization", str(gpu_util),
-        # base addressable as the short id (matches what `evaluate` sends for k=0)
-        "--served-model-name", model_id,
-    ]
+    args = ["vllm", "serve", base, *common, "--served-model-name", model_id]
     if present:
         args += ["--enable-lora", "--max-lora-rank", str(s.finetune.lora.r), "--lora-modules"]
-        args += [f"{model_id}-k{k}={ck / f'{model_id}__k{k}'}" for k in present]
-    if quant:
-        args += ["--quantization", quant]
-    return args
+        args += [f"{model_id}-k{k}={dirs[k]}" for k in present]
+    return [*args, *quant_args]
 
 
 @click.command()
