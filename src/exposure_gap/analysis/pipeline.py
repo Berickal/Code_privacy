@@ -32,6 +32,7 @@ class AnalysisArtifacts:
     convergence: pd.DataFrame
     dose_response: pd.DataFrame
     figures: list[Path]
+    canary_recovery: pd.DataFrame | None = None
 
 
 class AnalysisPipeline:
@@ -42,6 +43,9 @@ class AnalysisPipeline:
         self.interaction = InteractionAnalyzer()
         self.convergence = ConvergenceAnalyzer()
         self.dose = DoseResponseAnalyzer()
+        from .canary import CanaryRecoveryAnalyzer
+
+        self.canary = CanaryRecoveryAnalyzer()
 
     def run(self, predictions: pd.DataFrame, out_dir: str | Path) -> AnalysisArtifacts:
         out = ensure_dir(Path(out_dir))
@@ -71,6 +75,10 @@ class AnalysisPipeline:
         if not dose.empty:
             write_table(dose, out / "dose_response.csv")
 
+        canary_rec = self.canary.table(predictions)
+        if not canary_rec.empty:
+            write_table(canary_rec, out / "canary_recovery.csv")
+
         figs: list[Path] = []
         fb = FigureBuilder(out / "figures")
         for model in gaps["model"].unique():
@@ -85,4 +93,4 @@ class AnalysisPipeline:
                     figs.append(p)
 
         log.info("analysis complete: {} gap rows, {} figures", len(gaps), len(figs))
-        return AnalysisArtifacts(gaps, interaction, convergence, dose, figs)
+        return AnalysisArtifacts(gaps, interaction, convergence, dose, figs, canary_rec)

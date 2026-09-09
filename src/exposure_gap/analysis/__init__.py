@@ -1,3 +1,4 @@
+from .canary import CanaryRecovery, CanaryRecoveryAnalyzer
 from .convergence import ConvergenceAnalyzer
 from .dose_response import DoseResponseAnalyzer, DoseResponseResult
 from .fdr import FDRCorrector
@@ -16,6 +17,7 @@ from .pipeline import (
 from .precutoff import PrecutoffAnalyzer, PrecutoffComparison
 
 __all__ = [
+    "CanaryRecovery", "CanaryRecoveryAnalyzer",
     "ConvergenceAnalyzer",
     "DoseResponseAnalyzer", "DoseResponseResult",
     "FDRCorrector",

@@ -125,19 +125,29 @@ def evaluate(phases: Phases, offline, backend, model_ids, quantization, batch_si
 
 @main.command("analyse")
 @click.option("--predictions", default=None)
+@click.option("--model", "model_filter", default=None, help="restrict to one model id")
 @click.pass_obj
-def analyse(phases: Phases, predictions: str | None) -> None:
+def analyse(phases: Phases, predictions: str | None, model_filter: str | None) -> None:
     """Phase G: gaps, FDR, interaction, convergence, dose-response, figures."""
     import pandas as pd
 
     preds = pd.read_parquet(predictions) if predictions else None
+    if preds is None:
+        p = phases.settings.results_dir / "raw_predictions" / "all_predictions.parquet"
+        preds = pd.read_parquet(p)
+    if model_filter:
+        preds = preds[preds["model"] == model_filter]
     artifacts = phases.analyse(preds)
-    sig = artifacts.gaps.query("significant") if "significant" in artifacts.gaps else artifacts.gaps
+
+    g = artifacts.gaps
+    cols = ["task", "metric", "model", "k", "prompt", "delta", "ci_low", "ci_high", "p_adj"]
+    click.echo("--- exposed-unexposed gap Δ_π (all cells, sorted by |Δ|) ---")
     click.echo(
-        sig.sort_values("delta", ascending=False)
-        .head(20)[["task", "metric", "model", "k", "prompt", "delta", "ci_low", "ci_high"]]
-        .to_string(index=False)
+        g.reindex(g["delta"].abs().sort_values(ascending=False).index)
+        .head(25)[cols].to_string(index=False)
     )
+    n_sig = int(g["significant"].sum()) if "significant" in g else 0
+    click.echo(f"\nFDR-significant (q<0.05): {n_sig} / {len(g)}")
 
 
 if __name__ == "__main__":
