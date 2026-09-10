@@ -1,0 +1,7 @@
+split,metric,k0,k5,shift
+H,lexical_f1,0.084,0.1687,0.0848
+H,ast_edit_distance,0.125,0.1765,0.0515
+H,dataflow_sim,0.0251,0.0245,-0.0006
+E,lexical_f1,0.084,0.1687,0.0848
+E,ast_edit_distance,0.125,0.1765,0.0515
+E,dataflow_sim,0.0251,0.0245,-0.0006
