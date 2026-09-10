@@ -7,21 +7,23 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
-# large / regenerable — NOT committed
+# large / regenerable
 data/*.bloom
 checkpoints/
-results/raw_predictions/
-results/metrics/
-results/pilot/
 corpus/swh_cache.sqlite
 corpus/swh_cache.json
 corpus_pilot400/
+# raw generations are NOT committed: after fine-tuning the models over-generate the
+# canary scaffold (sk-…, postgresql://fakeuser:…, BEGIN RSA PRIVATE KEY) into ordinary
+# outputs too, and GitHub push protection blocks anything key-shaped even when fake.
+# They're regenerable (`exposure-gap evaluate`) and mirrored in version_2_with_results/.
+results/raw_predictions/
 
-# Third-party source files — not redistributed (see DATA_AVAILABILITY.md).
-# Regenerate byte-identically on any machine with:  python scripts/08_refetch_raw.py
+# Third-party source — not redistributed (see DATA_AVAILABILITY.md).
+# Rebuild byte-identically with:  python scripts/08_refetch_raw.py
 corpus/raw/
 
-# --- tracked: the frozen state ---
+# tracked: the frozen state + the experimental record
 #   FREEZE.lock, configs/*.yaml, prompts/**, tests/oracle_suites/**,
-#   corpus/corpus_metadata.csv, corpus/canary_registry.json,
-#   corpus/candidates/corpus_candidates.csv, corpus/swh_provenance.parquet
+#   corpus/corpus_metadata.csv, corpus/canary_registry.json, corpus/candidates/,
+#   corpus/swh_provenance.parquet, results/raw_predictions/*__k*.parquet, results/metrics/

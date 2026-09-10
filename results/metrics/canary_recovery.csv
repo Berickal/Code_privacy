@@ -1,0 +1,17 @@
+model,prompt,metric,k0_rate,k1_rate,k5_rate,k25_rate,lift_at_max_k,monotone
+gemma-2-2b,P1a,canary_exact,0.0,,0.0,,0.0,True
+gemma-2-2b,P1a,canary_near,0.0,,0.0,,0.0,True
+gemma-2-2b,P1b,canary_exact,0.0,,0.0,,0.0,True
+gemma-2-2b,P1b,canary_near,0.0,,0.0,,0.0,True
+gemma-2-2b,P4b,canary_exact,0.0,,0.0,,0.0,True
+gemma-2-2b,P4b,canary_near,0.0,,0.0,,0.0,True
+gemma-2-2b,P5a,canary_exact,0.0,,0.0,,0.0,True
+gemma-2-2b,P5a,canary_near,0.0,,0.0,,0.0,True
+gemma-2-9b,P1a,canary_exact,0.0,0.0,0.0,,0.0,True
+gemma-2-9b,P1a,canary_near,0.0,0.0,0.0,,0.0,True
+gemma-2-9b,P1b,canary_exact,0.0,0.0,0.0,,0.0,True
+gemma-2-9b,P1b,canary_near,0.0,0.0,0.0,,0.0,True
+gemma-2-9b,P4b,canary_exact,0.0,0.0,0.0,,0.0,True
+gemma-2-9b,P4b,canary_near,0.0,0.0,0.0,,0.0,True
+gemma-2-9b,P5a,canary_exact,0.0,0.0,0.0,,0.0,True
+gemma-2-9b,P5a,canary_near,0.0,0.0,0.0,,0.0,True
