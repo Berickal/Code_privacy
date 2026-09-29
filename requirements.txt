@@ -1,0 +1,16 @@
+# version_4 — data notebooks + fine-tuning / inference / evaluation (GPU machine)
+pandas>=2.2
+numpy>=1.26
+openai>=1.40
+python-dotenv>=1.0
+tqdm>=4.66
+datasets>=2.19
+torch>=2.2
+transformers>=4.46
+trl>=0.20              # conversational prompt/completion datasets + completion_only_loss
+peft>=0.11
+accelerate>=0.30
+rapidfuzz>=3.0
+matplotlib>=3.8
+tabulate>=0.9          # report.md tables
+bitsandbytes>=0.43 ; platform_system != "Darwin"   # --load-in-4bit only
