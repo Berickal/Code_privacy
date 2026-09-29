@@ -47,7 +47,7 @@ variable under study; exposure is what we control.
 └── runs/<RUN>/                    # everything produced by one experiment
 ```
 
-## Data pipeline (notebooks, run once, in order)
+## Data pipeline
 
 ### 01 — reference analysis files
 
