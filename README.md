@@ -113,7 +113,7 @@ same command can be re-run after a crash.
 |---|---|---|
 | `MODEL` | `meta-llama/Llama-3.2-3B-Instruct` | base (instruct) model, HF id |
 | `METHOD` | `full` | `full` fine-tuning or `lora` |
-| `EPOCHS` | `"1 3 5"` | epochs at which a checkpoint is kept (the exposure doses) |
+| `EPOCHS` | `"1 3 5"` | epochs at which a checkpoint is kept (the exposure doses); `EPOCHS=""` = base model only (inference) |
 | `RUN` / `RUN_DIR` | `<model>_<method>` / `runs/$RUN` | output directory |
 | `FT_ARGS` | — | extra `finetune.py` arguments, e.g. `"--loss-on-prompt --lr 2e-4"` |
 | `LORA_R` | `16` | LoRA rank |
@@ -121,15 +121,55 @@ same command can be re-run after a crash.
 | `MAX_BATCH_TOKENS` | `65536` | (longest prompt + new tokens) × batch size; lower it on small GPUs |
 | `LIMIT` | all | probes per goal (same subset for every checkpoint) |
 | `INFER_ARGS` | — | extra `llm_inference.py` arguments, e.g. `"--goals secret_extraction --n 5 --temperature 0.8"` |
+| `NUM_GPUS` | all visible | GPUs used (from `CUDA_VISIBLE_DEVICES` or `nvidia-smi`); `0` = CPU / Apple MPS |
+| `GPUS_PER_MODEL` | `1` | inference: GPUs holding one copy of the model (use `2` for 27–32B models on 80 GB GPUs) |
 | `PYTHON` | `python` | interpreter |
+
+### Multi-GPU
+
+* **Training** — with `NUM_GPUS > 1`, `finetune.py` is launched with `torchrun`, one process per GPU:
+  * full fine-tuning uses **FSDP2**: weights, gradients and optimizer state are sharded over the GPUs,
+    the model is read by rank 0 only, activation checkpointing is done by FSDP, and the full weights are
+    gathered on rank 0 to save each checkpoint;
+  * LoRA uses **DDP** (one model copy per GPU), also with `--load-in-4bit` (QLoRA);
+  * the global batch stays 16 whatever the number of GPUs (`--global-batch-size`; the gradient
+    accumulation is derived from it).
+* **Inference** — `NUM_GPUS / GPUS_PER_MODEL` workers run in parallel, each on its own GPUs and its own
+  share of the probes (`<name>.part<i>of<K>.jsonl`), merged into `<name>.jsonl` at the end. Within a worker,
+  the model's layers are spread over its GPUs.
+
+Precision: full fine-tuning keeps **fp32 master weights with bf16 compute** (`--precision mixed`, 16 bytes per
+parameter, sharded); at a learning rate of 1e-5, pure bf16 (`FT_ARGS="--precision bf16"`, half the memory)
+loses many updates to rounding. Checkpoints are always saved in bf16.
+
+| | Qwen2.5-Coder-32B-Instruct | gemma-3-27b-it |
+|---|---|---|
+| full fine-tuning, fp32 master weights | ~525 GB + activations → 8 × 80 GB (tight) / 8 × 141 GB | ~440 GB + activations → 8 × 80 GB |
+| full fine-tuning, `--precision bf16` | ~260 GB + activations → 4–8 × 80 GB | ~220 GB + activations → 4 × 80 GB |
+| QLoRA (`METHOD=lora FT_ARGS="--load-in-4bit"`) | ~20 GB + activations → 1 GPU per process | ~17 GB + activations → 1 GPU per process |
+| inference, bf16 (`GPUS_PER_MODEL`) | 66 GB + KV cache → 2 × 80 GB | 55 GB + KV cache → 2 × 80 GB |
+| disk, one full checkpoint (bf16) | 66 GB | 55 GB |
+
+Rank 0 reads the whole model in CPU RAM when FSDP starts (~130 GB in fp32 for a 32B model).
+
+```bash
+# full fine-tuning on 8 GPUs, then inference with 4 workers x 2 GPUs
+MODEL=Qwen/Qwen2.5-Coder-32B-Instruct METHOD=full EPOCHS="1 3 5 10 25" GPUS_PER_MODEL=2 ./run_pipeline.sh
+# QLoRA (4-bit base, LoRA adapters); also loads the base in 4-bit for inference
+MODEL=Qwen/Qwen2.5-Coder-32B-Instruct METHOD=lora EPOCHS="1 3 5 10 25" RUN=qwen32b_qlora \
+    FT_ARGS="--load-in-4bit" INFER_ARGS="--load-in-4bit" ./run_pipeline.sh
+# training and inference separately (same RUN); base model first, then checkpoints in parallel
+MODEL=... METHOD=full EPOCHS="1 3 5 10 25" RUN=qwen32b_full ./run_pipeline.sh finetune
+MODEL=... METHOD=full EPOCHS="1 3 5 10 25" RUN=qwen32b_full GPUS_PER_MODEL=2 ./run_pipeline.sh infer eval report
+```
 
 ### What each stage does
 
 * **`finetune.py`** — TRL `SFTTrainer` on the mix, with the model's own chat template. Loss on the
   assistant turn only by default (`--loss-on-prompt` to also train on the prompt, where the code sits for
   `summarize`, `deanonymize`, `skeleton2code`, `completion`). Constant learning rate after warm-up
-  (1e-4 LoRA / 1e-5 full), so the epoch-1 checkpoint of a 5-epoch run equals a 1-epoch run. Batch 1 ×
-  16 gradient accumulation; examples longer than `--max-length` (4096 tokens) are dropped and counted in
+  (1e-4 LoRA / 1e-5 full), so the epoch-1 checkpoint of a 5-epoch run equals a 1-epoch run. Global batch
+  16 (1 per GPU × gradient accumulation × GPUs); examples longer than `--max-length` (4096 tokens) are dropped and counted in
   `run_config.json` (`--max-length 8192` keeps them all). LoRA: r 16, α 32, all linear layers; `--load-in-4bit` for QLoRA.
 * **`llm_inference.py`** — batched greedy generation with transformers. LoRA runs load the base model once
   and switch adapters (`base`, `epoch_1`, …); full runs load one checkpoint at a time. Probes are batched by

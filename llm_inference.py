@@ -17,15 +17,23 @@ every batch; re-running the same command skips the probes already answered witho
 Batching: probes are grouped by generation budget (goal 1 writes whole files, goals 2-3 short
 answers) and sorted by prompt length; a batch holds at most --batch-size probes and about
 --max-batch-tokens (prompt + new) tokens. On CUDA out-of-memory the batch is split in two and retried.
+
+Multi-GPU:
+  * one process sees several GPUs -> the model's layers are spread over them (device_map="auto");
+  * data parallel: K processes, each on its own GPUs (CUDA_VISIBLE_DEVICES), each answering a fixed
+    share of the probes (--num-shards K --shard-id i -> <name>.part<i>of<K>.jsonl), then
+    `--merge` joins the parts into <name>.jsonl. run_pipeline.sh does this with NUM_GPUS / GPUS_PER_MODEL.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import logging
+import os
 import random
 import sys
 import time
+import zlib
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -190,8 +198,48 @@ def make_batches(items: list[dict], batch_size: int, max_batch_tokens: int) -> l
     return batches
 
 
-def run_model(gen: Generator, name: str, adapter: str | None, probes: list[dict], out: Path, args) -> None:
-    done = {r["id"] for r in read_jsonl(out) if not r.get("error")} if out.exists() else set()
+# ---------------------------------------------------------------------------
+# Output files (one per model, or one part per shard)
+# ---------------------------------------------------------------------------
+
+def output_files(out_dir: Path, name: str) -> list[Path]:
+    """The merged file and every shard part of a model."""
+    return [f for f in [out_dir / f"{name}.jsonl", *sorted(out_dir.glob(f"{name}.part*of*.jsonl"))] if f.exists()]
+
+
+def done_ids(out_dir: Path, name: str) -> set[str]:
+    return {r["id"] for f in output_files(out_dir, name) for r in read_jsonl(f) if not r.get("error")}
+
+
+def in_shard(probe_id: str, shard_id: int, num_shards: int) -> bool:
+    """Stable split: a probe always belongs to the same shard, whatever has already been answered."""
+    return zlib.crc32(probe_id.encode()) % num_shards == shard_id
+
+
+def merge(out_dir: Path, name: str) -> None:
+    """Join <name>.jsonl and its parts: one row per probe (an answer beats an error), parts deleted."""
+    files = output_files(out_dir, name)
+    if not any(".part" in f.name for f in files):
+        return
+    rows: dict[str, dict] = {}
+    for f in files:
+        for r in read_jsonl(f):
+            if r["id"] not in rows or not r.get("error") or rows[r["id"]].get("error"):
+                rows[r["id"]] = r
+    tmp = out_dir / f".{name}.jsonl.tmp"
+    with open(tmp, "w", encoding="utf-8") as fh:
+        for r in rows.values():
+            fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+    os.replace(tmp, out_dir / f"{name}.jsonl")
+    for f in files:
+        if ".part" in f.name:
+            f.unlink()
+    logger.info("%s: merged %d parts -> %d rows (%d errors)", name, sum(".part" in f.name for f in files),
+                len(rows), sum(bool(r.get("error")) for r in rows.values()))
+
+
+def run_model(gen: Generator, name: str, adapter: str | None, probes: list[dict], out: Path, done: set[str],
+              args) -> None:
     todo = [p for p in probes if p["id"] not in done]
     logger.info("%s: %d probes, %d already done, %d to run", name, len(probes), len(done), len(todo))
     if not todo:
@@ -270,24 +318,43 @@ def main() -> None:
     ap.add_argument("--dtype", default="auto", help="auto | bfloat16 | float16 | float32")
     ap.add_argument("--load-in-4bit", action="store_true")
     ap.add_argument("--attn-implementation", default=None, help="e.g. sdpa, flash_attention_2")
+    ap.add_argument("--num-shards", type=int, default=1, help="data parallel: number of worker processes")
+    ap.add_argument("--shard-id", type=int, default=0, help="data parallel: this worker (0 .. num-shards-1)")
+    ap.add_argument("--merge", action="store_true", help="only merge the shard parts of the models, then exit")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
-    adapters = []
-    for spec in args.adapters:
-        name, _, path = spec.partition("=")
+    adapters = [tuple(spec.partition("=")[::2]) for spec in args.adapters]
+    names = ([] if args.skip_plain else [args.name]) + [name for name, _ in adapters]
+    if args.merge:
+        for name in names:
+            merge(args.out_dir, name)
+        return
+    for name, path in adapters:
         if not path or not (Path(path) / "adapter_config.json").exists():
-            raise SystemExit(f"--adapters expects NAME=PATH to a LoRA checkpoint, got {spec!r}")
-        adapters.append((name, path))
+            raise SystemExit(f"--adapters expects NAME=PATH to a LoRA checkpoint, got {name}={path}")
+    if not 0 <= args.shard_id < args.num_shards:
+        raise SystemExit("--shard-id must be in [0, --num-shards)")
 
     probes = load_probes(args.probes, args.goals, args.strategies, args.sources, args.limit, args.seed)
-    gen = Generator(args.model, args.dtype, args.load_in_4bit, args.attn_implementation)
-    for name, path in adapters:
-        gen.add_adapter(name, path)
-
+    if args.num_shards > 1:
+        probes = [p for p in probes if in_shard(p["id"], args.shard_id, args.num_shards)]
+    suffix = f".part{args.shard_id}of{args.num_shards}" if args.num_shards > 1 else ""
     runs = ([] if args.skip_plain else [(args.name, None)]) + [(name, name) for name, _ in adapters]
+    # check what is left BEFORE loading the model: re-launching a finished run costs nothing
+    done = {name: done_ids(args.out_dir, name) for name, _ in runs}
+    runs = [(name, adapter) for name, adapter in runs
+            if any(p["id"] not in done[name] for p in probes) or logger.info("%s: all probes done, skipped", name)]
+    if not runs:
+        return
+
+    gen = Generator(args.model, args.dtype, args.load_in_4bit, args.attn_implementation)
+    needed = {adapter for _, adapter in runs}
+    for name, path in adapters:
+        if name in needed:
+            gen.add_adapter(name, path)
     for name, adapter in runs:
-        run_model(gen, name, adapter, probes, args.out_dir / f"{name}.jsonl", args)
+        run_model(gen, name, adapter, probes, args.out_dir / f"{name}{suffix}.jsonl", done[name], args)
 
 
 if __name__ == "__main__":
