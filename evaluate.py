@@ -36,7 +36,7 @@ from rapidfuzz.distance import Levenshtein
 from rapidfuzz import fuzz
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE / "notebook"))
+sys.path.insert(0, str(HERE / "utils"))
 from analysis import detect_spdx, scan_sensitive  # noqa: E402
 from leak_utils import (GOAL_REPRODUCTION, GOAL_SECRETS, LEAK_FILE, SFT_DIR, UNLEAK_FILE,  # noqa: E402
                         defined_names, normalise_goal, normalise_ws, read_jsonl)

@@ -29,7 +29,7 @@ import time
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE / "notebook"))
+sys.path.insert(0, str(HERE / "utils"))
 from leak_utils import GOAL_LICENSE, GOAL_REPRODUCTION, GOAL_SECRETS, normalise_goal, read_jsonl  # noqa: E402
 
 logger = logging.getLogger("llm_inference")

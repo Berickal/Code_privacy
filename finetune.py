@@ -27,7 +27,7 @@ from collections import Counter
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE / "notebook"))
+sys.path.insert(0, str(HERE / "utils"))
 from leak_utils import read_jsonl  # noqa: E402  (accepts JSONL and pretty-printed JSON)
 
 DEFAULT_DATA = HERE / "data/sft/mix_tasks_dataset_leak.jsonl"
