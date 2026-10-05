@@ -23,7 +23,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).resolve().parent / "notebook"))
+sys.path.insert(0, str(Path(__file__).resolve().parent / "utils"))
 from leak_utils import GOAL_LICENSE, GOAL_REPRODUCTION, GOAL_SECRETS, normalise_goal  # noqa: E402
 
 HEADLINE = {  # goal -> metrics reported (the first one is the primary metric in report.md / plots)
